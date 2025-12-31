@@ -21,11 +21,11 @@ module-bays:
     label: PSU 3
     position: PSU3
   - name: CB0
-    label: Routing Engine 0
-    position: re0
+    label: SCB
+    position: cb0
   - name: CB1
-    label: Routing Engine 1
-    position: re1
+    label: SCB
+    position: cb1
   - name: FPC 0
     position: '0'
   - name: FPC 1
