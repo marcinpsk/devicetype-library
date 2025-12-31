@@ -1,0 +1,9 @@
+---
+manufacturer: Juniper
+model: SCBE2-MX-S
+part_number: 750-062572
+description: Enhanced MX SCB 2
+module-bays:
+  - name: RE 0
+    position: '0'
+    label: Routing Engine
