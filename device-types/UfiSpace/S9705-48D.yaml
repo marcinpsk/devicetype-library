@@ -1,0 +1,128 @@
+---
+manufacturer: UfiSpace
+model: S9705-48D
+slug: ufispace-s9705-48d
+part_number: S9705-48D
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 24.9
+weight_unit: kg
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: Console USB
+    type: usb-micro-b
+interfaces:
+  - name: ce0
+    type: 400gbase-x-qsfpdd
+  - name: ce1
+    type: 400gbase-x-qsfpdd
+  - name: ce2
+    type: 400gbase-x-qsfpdd
+  - name: ce3
+    type: 400gbase-x-qsfpdd
+  - name: ce4
+    type: 400gbase-x-qsfpdd
+  - name: ce5
+    type: 400gbase-x-qsfpdd
+  - name: ce6
+    type: 400gbase-x-qsfpdd
+  - name: ce7
+    type: 400gbase-x-qsfpdd
+  - name: ce8
+    type: 400gbase-x-qsfpdd
+  - name: ce9
+    type: 400gbase-x-qsfpdd
+  - name: ce10
+    type: 400gbase-x-qsfpdd
+  - name: ce11
+    type: 400gbase-x-qsfpdd
+  - name: ce12
+    type: 400gbase-x-qsfpdd
+  - name: ce13
+    type: 400gbase-x-qsfpdd
+  - name: ce14
+    type: 400gbase-x-qsfpdd
+  - name: ce15
+    type: 400gbase-x-qsfpdd
+  - name: ce16
+    type: 400gbase-x-qsfpdd
+  - name: ce17
+    type: 400gbase-x-qsfpdd
+  - name: ce18
+    type: 400gbase-x-qsfpdd
+  - name: ce19
+    type: 400gbase-x-qsfpdd
+  - name: ce20
+    type: 400gbase-x-qsfpdd
+  - name: ce21
+    type: 400gbase-x-qsfpdd
+  - name: ce22
+    type: 400gbase-x-qsfpdd
+  - name: ce23
+    type: 400gbase-x-qsfpdd
+  - name: ce24
+    type: 400gbase-x-qsfpdd
+  - name: ce25
+    type: 400gbase-x-qsfpdd
+  - name: ce26
+    type: 400gbase-x-qsfpdd
+  - name: ce27
+    type: 400gbase-x-qsfpdd
+  - name: ce28
+    type: 400gbase-x-qsfpdd
+  - name: ce29
+    type: 400gbase-x-qsfpdd
+  - name: ce30
+    type: 400gbase-x-qsfpdd
+  - name: ce31
+    type: 400gbase-x-qsfpdd
+  - name: ce32
+    type: 400gbase-x-qsfpdd
+  - name: ce33
+    type: 400gbase-x-qsfpdd
+  - name: ce34
+    type: 400gbase-x-qsfpdd
+  - name: ce35
+    type: 400gbase-x-qsfpdd
+  - name: ce36
+    type: 400gbase-x-qsfpdd
+  - name: ce37
+    type: 400gbase-x-qsfpdd
+  - name: ce38
+    type: 400gbase-x-qsfpdd
+  - name: ce39
+    type: 400gbase-x-qsfpdd
+  - name: ce40
+    type: 400gbase-x-qsfpdd
+  - name: ce41
+    type: 400gbase-x-qsfpdd
+  - name: ce42
+    type: 400gbase-x-qsfpdd
+  - name: ce43
+    type: 400gbase-x-qsfpdd
+  - name: ce44
+    type: 400gbase-x-qsfpdd
+  - name: ce45
+    type: 400gbase-x-qsfpdd
+  - name: ce46
+    type: 400gbase-x-qsfpdd
+  - name: ce47
+    type: 400gbase-x-qsfpdd
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: FAN0
+    position: '0'
+  - name: FAN1
+    position: '1'
+  - name: FAN2
+    position: '2'
+  - name: FAN3
+    position: '3'
+  - name: PSU0
+    position: '0'
+  - name: PSU1
+    position: '1'

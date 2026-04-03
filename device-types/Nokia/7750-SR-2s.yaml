@@ -1,0 +1,43 @@
+---
+manufacturer: Nokia
+model: 7750 SR-2s
+slug: nokia-7750-sr-2s
+part_number: 3HE09263AA
+u_height: 5
+is_full_depth: true
+comments: '[Nokia 7750 SR-2s Product Page](https://www.nokia.com/networks/products/7750-sr/)'
+console-ports:
+  - name: Console
+    type: rj-45
+interfaces:
+  - name: A/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: B/1
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: Slot 1
+    position: '1'
+    description: IOM slot
+  - name: Slot 2
+    position: '2'
+    description: IOM slot
+  - name: CPM 1
+    position: '1'
+  - name: CPM 2
+    position: '2'
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: PS3
+    position: '3'
+  - name: Fan Tray 1
+    position: '1'
+  - name: Fan Tray 2
+    position: '2'
+  - name: Fan Tray 3
+    position: '3'
+  - name: Fan Tray 4
+    position: '4'
