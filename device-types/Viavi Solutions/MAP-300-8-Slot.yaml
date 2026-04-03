@@ -1,0 +1,44 @@
+---
+manufacturer: Viavi Solutions
+model: MAP-300 8-Slot
+slug: viavi-solutions-map-300-8-slot
+u_height: 4
+is_full_depth: false
+weight: 10.0
+weight_unit: kg
+comments: |
+  Viavi MAP-300 8-Slot Mainframe (MAP-380). 8 hot-swappable module slots.
+  [Datasheet](https://www.viavisolutions.com/en-us/literature/map-300-data-sheets-en.pdf)
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+console-ports:
+  - name: USB 1
+    type: usb-a
+  - name: USB 2
+    type: usb-a
+  - name: USB 3
+    type: usb-a
+  - name: USB 4
+    type: usb-a
+module-bays:
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
+  - name: Slot 7
+    position: '7'
+  - name: Slot 8
+    position: '8'
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true

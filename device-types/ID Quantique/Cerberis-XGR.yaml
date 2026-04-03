@@ -1,0 +1,22 @@
+---
+manufacturer: ID Quantique
+model: Cerberis XGR
+slug: id-quantique-cerberis-xgr
+u_height: 1
+is_full_depth: false
+comments: |
+  Cerberis XGR Quantum Key Distribution (QKD) platform. Deployed as a pair: Cerberis XGR-A (Alice, transmitter) and Cerberis XGR-B (Bob, receiver). Each unit is 1U.
+  [Product Page](https://www.idquantique.com/idq-unveils-cerberis-xgr/)
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+interfaces:
+  - name: Quantum Channel
+    type: other
+    description: Optical fiber quantum channel (SFP)
+  - name: Service Channel
+    type: other
+    description: Optical fiber service channel (SFP)
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true
