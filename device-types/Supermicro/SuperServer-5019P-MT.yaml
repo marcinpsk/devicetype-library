@@ -8,7 +8,6 @@ is_full_depth: true
 airflow: front-to-rear
 weight: 13.6
 weight_unit: kg
-comments: 'SuperServer SYS-5019P-MT (https://www.supermicro.com/products/system/1U/5019/SYS-5019P-MT.cfm)'
 console-ports:
   - name: Serial
     type: de-9
