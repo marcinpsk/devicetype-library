@@ -4,6 +4,7 @@ model: Directlight 4-24-LU1
 slug: polatis-directlight-4-24-lu1
 u_height: 1
 is_full_depth: false
+comments: 'Polatis Directlight all-optical switch: 4 input × 24 output ports.'
 power-ports:
   - name: PSU
     type: iec-60320-c14
