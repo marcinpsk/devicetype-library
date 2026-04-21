@@ -12,7 +12,7 @@ comments: >-
   7-slot chassis (SR-s platform). Provides 7 horizontal line card slots
   (IOM-s, XCM-7s, XCM2-7s) plus dedicated CPM, SFM, power, and fan bays.
   CPM slots A/B are housed in the CMA2-7s carrier bracket.
-  4 SFM slots for full fabric redundancy.
+  4 SFM slots for full fabric redundancy. 10 DC power module bays. 4 fan trays.
 module-bays:
   # Line card slots 1-7 (accept IOM-s, XCM-7s, XCM2-7s)
   - name: Card 1
@@ -54,7 +54,7 @@ module-bays:
   - name: SFM 4
     position: SFM4
     label: SFM
-  # Power Modules (1-4)
+  # Power Modules (1-10)
   - name: PM 1
     position: PM1
     label: Power Module
@@ -67,10 +67,34 @@ module-bays:
   - name: PM 4
     position: PM4
     label: Power Module
-  # Fan Modules
+  - name: PM 5
+    position: PM5
+    label: Power Module
+  - name: PM 6
+    position: PM6
+    label: Power Module
+  - name: PM 7
+    position: PM7
+    label: Power Module
+  - name: PM 8
+    position: PM8
+    label: Power Module
+  - name: PM 9
+    position: PM9
+    label: Power Module
+  - name: PM 10
+    position: PM10
+    label: Power Module
+  # Fan Trays (1-4)
   - name: FAN 1
     position: FAN1
-    label: Fan Module
+    label: Fan Tray
   - name: FAN 2
     position: FAN2
-    label: Fan Module
+    label: Fan Tray
+  - name: FAN 3
+    position: FAN3
+    label: Fan Tray
+  - name: FAN 4
+    position: FAN4
+    label: Fan Tray
