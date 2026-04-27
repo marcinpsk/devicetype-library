@@ -5,7 +5,6 @@
 # Has 2 MDA half-slots + optional XIOM slot
 manufacturer: Nokia
 model: XCM2-7s
-part_number: 3HE16472AA
 comments: >-
   XCM2-7s (Extended Control Module 2) for 7750 SR-7s.
   CLI: xcm2-7s. Hosts 2 MDA-s half-slots and 1 XIOM slot.

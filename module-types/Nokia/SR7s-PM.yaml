@@ -1,7 +1,6 @@
 ---
 manufacturer: Nokia
 model: SR7s-PM
-part_number: 3HE11183AARB01
 profile: Power supply
 attribute_data:
   input_current: DC

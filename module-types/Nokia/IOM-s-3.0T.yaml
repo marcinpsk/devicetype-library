@@ -1,7 +1,7 @@
 ---
 manufacturer: Nokia
 model: IOM-s-3.0T
-part_number: 3HE16474AARA01
+part_number: 3HE16474AA
 description: Nokia 7750 SR-s IOM 3.0T (FP4) - 36-port MDA + XIOM
 module-bays:
   - name: '{module}/1'
