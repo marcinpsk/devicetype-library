@@ -5,6 +5,6 @@ slug: apc-acf202blk
 part_number: ACF202BLK
 u_height: 2
 is_full_depth: false
-comments: '2U Blanking Panel with airflow management'
+comments: 2U Blanking Panel with airflow management
 airflow: passive
 is_powered: false

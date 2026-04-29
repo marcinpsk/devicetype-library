@@ -36,9 +36,9 @@ module-bays:
   - name: Slot 12
     position: '12'
   - name: PSU 1
-    position: 'PSU1'
+    position: PSU1
   - name: PSU 2
-    position: 'PSU2'
+    position: PSU2
 interfaces:
   - name: MGMT
     type: 10gbase-t
