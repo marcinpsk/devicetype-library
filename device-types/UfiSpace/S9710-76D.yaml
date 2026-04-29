@@ -14,171 +14,253 @@ console-ports:
   - name: Console USB
     type: usb-micro-b
 interfaces:
-  - name: ce0
-    type: 400gbase-x-qsfpdd
-  - name: ce1
-    type: 400gbase-x-qsfpdd
-  - name: ce2
-    type: 400gbase-x-qsfpdd
-  - name: ce3
-    type: 400gbase-x-qsfpdd
-  - name: ce4
-    type: 400gbase-x-qsfpdd
-  - name: ce5
-    type: 400gbase-x-qsfpdd
-  - name: ce6
-    type: 400gbase-x-qsfpdd
-  - name: ce7
-    type: 400gbase-x-qsfpdd
-  - name: ce8
-    type: 400gbase-x-qsfpdd
-  - name: ce9
-    type: 400gbase-x-qsfpdd
-  - name: ce10
-    type: 400gbase-x-qsfpdd
-  - name: ce11
-    type: 400gbase-x-qsfpdd
-  - name: ce12
-    type: 400gbase-x-qsfpdd
-  - name: ce13
-    type: 400gbase-x-qsfpdd
-  - name: ce14
-    type: 400gbase-x-qsfpdd
-  - name: ce15
-    type: 400gbase-x-qsfpdd
-  - name: ce16
-    type: 400gbase-x-qsfpdd
-  - name: ce17
-    type: 400gbase-x-qsfpdd
-  - name: ce18
-    type: 400gbase-x-qsfpdd
-  - name: ce19
-    type: 400gbase-x-qsfpdd
-  - name: ce20
-    type: 400gbase-x-qsfpdd
-  - name: ce21
-    type: 400gbase-x-qsfpdd
-  - name: ce22
-    type: 400gbase-x-qsfpdd
-  - name: ce23
-    type: 400gbase-x-qsfpdd
-  - name: ce24
-    type: 400gbase-x-qsfpdd
-  - name: ce25
-    type: 400gbase-x-qsfpdd
-  - name: ce26
-    type: 400gbase-x-qsfpdd
-  - name: ce27
-    type: 400gbase-x-qsfpdd
-  - name: ce28
-    type: 400gbase-x-qsfpdd
-  - name: ce29
-    type: 400gbase-x-qsfpdd
-  - name: ce30
-    type: 400gbase-x-qsfpdd
-  - name: ce31
-    type: 400gbase-x-qsfpdd
-  - name: ce32
-    type: 400gbase-x-qsfpdd
-  - name: ce33
-    type: 400gbase-x-qsfpdd
-  - name: ce34
-    type: 400gbase-x-qsfpdd
-  - name: ce35
-    type: 400gbase-x-qsfpdd
-  - name: ce36
-    type: 400gbase-x-qsfpdd
-  - name: ce37
-    type: 400gbase-x-qsfpdd
-  - name: ce38
-    type: 400gbase-x-qsfpdd
-  - name: ce39
-    type: 400gbase-x-qsfpdd
-  - name: ce40
-    type: 400gbase-x-qsfpdd
-  - name: ce41
-    type: 400gbase-x-qsfpdd
-  - name: ce42
-    type: 400gbase-x-qsfpdd
-  - name: ce43
-    type: 400gbase-x-qsfpdd
-  - name: ce44
-    type: 400gbase-x-qsfpdd
-  - name: ce45
-    type: 400gbase-x-qsfpdd
-  - name: ce46
-    type: 400gbase-x-qsfpdd
-  - name: ce47
-    type: 400gbase-x-qsfpdd
-  - name: ce48
-    type: 400gbase-x-qsfpdd
-  - name: ce49
-    type: 400gbase-x-qsfpdd
-  - name: ce50
-    type: 400gbase-x-qsfpdd
-  - name: ce51
-    type: 400gbase-x-qsfpdd
-  - name: ce52
-    type: 400gbase-x-qsfpdd
-  - name: ce53
-    type: 400gbase-x-qsfpdd
-  - name: ce54
-    type: 400gbase-x-qsfpdd
-  - name: ce55
-    type: 400gbase-x-qsfpdd
-  - name: ce56
-    type: 400gbase-x-qsfpdd
-  - name: ce57
-    type: 400gbase-x-qsfpdd
-  - name: ce58
-    type: 400gbase-x-qsfpdd
-  - name: ce59
-    type: 400gbase-x-qsfpdd
-  - name: ce60
-    type: 400gbase-x-qsfpdd
-  - name: ce61
-    type: 400gbase-x-qsfpdd
-  - name: ce62
-    type: 400gbase-x-qsfpdd
-  - name: ce63
-    type: 400gbase-x-qsfpdd
-  - name: ce64
-    type: 400gbase-x-qsfpdd
-  - name: ce65
-    type: 400gbase-x-qsfpdd
-  - name: ce66
-    type: 400gbase-x-qsfpdd
-  - name: ce67
-    type: 400gbase-x-qsfpdd
-  - name: ce68
-    type: 400gbase-x-qsfpdd
-  - name: ce69
-    type: 400gbase-x-qsfpdd
-  - name: ce70
-    type: 400gbase-x-qsfpdd
-  - name: ce71
-    type: 400gbase-x-qsfpdd
-  - name: ce72
-    type: 400gbase-x-qsfpdd
-  - name: ce73
-    type: 400gbase-x-qsfpdd
-  - name: ce74
-    type: 400gbase-x-qsfpdd
-  - name: ce75
-    type: 400gbase-x-qsfpdd
   - name: eth0
     type: 1000base-t
     mgmt_only: true
 module-bays:
-  - name: FAN0
-    position: '0'
-  - name: FAN1
-    position: '1'
-  - name: FAN2
-    position: '2'
-  - name: FAN3
-    position: '3'
-  - name: PSU0
-    position: '0'
-  - name: PSU1
-    position: '1'
+  - name: Transceiver 0
+    position: swp0
+    label: QSFP-DD
+  - name: Transceiver 1
+    position: swp1
+    label: QSFP-DD
+  - name: Transceiver 2
+    position: swp2
+    label: QSFP-DD
+  - name: Transceiver 3
+    position: swp3
+    label: QSFP-DD
+  - name: Transceiver 4
+    position: swp4
+    label: QSFP-DD
+  - name: Transceiver 5
+    position: swp5
+    label: QSFP-DD
+  - name: Transceiver 6
+    position: swp6
+    label: QSFP-DD
+  - name: Transceiver 7
+    position: swp7
+    label: QSFP-DD
+  - name: Transceiver 8
+    position: swp8
+    label: QSFP-DD
+  - name: Transceiver 9
+    position: swp9
+    label: QSFP-DD
+  - name: Transceiver 10
+    position: swp10
+    label: QSFP-DD
+  - name: Transceiver 11
+    position: swp11
+    label: QSFP-DD
+  - name: Transceiver 12
+    position: swp12
+    label: QSFP-DD
+  - name: Transceiver 13
+    position: swp13
+    label: QSFP-DD
+  - name: Transceiver 14
+    position: swp14
+    label: QSFP-DD
+  - name: Transceiver 15
+    position: swp15
+    label: QSFP-DD
+  - name: Transceiver 16
+    position: swp16
+    label: QSFP-DD
+  - name: Transceiver 17
+    position: swp17
+    label: QSFP-DD
+  - name: Transceiver 18
+    position: swp18
+    label: QSFP-DD
+  - name: Transceiver 19
+    position: swp19
+    label: QSFP-DD
+  - name: Transceiver 20
+    position: swp20
+    label: QSFP-DD
+  - name: Transceiver 21
+    position: swp21
+    label: QSFP-DD
+  - name: Transceiver 22
+    position: swp22
+    label: QSFP-DD
+  - name: Transceiver 23
+    position: swp23
+    label: QSFP-DD
+  - name: Transceiver 24
+    position: swp24
+    label: QSFP-DD
+  - name: Transceiver 25
+    position: swp25
+    label: QSFP-DD
+  - name: Transceiver 26
+    position: swp26
+    label: QSFP-DD
+  - name: Transceiver 27
+    position: swp27
+    label: QSFP-DD
+  - name: Transceiver 28
+    position: swp28
+    label: QSFP-DD
+  - name: Transceiver 29
+    position: swp29
+    label: QSFP-DD
+  - name: Transceiver 30
+    position: swp30
+    label: QSFP-DD
+  - name: Transceiver 31
+    position: swp31
+    label: QSFP-DD
+  - name: Transceiver 32
+    position: swp32
+    label: QSFP-DD
+  - name: Transceiver 33
+    position: swp33
+    label: QSFP-DD
+  - name: Transceiver 34
+    position: swp34
+    label: QSFP-DD
+  - name: Transceiver 35
+    position: swp35
+    label: QSFP-DD
+  - name: Transceiver 36
+    position: swp36
+    label: QSFP-DD
+  - name: Transceiver 37
+    position: swp37
+    label: QSFP-DD
+  - name: Transceiver 38
+    position: swp38
+    label: QSFP-DD
+  - name: Transceiver 39
+    position: swp39
+    label: QSFP-DD
+  - name: Transceiver 40
+    position: swp40
+    label: QSFP-DD
+  - name: Transceiver 41
+    position: swp41
+    label: QSFP-DD
+  - name: Transceiver 42
+    position: swp42
+    label: QSFP-DD
+  - name: Transceiver 43
+    position: swp43
+    label: QSFP-DD
+  - name: Transceiver 44
+    position: swp44
+    label: QSFP-DD
+  - name: Transceiver 45
+    position: swp45
+    label: QSFP-DD
+  - name: Transceiver 46
+    position: swp46
+    label: QSFP-DD
+  - name: Transceiver 47
+    position: swp47
+    label: QSFP-DD
+  - name: Transceiver 48
+    position: swp48
+    label: QSFP-DD
+  - name: Transceiver 49
+    position: swp49
+    label: QSFP-DD
+  - name: Transceiver 50
+    position: swp50
+    label: QSFP-DD
+  - name: Transceiver 51
+    position: swp51
+    label: QSFP-DD
+  - name: Transceiver 52
+    position: swp52
+    label: QSFP-DD
+  - name: Transceiver 53
+    position: swp53
+    label: QSFP-DD
+  - name: Transceiver 54
+    position: swp54
+    label: QSFP-DD
+  - name: Transceiver 55
+    position: swp55
+    label: QSFP-DD
+  - name: Transceiver 56
+    position: swp56
+    label: QSFP-DD
+  - name: Transceiver 57
+    position: swp57
+    label: QSFP-DD
+  - name: Transceiver 58
+    position: swp58
+    label: QSFP-DD
+  - name: Transceiver 59
+    position: swp59
+    label: QSFP-DD
+  - name: Transceiver 60
+    position: swp60
+    label: QSFP-DD
+  - name: Transceiver 61
+    position: swp61
+    label: QSFP-DD
+  - name: Transceiver 62
+    position: swp62
+    label: QSFP-DD
+  - name: Transceiver 63
+    position: swp63
+    label: QSFP-DD
+  - name: Transceiver 64
+    position: swp64
+    label: QSFP-DD
+  - name: Transceiver 65
+    position: swp65
+    label: QSFP-DD
+  - name: Transceiver 66
+    position: swp66
+    label: QSFP-DD
+  - name: Transceiver 67
+    position: swp67
+    label: QSFP-DD
+  - name: Transceiver 68
+    position: swp68
+    label: QSFP-DD
+  - name: Transceiver 69
+    position: swp69
+    label: QSFP-DD
+  - name: Transceiver 70
+    position: swp70
+    label: QSFP-DD
+  - name: Transceiver 71
+    position: swp71
+    label: QSFP-DD
+  - name: Transceiver 72
+    position: swp72
+    label: QSFP-DD
+  - name: Transceiver 73
+    position: swp73
+    label: QSFP-DD
+  - name: Transceiver 74
+    position: swp74
+    label: QSFP-DD
+  - name: Transceiver 75
+    position: swp75
+    label: QSFP-DD
+  - name: Fan 0
+    position: FAN0
+    label: Fan Module
+  - name: Fan 1
+    position: FAN1
+    label: Fan Module
+  - name: Fan 2
+    position: FAN2
+    label: Fan Module
+  - name: Fan 3
+    position: FAN3
+    label: Fan Module
+  - name: PSU 0
+    position: PSU0
+    label: Power Supply
+  - name: PSU 1
+    position: PSU1
+    label: Power Supply
