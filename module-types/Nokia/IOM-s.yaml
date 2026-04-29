@@ -4,7 +4,6 @@
 # Variant of IOM-s (different from IOM-s-e)
 manufacturer: Nokia
 model: IOM-s
-part_number: 3HE16472AA
 comments: >-
   IOM-s (Input/Output Module) for 7750 SR-7s/14s.
   FP4 silicon. Hosts 2 MDA-s half-slots and 1 XIOM slot.

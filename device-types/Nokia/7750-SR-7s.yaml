@@ -10,11 +10,11 @@ weight_unit: kg
 description: Nokia 7750 SR-7s Service Router
 comments: >-
   7-slot chassis (SR-s platform). Provides 7 horizontal line card slots
-  (IOM-s, XCM-7s, XCM2-7s) plus dedicated CPM, SFM, power, and fan bays.
+  (XCM-7s, XCM-7s-b, XCM2-7s) plus dedicated CPM, SFM, power, and fan bays.
   CPM slots A/B are housed in the CMA2-7s carrier bracket.
   4 SFM slots for full fabric redundancy. 10 DC power module bays. 4 fan trays.
 module-bays:
-  # Line card slots 1-7 (accept IOM-s, XCM-7s, XCM2-7s)
+  # Line card slots 1-7 (accept XCM-7s, XCM-7s-b, XCM2-7s)
   - name: Card 1
     position: '1'
     label: IOM/XCM
