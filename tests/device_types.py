@@ -230,13 +230,6 @@ def verify_filename(device: (DeviceType or ModuleType or RackType), KNOWN_MODULE
     head, tail = os.path.split(device.get_filepath())
     filename = tail.rsplit(".", 1)[0].casefold()
 
-    # Reject coexisting .yml and .yaml files with the same base name
-    base, ext = os.path.splitext(device.file_path)
-    other_ext = '.yaml' if ext == '.yml' else '.yml'
-    if os.path.isfile(base + other_ext):
-        device.failureMessage = f'{device.file_path} conflicts with {base + other_ext}. Cannot have both .yml and .yaml versions of the same file.'
-        return False
-
     # Check if file is RackType
     if "rack-types" in device.file_path:
         if not filename == device._slug_model:
