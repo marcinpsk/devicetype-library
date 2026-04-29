@@ -2,7 +2,7 @@
 manufacturer: Nokia
 model: 7750 SR-2s
 slug: nokia-7750-sr-2s
-part_number: 3HE09263AA
+part_number: 3HE12340BA
 u_height: 5
 is_full_depth: true
 console-ports:
@@ -22,10 +22,10 @@ module-bays:
   - name: Slot 2
     position: '2'
     description: IOM slot
-  - name: CPM 1
-    position: '1'
-  - name: CPM 2
-    position: '2'
+  - name: CPM A
+    position: A
+  - name: CPM B
+    position: B
   - name: PS1
     position: '1'
   - name: PS2
@@ -38,5 +38,3 @@ module-bays:
     position: '2'
   - name: Fan Tray 3
     position: '3'
-  - name: Fan Tray 4
-    position: '4'

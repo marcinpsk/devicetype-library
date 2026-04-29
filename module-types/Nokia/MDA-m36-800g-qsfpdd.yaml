@@ -4,7 +4,7 @@
 # FP5-based MDA for IOM2-se or IOM-s-e
 manufacturer: Nokia
 model: MDA-m36-800g-qsfpdd
-part_number: 3HE18882AA
+part_number: 3HE18883AA
 comments: >-
   MDA-m 36-port 800GE QSFP-DD for 7750 SR-s series.
   FP5 silicon. Up to 6.0 Tb/s aggregate capacity.
