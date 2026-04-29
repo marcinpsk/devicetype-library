@@ -168,6 +168,8 @@ else:
     definition_files = _get_definition_files()
 image_files = _get_image_files()
 
+_seen_module_models = {}  # (manufacturer, model) -> file_path, for duplicate detection
+
 if USE_UPSTREAM_DIFF and not EVALUATE_ALL:
     module_image_files = _get_module_image_files()
 else:
@@ -284,6 +286,17 @@ def test_definitions(file_path, schema, change_type):
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
         assert this_device.verify_slug(KNOWN_SLUGS), pytest.fail(this_device.failureMessage, False)
+
+    # Check for duplicate (manufacturer, model) across module-type files
+    if "module-types" in file_path:
+        key = (this_device.manufacturer, this_device.model)
+        if key in _seen_module_models:
+            pytest.fail(
+                f'{file_path}: duplicate (manufacturer, model) "{key[0]} / {key[1]}" '
+                f'already defined in {_seen_module_models[key]}',
+                False,
+            )
+        _seen_module_models[key] = file_path
 
     # Verify the filename is valid. Must either be the model or part_number.
     assert verify_filename(this_device, (KNOWN_MODULES if not this_device.isDevice else None)), pytest.fail(this_device.failureMessage, False)

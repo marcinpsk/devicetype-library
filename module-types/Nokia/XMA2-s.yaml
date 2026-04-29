@@ -1,7 +1,7 @@
 ---
 # Nokia XMA2-s (eXtended Media Adapter 2 for SR-s)
 # Installs in XIOM slot of XCM2-7s/14s cards
-# Integrated module — mda-type m36-800g-qsfpdd is auto-configured
+# Integrated module - mda-type m36-800g-qsfpdd is auto-configured
 # xiom-type in SROS config: x2-s36-800g-qsfpdd-6.0t
 manufacturer: Nokia
 model: XMA2-s
