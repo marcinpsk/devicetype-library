@@ -7,5 +7,5 @@ comments: >-
   Models: QSFP56-DD-400GBASE-LR4-10, T1-QDD-400G-LR4,
   740-096176, 740-082823
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 400gbase-x-qsfpdd

@@ -4,7 +4,16 @@ model: QSFP-4X10G-SR
 description: QSFP+ 4x10G SR Transceiver
 comments: >-
   QSFP+ transceiver supporting 4x 10GE SR channels. 850nm, MMF.
+  Interface naming uses '{module}/1' through '{module}/4' — consistent with
+  Cisco IOS-XR breakout convention. Adjust sub-port names for other vendors
+  (e.g. Juniper uses et-x/y/z:0 notation).
   Models: QSFP+-4X10G-SR, 740-054053
 interfaces:
-  - name: "{module}"
-    type: 40gbase-x-qsfpp
+  - name: '{module}/1'
+    type: 10gbase-x-sfpp
+  - name: '{module}/2'
+    type: 10gbase-x-sfpp
+  - name: '{module}/3'
+    type: 10gbase-x-sfpp
+  - name: '{module}/4'
+    type: 10gbase-x-sfpp

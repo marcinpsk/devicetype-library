@@ -11,5 +11,5 @@ comments: >-
   Supports 100G/200G/300G/400G rates with DP-16QAM/8QAM/QPSK.
   Up to 120km reach. oFEC/cFEC.
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 400gbase-x-qsfpdd

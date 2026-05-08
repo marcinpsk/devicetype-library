@@ -6,5 +6,5 @@ comments: >-
   10GE long-range SFP+ transceiver. 1310nm, SMF, up to 10km.
   Models: SFP+-10G-LR, FTLX1474D3BCL, SPP5200LR, SPP5310LR, 740-031981
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 10gbase-x-sfpp

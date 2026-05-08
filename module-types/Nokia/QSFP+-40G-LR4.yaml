@@ -9,5 +9,5 @@ comments: >-
   Nokia-branded 40GBASE-LR4 QSFP+ transceiver.
   1310nm, SMF, up to 10km. 4x 10Gbps lanes. DOM supported.
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 40gbase-x-qsfpp

@@ -9,5 +9,5 @@ comments: >-
   Modulation: 16QAM (400G), 8QAM (300G), QPSK (200G/100G).
   LC Duplex SMF connector. Max power ~21 W.
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 400gbase-x-qsfpdd

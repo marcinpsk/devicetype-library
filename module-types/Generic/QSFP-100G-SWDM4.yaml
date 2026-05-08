@@ -6,5 +6,5 @@ comments: >-
   100GE short-wavelength multiplexed QSFP28 transceiver. 850nm, OM4 MMF.
   Models: FTLC9152RGPL
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 100gbase-x-qsfp28

@@ -6,5 +6,5 @@ comments: >-
   100GE short-range QSFP28 transceiver. 850nm, MMF, up to 100m.
   Models: QSFP-100GBASE-SR4, 740-061405
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 100gbase-x-qsfp28

@@ -8,5 +8,5 @@ comments: >-
   Tunable C-band DWDM. Up to ~80 km DCI/metro reach over SMF.
   LC Duplex connector. Max power ~18.5 W.
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 400gbase-x-qsfpdd

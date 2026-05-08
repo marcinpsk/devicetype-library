@@ -6,5 +6,5 @@ comments: >-
   100GE QSFP28 DAC cable, 3m length.
   Models: Q28-PC03
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 100gbase-x-qsfp28

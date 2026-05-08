@@ -7,5 +7,5 @@ comments: >-
   Extended reach beyond standard ZR. DCI and metro use.
   Models: QSFP56-DD-400G-ZR-M, 740-131169, FTCD3323R1PCL-A5
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 400gbase-x-qsfpdd

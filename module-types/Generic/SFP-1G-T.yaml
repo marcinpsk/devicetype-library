@@ -6,5 +6,5 @@ comments: >-
   1GE copper SFP transceiver. RJ-45 connector.
   Models: GLC-T, GLC-TE, SFP-T, 740-013111
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 1000base-t

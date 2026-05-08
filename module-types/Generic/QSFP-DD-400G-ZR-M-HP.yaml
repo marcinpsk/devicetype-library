@@ -6,5 +6,5 @@ comments: >-
   400GE coherent multi-haul high-power QSFP-DD transceiver.
   Models: QSFP56-DD-400G-ZR-M-HP, 740-151745
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 400gbase-x-qsfpdd

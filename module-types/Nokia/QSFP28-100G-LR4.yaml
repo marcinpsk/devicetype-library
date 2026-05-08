@@ -10,5 +10,5 @@ comments: >-
   1310nm LAN-WDM, SMF, duplex LC, up to 10km.
   4x 25Gbps lanes. DOM supported.
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 100gbase-x-qsfp28

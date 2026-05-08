@@ -4,7 +4,11 @@ model: QSFP28-DD-2X100G-LR4
 description: QSFP28-DD 2x100G LR4 Transceiver
 comments: >-
   QSFP28-DD transceiver supporting 2x 100GE LR4 channels. 1310nm, SMF.
+  Interface naming uses '{module}/1' and '{module}/2' — sub-port indices
+  may require adjustment depending on platform and slot offset.
   Models: 740-079871
 interfaces:
-  - name: "{module}"
+  - name: '{module}/1'
+    type: 100gbase-x-qsfp28
+  - name: '{module}/2'
     type: 100gbase-x-qsfp28

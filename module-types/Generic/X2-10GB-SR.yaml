@@ -6,5 +6,5 @@ comments: >-
   10GE short-range X2 transceiver. 850nm, MMF, up to 300m.
   For Cisco WS-C4900M and similar platforms.
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 10gbase-x-x2

@@ -4,5 +4,5 @@ model: GLC-T
 part_number: GLC-T
 description: 1000BASE-T SFP Transceiver (Copper, RJ45)
 interfaces:
-  - name: "GigabitEthernet{module_path}"
+  - name: '{module}'
     type: 1000base-t

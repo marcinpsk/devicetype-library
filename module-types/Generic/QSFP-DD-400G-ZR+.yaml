@@ -7,5 +7,5 @@ comments: >-
   multiple modulation formats and rates (100G/200G/300G/400G).
   Models: QDD-400G-ZRP-S, DP04QSDD-HE0
 interfaces:
-  - name: "{module}"
+  - name: '{module}'
     type: 400gbase-x-qsfpdd
