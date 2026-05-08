@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: QSFP-100G-SR4
+description: 100GBASE-SR4 QSFP28 Transceiver
+comments: >-
+  100GE short-range QSFP28 transceiver. 850nm, MMF, up to 100m.
+  Models: QSFP-100GBASE-SR4, 740-061405
+interfaces:
+  - name: "{module}"
+    type: 100gbase-x-qsfp28

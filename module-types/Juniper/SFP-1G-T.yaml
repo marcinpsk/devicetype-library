@@ -1,0 +1,8 @@
+---
+manufacturer: Juniper
+model: SFP-1G-T
+part_number: "740-013111"
+description: Juniper 1000BASE-T SFP Transceiver
+comments: >-
+  Juniper OEM 1000BASE-T copper SFP module.
+  For use in MPC/DPCE transceiver bays on MX series routers.

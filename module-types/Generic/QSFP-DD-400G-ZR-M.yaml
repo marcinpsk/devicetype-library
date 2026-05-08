@@ -1,0 +1,11 @@
+---
+manufacturer: Generic
+model: QSFP-DD-400G-ZR-M
+description: 400G ZR+ Multi-haul QSFP-DD Transceiver (Coherent)
+comments: >-
+  400GE coherent multi-haul QSFP-DD transceiver.
+  Extended reach beyond standard ZR. DCI and metro use.
+  Models: QSFP56-DD-400G-ZR-M, 740-131169, FTCD3323R1PCL-A5
+interfaces:
+  - name: "{module}"
+    type: 400gbase-x-qsfpdd

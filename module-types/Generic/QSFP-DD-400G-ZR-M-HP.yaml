@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: QSFP-DD-400G-ZR-M-HP
+description: 400G ZR+ Multi-haul High Power QSFP-DD Transceiver
+comments: >-
+  400GE coherent multi-haul high-power QSFP-DD transceiver.
+  Models: QSFP56-DD-400G-ZR-M-HP, 740-151745
+interfaces:
+  - name: "{module}"
+    type: 400gbase-x-qsfpdd

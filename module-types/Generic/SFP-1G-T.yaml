@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: SFP-1G-T
+description: 1000BASE-T SFP Transceiver (Copper)
+comments: >-
+  1GE copper SFP transceiver. RJ-45 connector.
+  Models: GLC-T, GLC-TE, SFP-T, 740-013111
+interfaces:
+  - name: "{module}"
+    type: 1000base-t

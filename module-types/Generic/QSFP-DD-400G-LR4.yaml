@@ -1,0 +1,11 @@
+---
+manufacturer: Generic
+model: QSFP-DD-400G-LR4
+description: 400GBASE-LR4-10 QSFP-DD Transceiver
+comments: >-
+  400GE LR4 QSFP-DD transceiver. 1310nm, SMF, up to 10km.
+  Models: QSFP56-DD-400GBASE-LR4-10, T1-QDD-400G-LR4,
+  740-096176, 740-082823
+interfaces:
+  - name: "{module}"
+    type: 400gbase-x-qsfpdd

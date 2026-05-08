@@ -1,0 +1,11 @@
+---
+manufacturer: Generic
+model: QSFP-DD-400G-ZR+
+description: 400G ZR+ (OpenZR+) QSFP-DD Transceiver (Coherent)
+comments: >-
+  400GE coherent QSFP-DD transceiver. OpenZR+ MSA, supports
+  multiple modulation formats and rates (100G/200G/300G/400G).
+  Models: QDD-400G-ZRP-S, DP04QSDD-HE0
+interfaces:
+  - name: "{module}"
+    type: 400gbase-x-qsfpdd

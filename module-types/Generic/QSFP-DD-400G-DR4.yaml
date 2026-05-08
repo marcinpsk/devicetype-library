@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: QSFP-DD-400G-DR4
+description: 400GBASE-DR4 QSFP-DD Transceiver
+comments: >-
+  400GE DR4 QSFP-DD transceiver. 1310nm, SMF, up to 500m.
+  Models: QSFP56-DD-400GBASE-DR4, 740-085351
+interfaces:
+  - name: "{module}"
+    type: 400gbase-x-qsfpdd

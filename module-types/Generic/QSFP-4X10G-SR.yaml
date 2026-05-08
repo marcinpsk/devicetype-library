@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: QSFP-4X10G-SR
+description: QSFP+ 4x10G SR Transceiver
+comments: >-
+  QSFP+ transceiver supporting 4x 10GE SR channels. 850nm, MMF.
+  Models: QSFP+-4X10G-SR, 740-054053
+interfaces:
+  - name: "{module}"
+    type: 40gbase-x-qsfpp

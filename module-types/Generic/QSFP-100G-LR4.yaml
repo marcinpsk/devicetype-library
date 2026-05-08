@@ -1,0 +1,11 @@
+---
+manufacturer: Generic
+model: QSFP-100G-LR4
+description: 100GBASE-LR4 QSFP28 Transceiver
+comments: >-
+  100GE long-range QSFP28 transceiver. 1310nm, SMF, up to 10km.
+  Models: QSFP-100GBASE-LR4, 740-061409, 740-058732, FTLC1151RDPL,
+  FTLC1154RDPL, T1-QSFP28-LR4, 100G-LR4_A3
+interfaces:
+  - name: "{module}"
+    type: 100gbase-x-qsfp28

@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: QSFP-4X10G-LR
+description: QSFP+ 4x10G LR Transceiver
+comments: >-
+  QSFP+ transceiver supporting 4x 10GE LR channels. 1310nm, SMF.
+  Models: QSFP+-4X10G-LR, 740-054050, 740-057315
+interfaces:
+  - name: "{module}"
+    type: 40gbase-x-qsfpp

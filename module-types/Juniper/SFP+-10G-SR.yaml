@@ -1,0 +1,9 @@
+---
+manufacturer: Juniper
+model: SFP+-10G-SR
+part_number: "740-031980"
+description: Juniper 10GBASE-SR SFP+ Transceiver
+comments: >-
+  Juniper OEM 10GBASE-SR SFP+ module. 850nm, MMF, up to 300m.
+  Part numbers: 740-031980 (primary), 740-021308 (older revision).
+  For use in MPC/DPCE transceiver bays on MX series routers.

@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: QSFP28-100G-CU3M
+description: 100G QSFP28 Direct Attach Copper 3m
+comments: >-
+  100GE QSFP28 DAC cable, 3m length.
+  Models: Q28-PC03
+interfaces:
+  - name: "{module}"
+    type: 100gbase-x-qsfp28

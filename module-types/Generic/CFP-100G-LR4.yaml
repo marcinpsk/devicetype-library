@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: CFP-100G-LR4
+description: 100GBASE-LR4 CFP Transceiver
+comments: >-
+  100GE long-range CFP transceiver. 1310nm, SMF.
+  Models: 740-047682
+interfaces:
+  - name: "{module}"
+    type: 100gbase-x-cfp

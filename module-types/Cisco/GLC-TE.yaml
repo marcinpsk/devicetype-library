@@ -1,0 +1,8 @@
+---
+manufacturer: Cisco
+model: GLC-TE
+part_number: GLC-TE
+description: 1000BASE-T SFP Transceiver Enhanced (Copper, RJ45, low power)
+interfaces:
+  - name: "GigabitEthernet{module_path}"
+    type: 1000base-t

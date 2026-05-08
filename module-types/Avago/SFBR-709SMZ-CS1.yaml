@@ -1,0 +1,8 @@
+---
+manufacturer: Avago
+model: SFBR-709SMZ-CS1
+part_number: SFBR-709SMZ-CS1
+description: Avago 10GBASE-SR SFP+ Transceiver
+comments: >-
+  Avago Technologies (now Broadcom) 10GBASE-SR SFP+ module.
+  850nm, MMF, 300m reach. Commonly OEM'd by Juniper and others.

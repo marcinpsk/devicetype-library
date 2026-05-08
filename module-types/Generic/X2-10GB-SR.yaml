@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: X2-10GB-SR
+description: 10GBASE-SR X2 Transceiver
+comments: >-
+  10GE short-range X2 transceiver. 850nm, MMF, up to 300m.
+  For Cisco WS-C4900M and similar platforms.
+interfaces:
+  - name: "{module}"
+    type: 10gbase-x-x2

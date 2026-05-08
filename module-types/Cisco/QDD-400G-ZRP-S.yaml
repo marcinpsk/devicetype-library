@@ -1,0 +1,13 @@
+---
+manufacturer: Cisco
+model: QDD-400G-ZRP-S
+part_number: QDD-400G-ZRP-S
+description: Cisco 400G QSFP-DD ZR+ Coherent Optical Module
+comments: >-
+  400G QSFP-DD coherent DCO (Digital Coherent Optics), OpenZR+ MSA standard.
+  Tunable C-band DWDM. Up to 120 km metro/regional reach.
+  Modulation: 16QAM (400G), 8QAM (300G), QPSK (200G/100G).
+  LC Duplex SMF connector. Max power ~21 W.
+interfaces:
+  - name: "{module}"
+    type: 400gbase-x-qsfpdd

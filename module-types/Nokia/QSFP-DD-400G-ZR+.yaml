@@ -1,0 +1,15 @@
+---
+# Nokia QSFP-DD 400G ZR+ Coherent Transceiver
+# Part number: 3HE18360AA
+manufacturer: Nokia
+model: QSFP-DD-400G-ZR+
+part_number: 3HE18360AA
+description: Nokia QSFP-DD 400G ZR+ Coherent Transceiver
+comments: >-
+  Nokia-branded 400G coherent QSFP-DD transceiver.
+  OpenZR+ MSA, tunable C-band (1528-1567nm), SMF, duplex LC.
+  Supports 100G/200G/300G/400G rates with DP-16QAM/8QAM/QPSK.
+  Up to 120km reach. oFEC/cFEC.
+interfaces:
+  - name: "{module}"
+    type: 400gbase-x-qsfpdd

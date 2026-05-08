@@ -1,0 +1,16 @@
+---
+manufacturer: Cisco
+model: CVR-X2-SFP
+part_number: CVR-X2-SFP
+description: Cisco X2 to SFP Converter Module
+comments: >-
+  X2 to SFP converter. Installed in X2 port bays on
+  WS-C4900M or WS-X4908-10GE modules.
+  Provides 2 SFP bays for GLC-T/GLC-TE/SFP transceivers.
+module-bays:
+  - name: SFP 1
+    position: '1'
+    label: SFP
+  - name: SFP 2
+    position: '2'
+    label: SFP

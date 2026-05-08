@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: SFP-10G-SR
+description: 10GBASE-SR SFP+ Transceiver
+comments: >-
+  10GE short-range SFP+ transceiver. 850nm, MMF, up to 300m.
+  Models: SFP+-10G-SR, SFBR-709SMZ, 740-021308, 740-031980
+interfaces:
+  - name: "{module}"
+    type: 10gbase-x-sfpp

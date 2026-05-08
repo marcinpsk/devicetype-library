@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: QSFP-DD-400G-LR8
+description: 400GBASE-LR8 QSFP-DD Transceiver
+comments: >-
+  400GE LR8 QSFP-DD transceiver. SMF, up to 10km.
+  Models: QSFP56-DD-400GBASE-LR8, 740-082823
+interfaces:
+  - name: "{module}"
+    type: 400gbase-x-qsfpdd

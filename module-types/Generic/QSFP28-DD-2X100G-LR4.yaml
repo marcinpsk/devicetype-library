@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: QSFP28-DD-2X100G-LR4
+description: QSFP28-DD 2x100G LR4 Transceiver
+comments: >-
+  QSFP28-DD transceiver supporting 2x 100GE LR4 channels. 1310nm, SMF.
+  Models: 740-079871
+interfaces:
+  - name: "{module}"
+    type: 100gbase-x-qsfp28

@@ -1,0 +1,8 @@
+---
+manufacturer: Juniper
+model: SFP+-10G-LR
+part_number: "740-031981"
+description: Juniper 10GBASE-LR SFP+ Transceiver
+comments: >-
+  Juniper OEM 10GBASE-LR SFP+ module. 1310nm, SMF, up to 10km.
+  For use in MPC/DPCE transceiver bays on MX series routers.

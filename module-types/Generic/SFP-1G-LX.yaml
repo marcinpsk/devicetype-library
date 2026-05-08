@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: SFP-1G-LX
+description: 1000BASE-LX SFP Transceiver
+comments: >-
+  1GE long-range SFP transceiver. 1310nm, SMF, up to 10km.
+  Models: SFP-LX10, 740-031850
+interfaces:
+  - name: "{module}"
+    type: 1000base-x-sfp

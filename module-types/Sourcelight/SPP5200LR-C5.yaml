@@ -1,0 +1,8 @@
+---
+manufacturer: Sourcelight
+model: SPP5200LR-C5
+part_number: SPP5200LR-C5
+description: Sourcelight 10GBASE-LR SFP+ Transceiver
+comments: >-
+  Sourcelight International SFP+ 10GBASE-LR module. 1310nm, SMF, 10km.
+  Often found as OEM optics in Juniper MX environments.

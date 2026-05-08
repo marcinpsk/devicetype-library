@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: QSFP-100G-ZR
+description: 100G ZR QSFP28 Transceiver (Coherent)
+comments: >-
+  100GE coherent QSFP28 transceiver. Long-haul up to 120km.
+  Models: 740-172665
+interfaces:
+  - name: "{module}"
+    type: 100gbase-x-qsfp28

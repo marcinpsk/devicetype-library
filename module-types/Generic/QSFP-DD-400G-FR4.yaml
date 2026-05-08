@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: QSFP-DD-400G-FR4
+description: 400GBASE-FR4 QSFP-DD Transceiver
+comments: >-
+  400GE FR4 QSFP-DD transceiver. 1310nm, SMF, up to 2km.
+  Models: QSFP56-DD-400G-FR4, T-DQ4CNT-NCN, T1-QDD-400G-FR4, 740-085349
+interfaces:
+  - name: "{module}"
+    type: 400gbase-x-qsfpdd

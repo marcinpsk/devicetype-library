@@ -1,0 +1,10 @@
+---
+manufacturer: Generic
+model: X2-10GB-LR
+description: 10GBASE-LR X2 Transceiver
+comments: >-
+  10GE long-range X2 transceiver. 1310nm, SMF, up to 10km.
+  For Cisco WS-C4900M and similar platforms.
+interfaces:
+  - name: "{module}"
+    type: 10gbase-x-x2
