@@ -9,8 +9,8 @@ comments: >-
   Interface names '{module}/1' and '{module}/2' are placeholders for
   uniqueness only — actual interface naming has a platform-specific
   slot/port offset that must be adjusted to match the device.
-interfaces:
-  - name: '{module}/1'
+module-bay:
+  - name: 'SFP 1'
     type: 1000base-x-sfp
-  - name: '{module}/2'
+  - name: 'SFP 2'
     type: 1000base-x-sfp
