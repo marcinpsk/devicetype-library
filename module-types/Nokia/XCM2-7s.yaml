@@ -11,5 +11,5 @@ module-bays:
     position: '1'
     label: MDA 1
   - name: '{module}/x1'
-    position: x1
+    position: '{module}/x1'
     label: XIOM

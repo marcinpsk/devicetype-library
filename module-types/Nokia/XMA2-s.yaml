@@ -11,112 +11,115 @@ comments: >-
   Installs in XIOM slot of XCM2-7s/14s. SROS xiom-type: x2-s36-800g-qsfpdd-6.0t.
   mda-type m36-800g-qsfpdd is automatically configured; the XMA2-s is an integrated
   unit (same PN and serial for both XIOM and MDA CLI views).
+  XCM2-7s XIOM bay position uses {module}/x1 to propagate the slot number forward,
+  so {module} here resolves to the accumulated path (e.g. 2/x1), giving full SROS
+  ifNames like 2/x1/1/c1 when a QSFP-DD with template {module} is installed.
 module-bays:
-  - name: '{module}/c1'
-    position: c1
+  - name: '{module}/1/c1'
+    position: '{module}/1/c1'
     label: QSFP-DD
-  - name: '{module}/c2'
-    position: c2
+  - name: '{module}/1/c2'
+    position: '{module}/1/c2'
     label: QSFP-DD
-  - name: '{module}/c3'
-    position: c3
+  - name: '{module}/1/c3'
+    position: '{module}/1/c3'
     label: QSFP-DD
-  - name: '{module}/c4'
-    position: c4
+  - name: '{module}/1/c4'
+    position: '{module}/1/c4'
     label: QSFP-DD
-  - name: '{module}/c5'
-    position: c5
+  - name: '{module}/1/c5'
+    position: '{module}/1/c5'
     label: QSFP-DD
-  - name: '{module}/c6'
-    position: c6
+  - name: '{module}/1/c6'
+    position: '{module}/1/c6'
     label: QSFP-DD
-  - name: '{module}/c7'
-    position: c7
+  - name: '{module}/1/c7'
+    position: '{module}/1/c7'
     label: QSFP-DD
-  - name: '{module}/c8'
-    position: c8
+  - name: '{module}/1/c8'
+    position: '{module}/1/c8'
     label: QSFP-DD
-  - name: '{module}/c9'
-    position: c9
+  - name: '{module}/1/c9'
+    position: '{module}/1/c9'
     label: QSFP-DD
-  - name: '{module}/c10'
-    position: c10
+  - name: '{module}/1/c10'
+    position: '{module}/1/c10'
     label: QSFP-DD
-  - name: '{module}/c11'
-    position: c11
+  - name: '{module}/1/c11'
+    position: '{module}/1/c11'
     label: QSFP-DD
-  - name: '{module}/c12'
-    position: c12
+  - name: '{module}/1/c12'
+    position: '{module}/1/c12'
     label: QSFP-DD
-  - name: '{module}/c13'
-    position: c13
+  - name: '{module}/1/c13'
+    position: '{module}/1/c13'
     label: QSFP-DD
-  - name: '{module}/c14'
-    position: c14
+  - name: '{module}/1/c14'
+    position: '{module}/1/c14'
     label: QSFP-DD
-  - name: '{module}/c15'
-    position: c15
+  - name: '{module}/1/c15'
+    position: '{module}/1/c15'
     label: QSFP-DD
-  - name: '{module}/c16'
-    position: c16
+  - name: '{module}/1/c16'
+    position: '{module}/1/c16'
     label: QSFP-DD
-  - name: '{module}/c17'
-    position: c17
+  - name: '{module}/1/c17'
+    position: '{module}/1/c17'
     label: QSFP-DD
-  - name: '{module}/c18'
-    position: c18
+  - name: '{module}/1/c18'
+    position: '{module}/1/c18'
     label: QSFP-DD
-  - name: '{module}/c19'
-    position: c19
+  - name: '{module}/1/c19'
+    position: '{module}/1/c19'
     label: QSFP-DD
-  - name: '{module}/c20'
-    position: c20
+  - name: '{module}/1/c20'
+    position: '{module}/1/c20'
     label: QSFP-DD
-  - name: '{module}/c21'
-    position: c21
+  - name: '{module}/1/c21'
+    position: '{module}/1/c21'
     label: QSFP-DD
-  - name: '{module}/c22'
-    position: c22
+  - name: '{module}/1/c22'
+    position: '{module}/1/c22'
     label: QSFP-DD
-  - name: '{module}/c23'
-    position: c23
+  - name: '{module}/1/c23'
+    position: '{module}/1/c23'
     label: QSFP-DD
-  - name: '{module}/c24'
-    position: c24
+  - name: '{module}/1/c24'
+    position: '{module}/1/c24'
     label: QSFP-DD
-  - name: '{module}/c25'
-    position: c25
+  - name: '{module}/1/c25'
+    position: '{module}/1/c25'
     label: QSFP-DD
-  - name: '{module}/c26'
-    position: c26
+  - name: '{module}/1/c26'
+    position: '{module}/1/c26'
     label: QSFP-DD
-  - name: '{module}/c27'
-    position: c27
+  - name: '{module}/1/c27'
+    position: '{module}/1/c27'
     label: QSFP-DD
-  - name: '{module}/c28'
-    position: c28
+  - name: '{module}/1/c28'
+    position: '{module}/1/c28'
     label: QSFP-DD
-  - name: '{module}/c29'
-    position: c29
+  - name: '{module}/1/c29'
+    position: '{module}/1/c29'
     label: QSFP-DD
-  - name: '{module}/c30'
-    position: c30
+  - name: '{module}/1/c30'
+    position: '{module}/1/c30'
     label: QSFP-DD
-  - name: '{module}/c31'
-    position: c31
+  - name: '{module}/1/c31'
+    position: '{module}/1/c31'
     label: QSFP-DD
-  - name: '{module}/c32'
-    position: c32
+  - name: '{module}/1/c32'
+    position: '{module}/1/c32'
     label: QSFP-DD
-  - name: '{module}/c33'
-    position: c33
+  - name: '{module}/1/c33'
+    position: '{module}/1/c33'
     label: QSFP-DD
-  - name: '{module}/c34'
-    position: c34
+  - name: '{module}/1/c34'
+    position: '{module}/1/c34'
     label: QSFP-DD
-  - name: '{module}/c35'
-    position: c35
+  - name: '{module}/1/c35'
+    position: '{module}/1/c35'
     label: QSFP-DD
-  - name: '{module}/c36'
-    position: c36
+  - name: '{module}/1/c36'
+    position: '{module}/1/c36'
     label: QSFP-DD
