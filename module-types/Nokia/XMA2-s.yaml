@@ -11,9 +11,6 @@ comments: >-
   Installs in XIOM slot of XCM2-7s/14s. SROS xiom-type: x2-s36-800g-qsfpdd-6.0t.
   mda-type m36-800g-qsfpdd is automatically configured; the XMA2-s is an integrated
   unit (same PN and serial for both XIOM and MDA CLI views).
-  XCM2-7s XIOM bay position uses {module}/x1 to propagate the slot number forward,
-  so {module} here resolves to the accumulated path (e.g. 2/x1), giving full SROS
-  ifNames like 2/x1/1/c1 when a QSFP-DD with template {module} is installed.
 module-bays:
   - name: '{module}/1/c1'
     position: '{module}/1/c1'
