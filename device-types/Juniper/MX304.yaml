@@ -28,3 +28,12 @@ module-bays:
     position: '0'
   - name: LCMIC1
     position: '1'
+  - name: Fan Tray 0
+    position: FAN0
+    label: Fan Tray Controller
+  - name: Fan Tray 1
+    position: FAN1
+    label: Fan Tray Controller
+  - name: Fan Tray 2
+    position: FAN2
+    label: Fan Tray Controller
