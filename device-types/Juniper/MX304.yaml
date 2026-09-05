@@ -20,14 +20,16 @@ module-bays:
     position: PSU1
   - name: RE0
     label: Routing Engine 0
-    position: '0'
+    position: re0
   - name: RE1
     label: Routing Engine 1
-    position: '1'
+    position: re1
   - name: LCMIC0
-    position: '0'
+    label: Line Card MIC 0
+    position: 0/0
   - name: LCMIC1
-    position: '1'
+    label: Line Card MIC 1
+    position: 0/1
   - name: Fan Tray 0
     position: FAN0
     label: Fan Tray Controller
