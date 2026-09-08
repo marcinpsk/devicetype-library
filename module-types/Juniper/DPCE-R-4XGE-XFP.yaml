@@ -11,14 +11,14 @@ comments: >-
   Ports modeled as module bays for transceiver installation.
 module-bays:
   - name: Transceiver 0/0
-    position: '0'
+    position: '0/0'
     label: XFP
-  - name: Transceiver 0/1
-    position: '1'
+  - name: Transceiver 1/0
+    position: '1/0'
     label: XFP
-  - name: Transceiver 0/2
-    position: '2'
+  - name: Transceiver 2/0
+    position: '2/0'
     label: XFP
-  - name: Transceiver 0/3
-    position: '3'
+  - name: Transceiver 3/0
+    position: '3/0'
     label: XFP
