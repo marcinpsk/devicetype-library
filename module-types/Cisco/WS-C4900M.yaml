@@ -1,0 +1,52 @@
+---
+manufacturer: Cisco
+model: WS-C4900M
+part_number: WS-C4900M
+description: Catalyst 4900M fixed 8-port 10GE X2 base card
+comments: >-
+  The eight fixed X2 ports of the Catalyst 4900M chassis. They are not a
+  field-replaceable card, but modelling them as the Slot 1 module gives each
+  port a bay that can hold a transceiver.
+module_bay_types:
+  - C4900M-SUP
+module-bays:
+  - name: X2 Port 1
+    label: X2
+    position: TenGigabitEthernet{module}/1
+    module_bay_types:
+      - X2
+  - name: X2 Port 2
+    label: X2
+    position: TenGigabitEthernet{module}/2
+    module_bay_types:
+      - X2
+  - name: X2 Port 3
+    label: X2
+    position: TenGigabitEthernet{module}/3
+    module_bay_types:
+      - X2
+  - name: X2 Port 4
+    label: X2
+    position: TenGigabitEthernet{module}/4
+    module_bay_types:
+      - X2
+  - name: X2 Port 5
+    label: X2
+    position: TenGigabitEthernet{module}/5
+    module_bay_types:
+      - X2
+  - name: X2 Port 6
+    label: X2
+    position: TenGigabitEthernet{module}/6
+    module_bay_types:
+      - X2
+  - name: X2 Port 7
+    label: X2
+    position: TenGigabitEthernet{module}/7
+    module_bay_types:
+      - X2
+  - name: X2 Port 8
+    label: X2
+    position: TenGigabitEthernet{module}/8
+    module_bay_types:
+      - X2

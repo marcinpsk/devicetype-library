@@ -1,0 +1,14 @@
+---
+manufacturer: Generic
+model: X2-10GB-SR
+part_number: X2-10GB-SR
+description: 10GBASE-SR X2 transceiver
+comments: >-
+  10 Gigabit Ethernet short-range X2 transceiver. 850nm, MMF, up to 300m.
+  Fits any X2 bay, including the Catalyst 4900M fixed ports and its
+  WS-X4904-10GE and WS-X4908-10GE half cards.
+module_bay_types:
+  - X2
+interfaces:
+  - name: '{module}'
+    type: 10gbase-x-x2
