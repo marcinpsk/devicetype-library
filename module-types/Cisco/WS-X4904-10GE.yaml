@@ -7,23 +7,23 @@ comments: Wire-speed 4-port 10 Gigabit Ethernet X2 half card.
 module_bay_types:
   - C4900M-HALFCARD
 module-bays:
-  - name: Port {module}/1
+  - name: X2 Port 1
     label: X2
-    position: TenGigabitEthernet{module}/1
+    position: '1'
     module_bay_types:
       - X2
-  - name: Port {module}/2
+  - name: X2 Port 2
     label: X2
-    position: TenGigabitEthernet{module}/2
+    position: '2'
     module_bay_types:
       - X2
-  - name: Port {module}/3
+  - name: X2 Port 3
     label: X2
-    position: TenGigabitEthernet{module}/3
+    position: '3'
     module_bay_types:
       - X2
-  - name: Port {module}/4
+  - name: X2 Port 4
     label: X2
-    position: TenGigabitEthernet{module}/4
+    position: '4'
     module_bay_types:
       - X2

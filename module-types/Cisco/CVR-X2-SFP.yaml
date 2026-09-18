@@ -11,11 +11,11 @@ module_bay_types:
 module-bays:
   - name: SFP 1
     label: SFP
-    position: '{module}/1'
+    position: '1'
     module_bay_types:
       - SFP
   - name: SFP 2
     label: SFP
-    position: '{module}/2'
+    position: '2'
     module_bay_types:
       - SFP

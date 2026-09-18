@@ -1,57 +1,52 @@
 ---
 manufacturer: Cisco
-model: WS-X4908-10GE
-part_number: WS-X4908-10GE
-description: Catalyst 4900M 8-port 10GE X2 half card
-comments: 8-port 10 Gigabit Ethernet X2 half card, 2:1 oversubscribed. Accepts the CVR-X2-SFP TwinGig converter.
+model: WS-C4900M
+part_number: WS-C4900M
+description: Catalyst 4900M fixed 8-port 10GE X2 base card
+comments: >-
+  The eight fixed X2 ports of the Catalyst 4900M chassis. They are not a
+  field-replaceable card, but modelling them as the Slot 1 module gives each
+  port a bay that can hold a transceiver.
 module_bay_types:
-  - C4900M-HALFCARD
+  - C4900M-SUP
 module-bays:
   - name: X2 Port 1
     label: X2
     position: '1'
     module_bay_types:
       - X2
-      - C4900M-TWINGIG
   - name: X2 Port 2
     label: X2
     position: '2'
     module_bay_types:
       - X2
-      - C4900M-TWINGIG
   - name: X2 Port 3
     label: X2
     position: '3'
     module_bay_types:
       - X2
-      - C4900M-TWINGIG
   - name: X2 Port 4
     label: X2
     position: '4'
     module_bay_types:
       - X2
-      - C4900M-TWINGIG
   - name: X2 Port 5
     label: X2
     position: '5'
     module_bay_types:
       - X2
-      - C4900M-TWINGIG
   - name: X2 Port 6
     label: X2
     position: '6'
     module_bay_types:
       - X2
-      - C4900M-TWINGIG
   - name: X2 Port 7
     label: X2
     position: '7'
     module_bay_types:
       - X2
-      - C4900M-TWINGIG
   - name: X2 Port 8
     label: X2
     position: '8'
     module_bay_types:
       - X2
-      - C4900M-TWINGIG

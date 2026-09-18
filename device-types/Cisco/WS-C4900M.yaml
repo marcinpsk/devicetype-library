@@ -14,68 +14,33 @@ interfaces:
     type: 100base-tx
     mgmt_only: true
 module-bays:
-  - name: PS1
-    label: Power Supply 1
-    position: PS1
+  - name: Slot 1
+    label: Supervisor
+    position: '1'
     module_bay_types:
-      - C4900M-PSU
-  - name: PS2
-    label: Power Supply 2
-    position: PS2
-    module_bay_types:
-      - C4900M-PSU
-  - name: Fan Tray
-    label: Fan Tray
-    position: FAN
-    module_bay_types:
-      - C4900M-FAN
+      - C4900M-SUP
   - name: Slot 2
-    label: Half-Card Slot 2
+    label: Line Card
     position: '2'
     module_bay_types:
       - C4900M-HALFCARD
   - name: Slot 3
-    label: Half-Card Slot 3
+    label: Line Card
     position: '3'
     module_bay_types:
       - C4900M-HALFCARD
-  - name: Slot 1 Port 1
-    label: X2
-    position: TenGigabitEthernet1/1
+  - name: Power Supply 1
+    label: Power Supply
+    position: PSU1
     module_bay_types:
-      - X2
-  - name: Slot 1 Port 2
-    label: X2
-    position: TenGigabitEthernet1/2
+      - C4900M-PSU
+  - name: Power Supply 2
+    label: Power Supply
+    position: PSU2
     module_bay_types:
-      - X2
-  - name: Slot 1 Port 3
-    label: X2
-    position: TenGigabitEthernet1/3
+      - C4900M-PSU
+  - name: Fan Tray 1
+    label: Fan Tray
+    position: FAN1
     module_bay_types:
-      - X2
-  - name: Slot 1 Port 4
-    label: X2
-    position: TenGigabitEthernet1/4
-    module_bay_types:
-      - X2
-  - name: Slot 1 Port 5
-    label: X2
-    position: TenGigabitEthernet1/5
-    module_bay_types:
-      - X2
-  - name: Slot 1 Port 6
-    label: X2
-    position: TenGigabitEthernet1/6
-    module_bay_types:
-      - X2
-  - name: Slot 1 Port 7
-    label: X2
-    position: TenGigabitEthernet1/7
-    module_bay_types:
-      - X2
-  - name: Slot 1 Port 8
-    label: X2
-    position: TenGigabitEthernet1/8
-    module_bay_types:
-      - X2
+      - C4900M-FAN
