@@ -5,15 +5,9 @@ part_number: CVR-X2-SFP
 description: Cisco TwinGig Converter Module, X2 to 2x SFP
 comments: >-
   Converts one 10 Gigabit Ethernet X2 port into two Gigabit Ethernet SFP slots.
-  Fits the fixed X2 ports of the Catalyst 4900M and the X2 ports of the
-  WS-X4904-10GE and WS-X4908-10GE half cards.
-
-  The resulting 1G interface names are not derivable from the X2 port. IOS
-  converts a whole port-group at once and renumbers it with a card-specific
-  offset, so on a WS-X4908-10GE port-group 4 the ports Te3/7-8 become Gi3/21-24.
-  Rename the two interfaces to match the platform after installing this module.
+  Supported only in the X2 ports of the WS-X4908-10GE half card.
 module_bay_types:
-  - X2
+  - C4900M-TWINGIG
 module-bays:
   - name: SFP 1
     label: SFP

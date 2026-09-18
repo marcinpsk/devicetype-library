@@ -12,38 +12,46 @@ module-bays:
     position: TenGigabitEthernet{module}/1
     module_bay_types:
       - X2
+      - C4900M-TWINGIG
   - name: Port {module}/2
     label: X2
     position: TenGigabitEthernet{module}/2
     module_bay_types:
       - X2
+      - C4900M-TWINGIG
   - name: Port {module}/3
     label: X2
     position: TenGigabitEthernet{module}/3
     module_bay_types:
       - X2
+      - C4900M-TWINGIG
   - name: Port {module}/4
     label: X2
     position: TenGigabitEthernet{module}/4
     module_bay_types:
       - X2
+      - C4900M-TWINGIG
   - name: Port {module}/5
     label: X2
     position: TenGigabitEthernet{module}/5
     module_bay_types:
       - X2
+      - C4900M-TWINGIG
   - name: Port {module}/6
     label: X2
     position: TenGigabitEthernet{module}/6
     module_bay_types:
       - X2
+      - C4900M-TWINGIG
   - name: Port {module}/7
     label: X2
     position: TenGigabitEthernet{module}/7
     module_bay_types:
       - X2
+      - C4900M-TWINGIG
   - name: Port {module}/8
     label: X2
     position: TenGigabitEthernet{module}/8
     module_bay_types:
       - X2
+      - C4900M-TWINGIG
