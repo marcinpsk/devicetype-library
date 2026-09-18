@@ -1,0 +1,12 @@
+---
+manufacturer: Cisco
+model: PWR-C49M-1000AC
+part_number: PWR-C49M-1000AC
+description: Catalyst 4900M 1000W AC-input power supply
+comments: 960W output. 100-240 VAC, 12 A maximum at 100 VAC, 5 A maximum at 240 VAC, 50-60 Hz.
+module_bay_types:
+  - C4900M-PSU
+power-ports:
+  - name: '{module}'
+    type: iec-60320-c14
+    maximum_draw: 1000

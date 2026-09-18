@@ -1,0 +1,25 @@
+---
+manufacturer: Cisco
+model: WS-X4908-10G-RJ45
+part_number: WS-X4908-10G-RJ45
+description: Catalyst 4900M 8-port 10GBASE-T RJ-45 half card
+comments: 8-port 10GBASE-T RJ-45 half card, 2:1 oversubscribed.
+module_bay_types:
+  - C4900M-HALFCARD
+interfaces:
+  - name: TenGigabitEthernet{module}/1
+    type: 10gbase-t
+  - name: TenGigabitEthernet{module}/2
+    type: 10gbase-t
+  - name: TenGigabitEthernet{module}/3
+    type: 10gbase-t
+  - name: TenGigabitEthernet{module}/4
+    type: 10gbase-t
+  - name: TenGigabitEthernet{module}/5
+    type: 10gbase-t
+  - name: TenGigabitEthernet{module}/6
+    type: 10gbase-t
+  - name: TenGigabitEthernet{module}/7
+    type: 10gbase-t
+  - name: TenGigabitEthernet{module}/8
+    type: 10gbase-t

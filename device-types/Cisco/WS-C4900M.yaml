@@ -5,6 +5,7 @@ slug: cisco-ws-c4900m
 part_number: WS-C4900M
 u_height: 2
 is_full_depth: true
+comments: '[Cisco Catalyst 4900M Switch Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/Data_Sheet_Cat_4900M.html)'
 console-ports:
   - name: con0
     type: rj-45
@@ -12,28 +13,69 @@ interfaces:
   - name: FastEthernet1
     type: 100base-tx
     mgmt_only: true
-  - name: TenGigabitEthernet1/1
-    type: 10gbase-x-x2
-  - name: TenGigabitEthernet1/2
-    type: 10gbase-x-x2
-  - name: TenGigabitEthernet1/3
-    type: 10gbase-x-x2
-  - name: TenGigabitEthernet1/4
-    type: 10gbase-x-x2
-  - name: TenGigabitEthernet1/5
-    type: 10gbase-x-x2
-  - name: TenGigabitEthernet1/6
-    type: 10gbase-x-x2
-  - name: TenGigabitEthernet1/7
-    type: 10gbase-x-x2
-  - name: TenGigabitEthernet1/8
-    type: 10gbase-x-x2
 module-bays:
   - name: PS1
-    position: '1'
+    label: Power Supply 1
+    position: PS1
+    module_bay_types:
+      - C4900M-PSU
   - name: PS2
-    position: '2'
+    label: Power Supply 2
+    position: PS2
+    module_bay_types:
+      - C4900M-PSU
+  - name: Fan Tray
+    label: Fan Tray
+    position: FAN
+    module_bay_types:
+      - C4900M-FAN
   - name: Slot 2
+    label: Half-Card Slot 2
     position: '2'
+    module_bay_types:
+      - C4900M-HALFCARD
   - name: Slot 3
+    label: Half-Card Slot 3
     position: '3'
+    module_bay_types:
+      - C4900M-HALFCARD
+  - name: Slot 1 Port 1
+    label: X2
+    position: TenGigabitEthernet1/1
+    module_bay_types:
+      - X2
+  - name: Slot 1 Port 2
+    label: X2
+    position: TenGigabitEthernet1/2
+    module_bay_types:
+      - X2
+  - name: Slot 1 Port 3
+    label: X2
+    position: TenGigabitEthernet1/3
+    module_bay_types:
+      - X2
+  - name: Slot 1 Port 4
+    label: X2
+    position: TenGigabitEthernet1/4
+    module_bay_types:
+      - X2
+  - name: Slot 1 Port 5
+    label: X2
+    position: TenGigabitEthernet1/5
+    module_bay_types:
+      - X2
+  - name: Slot 1 Port 6
+    label: X2
+    position: TenGigabitEthernet1/6
+    module_bay_types:
+      - X2
+  - name: Slot 1 Port 7
+    label: X2
+    position: TenGigabitEthernet1/7
+    module_bay_types:
+      - X2
+  - name: Slot 1 Port 8
+    label: X2
+    position: TenGigabitEthernet1/8
+    module_bay_types:
+      - X2
