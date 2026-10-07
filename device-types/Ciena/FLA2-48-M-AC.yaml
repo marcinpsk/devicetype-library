@@ -25,127 +25,427 @@ power-ports:
     allocated_draw: 40
 interfaces:
   - name: DCN-1
+    label: ifp-dcn-1
     type: 1000base-t
     mgmt_only: true
   - name: DCN-2
+    label: ifp-dcn-2
     type: 1000base-t
     mgmt_only: true
   - name: Eth-1
+    label: ifp-eth-1
     type: 1000base-t
     mgmt_only: true
   - name: Eth-2
+    label: ifp-eth-2
     type: 1000base-t
     mgmt_only: true
   - name: Eth-3
+    label: ifp-eth-3
     type: 1000base-t
     mgmt_only: true
   - name: Eth-4
+    label: ifp-eth-4
     type: 1000base-t
     mgmt_only: true
   - name: Mon
     type: other
-  - name: Line
-    type: other
   - name: Express
     type: other
-  - name: '61'
-    type: other
+  - name: ifp-oscl-1
+    type: virtual
+    description: Optical Service Channel, carried on the Line port
+  - name: ifp-local
+    type: virtual
+  - name: ifp-cpu-1
+    type: virtual
+front-ports:
   - name: '14'
-    type: other
-  - name: '59'
-    type: other
-  - name: '58'
-    type: other
-  - name: '57'
-    type: other
-  - name: '56'
-    type: other
-  - name: '55'
-    type: other
-  - name: '54'
-    type: other
-  - name: '53'
-    type: other
-  - name: '52'
-    type: other
-
-  - name: '50'
-    type: other
-  - name: '49'
-    type: other
-  - name: '48'
-    type: other
-  - name: '47'
-    type: other
-  - name: '46'
-    type: other
-  - name: '45'
-    type: other
-  - name: '44'
-    type: other
-  - name: '43'
-    type: other
-
-  - name: '41'
-    type: other
-  - name: '40'
-    type: other
-  - name: '39'
-    type: other
-  - name: '38'
-    type: other
-  - name: '37'
-    type: other
-  - name: '36'
-    type: other
-  - name: '35'
-    type: other
-  - name: '34'
-    type: other
-
-  - name: '32'
-    type: other
-  - name: '31'
-    type: other
-  - name: '30'
-    type: other
-  - name: '29'
-    type: other
-  - name: '28'
-    type: other
-  - name: '27'
-    type: other
-  - name: '26'
-    type: other
-  - name: '25'
-    type: other
-
-  - name: '23'
-    type: other
-  - name: '22'
-    type: other
-  - name: '21'
-    type: other
-  - name: '20'
-    type: other
-  - name: '19'
-    type: other
-  - name: '18'
-    type: other
-  - name: '17'
-    type: other
-  - name: '16'
-    type: other
-
-  - name: '60'
-    type: other
-  - name: '51'
-    type: other
-  - name: '42'
-    type: other
-  - name: '33'
-    type: other
-  - name: '24'
-    type: other
+    type: lc
+    positions: 1
+    description: 191.4 THz
   - name: '15'
-    type: other
+    type: lc
+    positions: 1
+    description: 191.5 THz
+  - name: '16'
+    type: lc
+    positions: 1
+    description: 191.6 THz
+  - name: '17'
+    type: lc
+    positions: 1
+    description: 191.7 THz
+  - name: '18'
+    type: lc
+    positions: 1
+    description: 191.8 THz
+  - name: '19'
+    type: lc
+    positions: 1
+    description: 191.9 THz
+  - name: '20'
+    type: lc
+    positions: 1
+    description: 192.0 THz
+  - name: '21'
+    type: lc
+    positions: 1
+    description: 192.1 THz
+  - name: '22'
+    type: lc
+    positions: 1
+    description: 192.2 THz
+  - name: '23'
+    type: lc
+    positions: 1
+    description: 192.3 THz
+  - name: '24'
+    type: lc
+    positions: 1
+    description: 192.4 THz
+  - name: '25'
+    type: lc
+    positions: 1
+    description: 192.5 THz
+  - name: '26'
+    type: lc
+    positions: 1
+    description: 192.6 THz
+  - name: '27'
+    type: lc
+    positions: 1
+    description: 192.7 THz
+  - name: '28'
+    type: lc
+    positions: 1
+    description: 192.8 THz
+  - name: '29'
+    type: lc
+    positions: 1
+    description: 192.9 THz
+  - name: '30'
+    type: lc
+    positions: 1
+    description: 193.0 THz
+  - name: '31'
+    type: lc
+    positions: 1
+    description: 193.1 THz
+  - name: '32'
+    type: lc
+    positions: 1
+    description: 193.2 THz
+  - name: '33'
+    type: lc
+    positions: 1
+    description: 193.3 THz
+  - name: '34'
+    type: lc
+    positions: 1
+    description: 193.4 THz
+  - name: '35'
+    type: lc
+    positions: 1
+    description: 193.5 THz
+  - name: '36'
+    type: lc
+    positions: 1
+    description: 193.6 THz
+  - name: '37'
+    type: lc
+    positions: 1
+    description: 193.7 THz
+  - name: '38'
+    type: lc
+    positions: 1
+    description: 193.8 THz
+  - name: '39'
+    type: lc
+    positions: 1
+    description: 193.9 THz
+  - name: '40'
+    type: lc
+    positions: 1
+    description: 194.0 THz
+  - name: '41'
+    type: lc
+    positions: 1
+    description: 194.1 THz
+  - name: '42'
+    type: lc
+    positions: 1
+    description: 194.2 THz
+  - name: '43'
+    type: lc
+    positions: 1
+    description: 194.3 THz
+  - name: '44'
+    type: lc
+    positions: 1
+    description: 194.4 THz
+  - name: '45'
+    type: lc
+    positions: 1
+    description: 194.5 THz
+  - name: '46'
+    type: lc
+    positions: 1
+    description: 194.6 THz
+  - name: '47'
+    type: lc
+    positions: 1
+    description: 194.7 THz
+  - name: '48'
+    type: lc
+    positions: 1
+    description: 194.8 THz
+  - name: '49'
+    type: lc
+    positions: 1
+    description: 194.9 THz
+  - name: '50'
+    type: lc
+    positions: 1
+    description: 195.0 THz
+  - name: '51'
+    type: lc
+    positions: 1
+    description: 195.1 THz
+  - name: '52'
+    type: lc
+    positions: 1
+    description: 195.2 THz
+  - name: '53'
+    type: lc
+    positions: 1
+    description: 195.3 THz
+  - name: '54'
+    type: lc
+    positions: 1
+    description: 195.4 THz
+  - name: '55'
+    type: lc
+    positions: 1
+    description: 195.5 THz
+  - name: '56'
+    type: lc
+    positions: 1
+    description: 195.6 THz
+  - name: '57'
+    type: lc
+    positions: 1
+    description: 195.7 THz
+  - name: '58'
+    type: lc
+    positions: 1
+    description: 195.8 THz
+  - name: '59'
+    type: lc
+    positions: 1
+    description: 195.9 THz
+  - name: '60'
+    type: lc
+    positions: 1
+    description: 196.0 THz
+  - name: '61'
+    type: lc
+    positions: 1
+    description: 196.1 THz
+rear-ports:
+  - name: Line
+    type: lc
+    positions: 48
+port-mappings:
+  - front_port: '14'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 1
+  - front_port: '15'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 2
+  - front_port: '16'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 3
+  - front_port: '17'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 4
+  - front_port: '18'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 5
+  - front_port: '19'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 6
+  - front_port: '20'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 7
+  - front_port: '21'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 8
+  - front_port: '22'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 9
+  - front_port: '23'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 10
+  - front_port: '24'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 11
+  - front_port: '25'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 12
+  - front_port: '26'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 13
+  - front_port: '27'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 14
+  - front_port: '28'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 15
+  - front_port: '29'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 16
+  - front_port: '30'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 17
+  - front_port: '31'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 18
+  - front_port: '32'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 19
+  - front_port: '33'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 20
+  - front_port: '34'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 21
+  - front_port: '35'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 22
+  - front_port: '36'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 23
+  - front_port: '37'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 24
+  - front_port: '38'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 25
+  - front_port: '39'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 26
+  - front_port: '40'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 27
+  - front_port: '41'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 28
+  - front_port: '42'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 29
+  - front_port: '43'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 30
+  - front_port: '44'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 31
+  - front_port: '45'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 32
+  - front_port: '46'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 33
+  - front_port: '47'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 34
+  - front_port: '48'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 35
+  - front_port: '49'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 36
+  - front_port: '50'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 37
+  - front_port: '51'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 38
+  - front_port: '52'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 39
+  - front_port: '53'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 40
+  - front_port: '54'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 41
+  - front_port: '55'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 42
+  - front_port: '56'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 43
+  - front_port: '57'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 44
+  - front_port: '58'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 45
+  - front_port: '59'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 46
+  - front_port: '60'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 47
+  - front_port: '61'
+    front_port_position: 1
+    rear_port: Line
+    rear_port_position: 48
