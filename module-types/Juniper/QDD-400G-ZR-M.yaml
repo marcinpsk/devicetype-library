@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: QDD-400G-ZR-M
+part_number: 740-131169
+description: Juniper QSFP56-DD 400G ZR+ coherent transceiver
+comments: Junos reports this optic as QSFP56-DD-400G-ZR-M, some units with vendor part 176-3360-900. Tunable C-band coherent DCO, SMF, duplex LC.
+module_bay_types:
+  - QSFP-DD
+interfaces:
+  - name: '{module}'
+    type: 400gbase-x-qsfpdd

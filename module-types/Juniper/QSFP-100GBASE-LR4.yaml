@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: QSFP-100GBASE-LR4
+part_number: 740-058732
+description: Juniper QSFP28 100GBASE-LR4 transceiver
+comments: 100GBASE-LR4 QSFP28, 1310nm LAN-WDM, SMF, duplex LC, up to 10km.
+module_bay_types:
+  - QSFP28
+interfaces:
+  - name: '{module}'
+    type: 100gbase-x-qsfp28

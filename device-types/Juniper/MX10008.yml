@@ -27,75 +27,133 @@ comments: |
 
   The MX10008 router is available in both base and redundant configurations for both AC and DC operation. MX10008 features front to back airflow (also know as airflow out or AFO).
 module-bays:
-  - name: CB0
+  - name: RE0
     label: Routing Engine 0
     position: re0
-  - name: CB1
+    module_bay_types:
+      - JNP10K-RE
+  - name: RE1
     label: Routing Engine 1
     position: re1
+    module_bay_types:
+      - JNP10K-RE
   - name: FPC 0
     label: FPC 0
     position: '0'
+    module_bay_types:
+      - MX10K-LC
   - name: FPC 1
     label: FPC 1
     position: '1'
+    module_bay_types:
+      - MX10K-LC
   - name: FPC 2
     label: FPC 2
     position: '2'
+    module_bay_types:
+      - MX10K-LC
   - name: FPC 3
     label: FPC 3
     position: '3'
+    module_bay_types:
+      - MX10K-LC
   - name: FPC 4
     label: FPC 4
     position: '4'
+    module_bay_types:
+      - MX10K-LC
   - name: FPC 5
     label: FPC 5
     position: '5'
+    module_bay_types:
+      - MX10K-LC
   - name: FPC 6
     label: FPC 6
     position: '6'
+    module_bay_types:
+      - MX10K-LC
   - name: FPC 7
     label: FPC 7
     position: '7'
-  - name: PEM0
-    label: PSU 0
+    module_bay_types:
+      - MX10K-LC
+  - name: Power Supply 0
+    label: PEM 0
     position: '0'
-  - name: PEM1
-    label: PSU 1
+    module_bay_types:
+      - JNP10K-PSU
+  - name: Power Supply 1
+    label: PEM 1
     position: '1'
-  - name: PEM2
-    label: PSU 2
+    module_bay_types:
+      - JNP10K-PSU
+  - name: Power Supply 2
+    label: PEM 2
     position: '2'
-  - name: PEM3
-    label: PSU 3
+    module_bay_types:
+      - JNP10K-PSU
+  - name: Power Supply 3
+    label: PEM 3
     position: '3'
-  - name: PEM4
-    label: PSU 4
+    module_bay_types:
+      - JNP10K-PSU
+  - name: Power Supply 4
+    label: PEM 4
     position: '4'
-  - name: PEM5
-    label: PSU 5
+    module_bay_types:
+      - JNP10K-PSU
+  - name: Power Supply 5
+    label: PEM 5
     position: '5'
+    module_bay_types:
+      - JNP10K-PSU
   - name: Fan Tray 0
     label: Fan Tray 0
     position: FanTray0
+    module_bay_types:
+      - JNP10008-FAN
   - name: Fan Tray 1
     label: Fan Tray 1
     position: FanTray1
+    module_bay_types:
+      - JNP10008-FAN
+  - name: FTC 0
+    label: Fan Tray Controller 0
+    position: '0'
+    module_bay_types:
+      - JNP10008-FTC
+  - name: FTC 1
+    label: Fan Tray Controller 1
+    position: '1'
+    module_bay_types:
+      - JNP10008-FTC
   - name: SFB0
     label: SFB 0
     position: SFB0
+    module_bay_types:
+      - JNP10008-SFB
   - name: SFB1
     label: SFB 1
     position: SFB1
+    module_bay_types:
+      - JNP10008-SFB
   - name: SFB2
     label: SFB 2
     position: SFB2
+    module_bay_types:
+      - JNP10008-SFB
   - name: SFB3
     label: SFB 3
     position: SFB3
+    module_bay_types:
+      - JNP10008-SFB
   - name: SFB4
     label: SFB 4
     position: SFB4
+    module_bay_types:
+      - JNP10008-SFB
   - name: SFB5
     label: SFB 5
     position: SFB5
+    module_bay_types:
+      - JNP10008-SFB

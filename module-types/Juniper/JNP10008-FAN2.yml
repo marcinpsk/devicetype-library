@@ -7,6 +7,8 @@ profile: Fan
 weight: 9
 weight_unit: kg
 description: Fan Tray 8 Enhanced
+module_bay_types:
+  - JNP10008-FAN
 comments: |
   [PTX10008 Cooling System](https://www.juniper.net/documentation/us/en/hardware/ptx10008/topics/topic-map/ptx10008-cooling-system.html#id-ptx10008-cooling-system-and-airflow__d40995e81)
 
