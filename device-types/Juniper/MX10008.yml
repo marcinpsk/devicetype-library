@@ -27,13 +27,13 @@ comments: |
 
   The MX10008 router is available in both base and redundant configurations for both AC and DC operation. MX10008 features front to back airflow (also know as airflow out or AFO).
 module-bays:
-  - name: RE0
-    label: Routing Engine 0
+  - name: CB0
+    label: Routing and Control Board 0
     position: re0
     module_bay_types:
       - JNP10K-RE
-  - name: RE1
-    label: Routing Engine 1
+  - name: CB1
+    label: Routing and Control Board 1
     position: re1
     module_bay_types:
       - JNP10K-RE

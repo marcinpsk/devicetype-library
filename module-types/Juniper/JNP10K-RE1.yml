@@ -22,8 +22,44 @@ comments: |
 console-ports:
   - name: '{module}-con'
     type: rj-45
+  - name: '{module}-usb'
+    type: usb-a
+  - name: '{module}-tod'
+    type: rj-45
+    description: Time of Day (ToD) port
+  - name: '{module}-bits0'
+    type: rj-45
+    description: BITS-0 clock port (RJ-48)
+  - name: '{module}-bits1'
+    type: rj-45
+    description: BITS-1 clock port (RJ-48)
+  - name: '{module}-1pps-in'
+    type: other
+    description: GPS clock port 1PPS IN (DIN 1.0/2.3)
+  - name: '{module}-1pps-out'
+    type: other
+    description: GPS clock port 1PPS OUT (DIN 1.0/2.3)
+  - name: '{module}-10mhz-in'
+    type: other
+    description: GPS clock port 10MHz IN (DIN 1.0/2.3)
+  - name: '{module}-10mhz-out'
+    type: other
+    description: GPS clock port 10MHz OUT (DIN 1.0/2.3)
 interfaces:
   - name: '{module}-em0'
     type: 1000base-t
     enabled: true
     mgmt_only: true
+  - name: '{module}-em1'
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: true
+    description: MGMT SFP port. Use em0 or em1, not both.
+  - name: '{module}-xge0'
+    type: 10gbase-x-sfpp
+    enabled: false
+    description: XGE-0 JCS port
+  - name: '{module}-xge1'
+    type: 10gbase-x-sfpp
+    enabled: false
+    description: XGE-1 JCS port
