@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: QSFP-40G-SR-BD
+part_number: QSFP-40G-SR-BD
+description: Cisco 40GBASE-SR BiDi QSFP+ transceiver
+comments: 40G BiDi QSFP+, two wavelengths in the 850nm band, MMF, duplex LC.
+module_bay_types:
+  - QSFP+
+interfaces:
+  - name: '{module}'
+    type: 40gbase-x-qsfpp

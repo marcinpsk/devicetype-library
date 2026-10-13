@@ -1,0 +1,11 @@
+---
+manufacturer: Finisar
+model: FTLX8574D3BCL
+part_number: FTLX8574D3BCL
+description: Finisar 10GBASE-SR SFP+ transceiver
+comments: 10GBASE-SR/SW SFP+, 850nm, MMF, duplex LC.
+module_bay_types:
+  - SFP+
+interfaces:
+  - name: '{module}'
+    type: 10gbase-x-sfpp
