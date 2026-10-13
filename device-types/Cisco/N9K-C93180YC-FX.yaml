@@ -23,28 +23,28 @@ module-bays:
     position: '1'
     label: Power Supply 1
     module_bay_types:
-      - N9K-9300-FX-PSU
+      - N9K-9300-EX-FX-PSU
   - name: PS2
     position: '2'
     label: Power Supply 2
     module_bay_types:
-      - N9K-9300-FX-PSU
+      - N9K-9300-EX-FX-PSU
   - name: Fan 1
     position: '1'
     module_bay_types:
-      - N9K-9300-FX-FAN
+      - N9K-9300-EX-FX-FAN
   - name: Fan 2
     position: '2'
     module_bay_types:
-      - N9K-9300-FX-FAN
+      - N9K-9300-EX-FX-FAN
   - name: Fan 3
     position: '3'
     module_bay_types:
-      - N9K-9300-FX-FAN
+      - N9K-9300-EX-FX-FAN
   - name: Fan 4
     position: '4'
     module_bay_types:
-      - N9K-9300-FX-FAN
+      - N9K-9300-EX-FX-FAN
   - name: Transceiver 1/1
     label: SFP28
     position: Ethernet1/1

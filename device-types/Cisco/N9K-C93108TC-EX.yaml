@@ -116,30 +116,66 @@ interfaces:
     type: 10gbase-t
   - name: Ethernet1/48
     type: 10gbase-t
-  - name: Ethernet1/49
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/50
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/51
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/52
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/53
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/54
-    type: 100gbase-x-qsfp28
 module-bays:
   - name: PS1
     position: '1'
     label: Power Supply 1
+    module_bay_types:
+      - N9K-9300-EX-FX-PSU
   - name: PS2
     position: '2'
     label: Power Supply 2
+    module_bay_types:
+      - N9K-9300-EX-FX-PSU
   - name: Fan 1
     position: '1'
+    module_bay_types:
+      - N9K-9300-EX-FX-FAN
   - name: Fan 2
     position: '2'
+    module_bay_types:
+      - N9K-9300-EX-FX-FAN
   - name: Fan 3
     position: '3'
+    module_bay_types:
+      - N9K-9300-EX-FX-FAN
   - name: Fan 4
     position: '4'
+    module_bay_types:
+      - N9K-9300-EX-FX-FAN
+  - name: Transceiver 1/49
+    label: QSFP28
+    position: Ethernet1/49
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/50
+    label: QSFP28
+    position: Ethernet1/50
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/51
+    label: QSFP28
+    position: Ethernet1/51
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/52
+    label: QSFP28
+    position: Ethernet1/52
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/53
+    label: QSFP28
+    position: Ethernet1/53
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/54
+    label: QSFP28
+    position: Ethernet1/54
+    module_bay_types:
+      - QSFP28
+      - QSFP+
