@@ -121,12 +121,12 @@ module-bays:
     position: '1'
     label: Power Supply 1
     module_bay_types:
-      - N9K-9300-EX-FX-PSU
+      - N9K-9300-PSU
   - name: PS2
     position: '2'
     label: Power Supply 2
     module_bay_types:
-      - N9K-9300-EX-FX-PSU
+      - N9K-9300-PSU
   - name: Fan 1
     position: '1'
     module_bay_types:

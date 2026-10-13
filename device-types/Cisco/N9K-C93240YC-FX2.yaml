@@ -23,12 +23,12 @@ module-bays:
     label: Power Supply 1
     position: '1'
     module_bay_types:
-      - N9K-C93240YC-FX2-PSU
+      - N9K-9300-PSU
   - name: PS2
     label: Power Supply 2
     position: '2'
     module_bay_types:
-      - N9K-C93240YC-FX2-PSU
+      - N9K-9300-PSU
   - name: Fan 1
     position: '1'
     module_bay_types:
