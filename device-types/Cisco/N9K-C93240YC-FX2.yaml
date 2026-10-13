@@ -15,126 +15,6 @@ console-ports:
   - name: usb1
     type: usb-a
 interfaces:
-  - name: Ethernet1/1
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/2
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/3
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/4
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/5
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/6
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/7
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/8
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/9
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/10
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/11
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/12
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/13
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/14
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/15
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/16
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/17
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/18
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/19
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/20
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/21
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/22
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/23
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/24
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/25
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/26
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/27
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/28
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/29
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/30
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/31
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/32
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/33
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/34
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/35
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/36
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/37
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/38
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/39
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/40
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/41
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/42
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/43
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/44
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/45
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/46
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/47
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/48
-    type: 25gbase-x-sfp28
-  - name: Ethernet1/49
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/50
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/51
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/52
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/53
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/54
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/55
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/56
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/57
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/58
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/59
-    type: 100gbase-x-qsfp28
-  - name: Ethernet1/60
-    type: 100gbase-x-qsfp28
   - name: mgmt0
     type: 1000base-t
     mgmt_only: true
@@ -142,16 +22,438 @@ module-bays:
   - name: PS1
     label: Power Supply 1
     position: '1'
+    module_bay_types:
+      - N9K-C93240YC-FX2-PSU
   - name: PS2
     label: Power Supply 2
     position: '2'
+    module_bay_types:
+      - N9K-C93240YC-FX2-PSU
   - name: Fan 1
     position: '1'
+    module_bay_types:
+      - N9K-C93240YC-FX2-FAN
   - name: Fan 2
     position: '2'
+    module_bay_types:
+      - N9K-C93240YC-FX2-FAN
   - name: Fan 3
     position: '3'
+    module_bay_types:
+      - N9K-C93240YC-FX2-FAN
   - name: Fan 4
     position: '4'
+    module_bay_types:
+      - N9K-C93240YC-FX2-FAN
   - name: Fan 5
     position: '5'
+    module_bay_types:
+      - N9K-C93240YC-FX2-FAN
+  - name: Transceiver 1/1
+    label: SFP28
+    position: Ethernet1/1
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/2
+    label: SFP28
+    position: Ethernet1/2
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/3
+    label: SFP28
+    position: Ethernet1/3
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/4
+    label: SFP28
+    position: Ethernet1/4
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/5
+    label: SFP28
+    position: Ethernet1/5
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/6
+    label: SFP28
+    position: Ethernet1/6
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/7
+    label: SFP28
+    position: Ethernet1/7
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/8
+    label: SFP28
+    position: Ethernet1/8
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/9
+    label: SFP28
+    position: Ethernet1/9
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/10
+    label: SFP28
+    position: Ethernet1/10
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/11
+    label: SFP28
+    position: Ethernet1/11
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/12
+    label: SFP28
+    position: Ethernet1/12
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/13
+    label: SFP28
+    position: Ethernet1/13
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/14
+    label: SFP28
+    position: Ethernet1/14
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/15
+    label: SFP28
+    position: Ethernet1/15
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/16
+    label: SFP28
+    position: Ethernet1/16
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/17
+    label: SFP28
+    position: Ethernet1/17
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/18
+    label: SFP28
+    position: Ethernet1/18
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/19
+    label: SFP28
+    position: Ethernet1/19
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/20
+    label: SFP28
+    position: Ethernet1/20
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/21
+    label: SFP28
+    position: Ethernet1/21
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/22
+    label: SFP28
+    position: Ethernet1/22
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/23
+    label: SFP28
+    position: Ethernet1/23
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/24
+    label: SFP28
+    position: Ethernet1/24
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/25
+    label: SFP28
+    position: Ethernet1/25
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/26
+    label: SFP28
+    position: Ethernet1/26
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/27
+    label: SFP28
+    position: Ethernet1/27
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/28
+    label: SFP28
+    position: Ethernet1/28
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/29
+    label: SFP28
+    position: Ethernet1/29
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/30
+    label: SFP28
+    position: Ethernet1/30
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/31
+    label: SFP28
+    position: Ethernet1/31
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/32
+    label: SFP28
+    position: Ethernet1/32
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/33
+    label: SFP28
+    position: Ethernet1/33
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/34
+    label: SFP28
+    position: Ethernet1/34
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/35
+    label: SFP28
+    position: Ethernet1/35
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/36
+    label: SFP28
+    position: Ethernet1/36
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/37
+    label: SFP28
+    position: Ethernet1/37
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/38
+    label: SFP28
+    position: Ethernet1/38
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/39
+    label: SFP28
+    position: Ethernet1/39
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/40
+    label: SFP28
+    position: Ethernet1/40
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/41
+    label: SFP28
+    position: Ethernet1/41
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/42
+    label: SFP28
+    position: Ethernet1/42
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/43
+    label: SFP28
+    position: Ethernet1/43
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/44
+    label: SFP28
+    position: Ethernet1/44
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/45
+    label: SFP28
+    position: Ethernet1/45
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/46
+    label: SFP28
+    position: Ethernet1/46
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/47
+    label: SFP28
+    position: Ethernet1/47
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/48
+    label: SFP28
+    position: Ethernet1/48
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 1/49
+    label: QSFP28
+    position: Ethernet1/49
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/50
+    label: QSFP28
+    position: Ethernet1/50
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/51
+    label: QSFP28
+    position: Ethernet1/51
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/52
+    label: QSFP28
+    position: Ethernet1/52
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/53
+    label: QSFP28
+    position: Ethernet1/53
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/54
+    label: QSFP28
+    position: Ethernet1/54
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/55
+    label: QSFP28
+    position: Ethernet1/55
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/56
+    label: QSFP28
+    position: Ethernet1/56
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/57
+    label: QSFP28
+    position: Ethernet1/57
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/58
+    label: QSFP28
+    position: Ethernet1/58
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/59
+    label: QSFP28
+    position: Ethernet1/59
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 1/60
+    label: QSFP28
+    position: Ethernet1/60
+    module_bay_types:
+      - QSFP28
+      - QSFP+
