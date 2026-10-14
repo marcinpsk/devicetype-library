@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: QDD-400G-ZRP-S
+part_number: QDD-400G-ZRP-S
+description: Cisco 400G QSFP-DD ZR+ coherent transceiver
+comments: OpenZR+ MSA. Tunable C-band coherent DCO, SMF, duplex LC.
+module_bay_types:
+  - QSFP-DD
+interfaces:
+  - name: '{module}'
+    type: 400gbase-x-qsfpdd

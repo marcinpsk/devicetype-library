@@ -1,0 +1,5 @@
+---
+name: 8000-PSU
+slug: 8000-psu
+manufacturer: Cisco
+description: Cisco 8000 Series fixed router power module slot. Check the router data sheet for the supported power modules.
