@@ -1,13 +1,16 @@
 ---
 manufacturer: Juniper
 model: RE-S-2000-4096
-part_number: RE-S-2000-4096
+part_number: 740-013063
+description: Juniper MX240/MX480/MX960 Routing Engine, 2.0 GHz, 4 GB
+module_bay_types:
+  - MX-RE
 console-ports:
-  - name: Console
+  - name: '{module}-con'
     type: rj-45
-  - name: AUX
+  - name: '{module}-aux'
     type: rj-45
 interfaces:
-  - name: fxp0
+  - name: '{module}-fxp0'
     type: 1000base-t
     mgmt_only: true
