@@ -4,7 +4,13 @@ model: SCBE-MX
 part_number: 750-031391
 description: Juniper Switch Control Board Enhanced
 comments: >-
-  MX960 SCB Enhanced module. Provides switch fabric planes.
-  Installed in CB 0, CB 1, or CB 2 slots.
+  MX240/MX480/MX960 SCB Enhanced module. Provides switch fabric planes.
+  The Routing Engine installs in the SCB.
 module_bay_types:
   - MX-SCB
+module-bays:
+  - name: RE{module}
+    label: Routing Engine
+    position: re{module}
+    module_bay_types:
+      - MX-RE

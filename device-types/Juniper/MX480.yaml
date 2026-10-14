@@ -18,16 +18,6 @@ module-bays:
     position: '1'
     module_bay_types:
       - MX-SCB
-  - name: RE0
-    label: Routing Engine 0
-    position: re0
-    module_bay_types:
-      - MX-RE
-  - name: RE1
-    label: Routing Engine 1
-    position: re1
-    module_bay_types:
-      - MX-RE
   - name: FPC 0
     position: '0'
     module_bay_types:

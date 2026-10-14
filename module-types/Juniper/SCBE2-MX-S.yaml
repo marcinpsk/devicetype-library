@@ -7,3 +7,9 @@ weight: 3.2
 weight_unit: kg
 module_bay_types:
   - MX-SCB
+module-bays:
+  - name: RE{module}
+    label: Routing Engine
+    position: re{module}
+    module_bay_types:
+      - MX-RE
