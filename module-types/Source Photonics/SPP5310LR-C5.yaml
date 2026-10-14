@@ -1,0 +1,11 @@
+---
+manufacturer: Source Photonics
+model: SPP5310LR-C5
+part_number: SPP5310LR-C5
+description: Source Photonics 10GBASE-LR SFP+ transceiver
+comments: 10GBASE-LR SFP+, 1310nm, SMF, duplex LC. Junos reports this optic as SFP+-10G-LR.
+module_bay_types:
+  - SFP+
+interfaces:
+  - name: '{module}'
+    type: 10gbase-x-sfpp

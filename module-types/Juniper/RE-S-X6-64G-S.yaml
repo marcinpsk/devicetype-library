@@ -1,0 +1,21 @@
+---
+manufacturer: Juniper
+model: RE-S-X6-64G-S
+part_number: 750-054758
+description: Juniper MX240/MX480/MX960 Routing Engine, 6-core CPU, 64 GB DRAM
+comments: Two 50 GB SSDs. Front panel has CONSOLE, AUX, MGMT (fxp0), USB1 and USB2.
+module_bay_types:
+  - MX-RE
+console-ports:
+  - name: '{module}-con'
+    type: rj-45
+  - name: '{module}-aux'
+    type: rj-45
+  - name: '{module}-usb1'
+    type: usb-a
+  - name: '{module}-usb2'
+    type: usb-a
+interfaces:
+  - name: '{module}-fxp0'
+    type: 1000base-t
+    mgmt_only: true

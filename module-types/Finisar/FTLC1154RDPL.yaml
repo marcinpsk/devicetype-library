@@ -1,0 +1,11 @@
+---
+manufacturer: Finisar
+model: FTLC1154RDPL
+part_number: FTLC1154RDPL
+description: Finisar 100GBASE-LR4 QSFP28 transceiver
+comments: 100GBASE-LR4 QSFP28, 1310nm LAN-WDM, SMF, duplex LC, up to 10km.
+module_bay_types:
+  - QSFP28
+interfaces:
+  - name: '{module}'
+    type: 100gbase-x-qsfp28
