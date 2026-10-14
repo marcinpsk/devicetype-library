@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: JNP-QSFP-100G-LR4
+part_number: 740-061409
+description: Juniper QSFP28 100GBASE-LR4 transceiver
+comments: Junos reports this optic as QSFP-100GBASE-LR4. 1310nm LAN-WDM, SMF, duplex LC, up to 10km.
+module_bay_types:
+  - QSFP28
+interfaces:
+  - name: '{module}'
+    type: 100gbase-x-qsfp28

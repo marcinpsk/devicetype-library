@@ -5,111 +5,255 @@ part_number: JNP10K-LC1201
 description: Juniper PTX10K 36-port QSFP-DD Line Card
 comments: PTX10008 line card with 36x QSFP-DD (400GE) ports.
 module-bays:
-  - name: Transceiver 0/0
-    position: 0/0
+  - name: Transceiver {module}/0/0
     label: QSFP-DD
-  - name: Transceiver 0/1
-    position: 0/1
+    position: et-{module}/0/0
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/1
     label: QSFP-DD
-  - name: Transceiver 0/2
-    position: 0/2
+    position: et-{module}/0/1
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/2
     label: QSFP-DD
-  - name: Transceiver 0/3
-    position: 0/3
+    position: et-{module}/0/2
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/3
     label: QSFP-DD
-  - name: Transceiver 0/4
-    position: 0/4
+    position: et-{module}/0/3
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/4
     label: QSFP-DD
-  - name: Transceiver 0/5
-    position: 0/5
+    position: et-{module}/0/4
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/5
     label: QSFP-DD
-  - name: Transceiver 0/6
-    position: 0/6
+    position: et-{module}/0/5
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/6
     label: QSFP-DD
-  - name: Transceiver 0/7
-    position: 0/7
+    position: et-{module}/0/6
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/7
     label: QSFP-DD
-  - name: Transceiver 0/8
-    position: 0/8
+    position: et-{module}/0/7
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/8
     label: QSFP-DD
-  - name: Transceiver 0/9
-    position: 0/9
+    position: et-{module}/0/8
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/9
     label: QSFP-DD
-  - name: Transceiver 0/10
-    position: 0/10
+    position: et-{module}/0/9
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/10
     label: QSFP-DD
-  - name: Transceiver 0/11
-    position: 0/11
+    position: et-{module}/0/10
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/11
     label: QSFP-DD
-  - name: Transceiver 0/12
-    position: 0/12
+    position: et-{module}/0/11
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/12
     label: QSFP-DD
-  - name: Transceiver 0/13
-    position: 0/13
+    position: et-{module}/0/12
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/13
     label: QSFP-DD
-  - name: Transceiver 0/14
-    position: 0/14
+    position: et-{module}/0/13
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/14
     label: QSFP-DD
-  - name: Transceiver 0/15
-    position: 0/15
+    position: et-{module}/0/14
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/15
     label: QSFP-DD
-  - name: Transceiver 0/16
-    position: 0/16
+    position: et-{module}/0/15
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/16
     label: QSFP-DD
-  - name: Transceiver 0/17
-    position: 0/17
+    position: et-{module}/0/16
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/17
     label: QSFP-DD
-  - name: Transceiver 0/18
-    position: 0/18
+    position: et-{module}/0/17
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/18
     label: QSFP-DD
-  - name: Transceiver 0/19
-    position: 0/19
+    position: et-{module}/0/18
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/19
     label: QSFP-DD
-  - name: Transceiver 0/20
-    position: 0/20
+    position: et-{module}/0/19
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/20
     label: QSFP-DD
-  - name: Transceiver 0/21
-    position: 0/21
+    position: et-{module}/0/20
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/21
     label: QSFP-DD
-  - name: Transceiver 0/22
-    position: 0/22
+    position: et-{module}/0/21
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/22
     label: QSFP-DD
-  - name: Transceiver 0/23
-    position: 0/23
+    position: et-{module}/0/22
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/23
     label: QSFP-DD
-  - name: Transceiver 0/24
-    position: 0/24
+    position: et-{module}/0/23
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/24
     label: QSFP-DD
-  - name: Transceiver 0/25
-    position: 0/25
+    position: et-{module}/0/24
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/25
     label: QSFP-DD
-  - name: Transceiver 0/26
-    position: 0/26
+    position: et-{module}/0/25
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/26
     label: QSFP-DD
-  - name: Transceiver 0/27
-    position: 0/27
+    position: et-{module}/0/26
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/27
     label: QSFP-DD
-  - name: Transceiver 0/28
-    position: 0/28
+    position: et-{module}/0/27
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/28
     label: QSFP-DD
-  - name: Transceiver 0/29
-    position: 0/29
+    position: et-{module}/0/28
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/29
     label: QSFP-DD
-  - name: Transceiver 0/30
-    position: 0/30
+    position: et-{module}/0/29
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/30
     label: QSFP-DD
-  - name: Transceiver 0/31
-    position: 0/31
+    position: et-{module}/0/30
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/31
     label: QSFP-DD
-  - name: Transceiver 0/32
-    position: 0/32
+    position: et-{module}/0/31
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/32
     label: QSFP-DD
-  - name: Transceiver 0/33
-    position: 0/33
+    position: et-{module}/0/32
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/33
     label: QSFP-DD
-  - name: Transceiver 0/34
-    position: 0/34
+    position: et-{module}/0/33
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/34
     label: QSFP-DD
-  - name: Transceiver 0/35
-    position: 0/35
+    position: et-{module}/0/34
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver {module}/0/35
     label: QSFP-DD
+    position: et-{module}/0/35
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+

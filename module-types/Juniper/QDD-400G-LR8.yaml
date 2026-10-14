@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: QDD-400G-LR8
+part_number: 740-082823
+description: Juniper QSFP56-DD 400GBASE-LR8 transceiver
+comments: Junos reports this optic as QSFP56-DD-400GBASE-LR8. SMF, duplex LC, up to 10km.
+module_bay_types:
+  - QSFP-DD
+interfaces:
+  - name: '{module}'
+    type: 400gbase-x-qsfpdd

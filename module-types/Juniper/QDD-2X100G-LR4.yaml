@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: QDD-2X100G-LR4
+part_number: 740-079871
+description: Juniper QSFP28-DD 2x 100GBASE-LR4 transceiver
+comments: Junos reports this optic as QSFP28-DD-2X100GBASE-LR4. SMF, dual duplex CS, up to 10km.
+module_bay_types:
+  - QSFP-DD
+interfaces:
+  - name: '{module}'
+    type: 200gbase-x-qsfpdd

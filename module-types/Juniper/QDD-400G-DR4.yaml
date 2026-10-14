@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: QDD-400G-DR4
+part_number: 740-085351
+description: Juniper QSFP56-DD 400GBASE-DR4 transceiver
+comments: Junos reports this optic as QSFP56-DD-400GBASE-DR4. Supports 4x 100GBASE-DR breakout. SMF, MPO-12 APC, up to 500m.
+module_bay_types:
+  - QSFP-DD
+interfaces:
+  - name: '{module}'
+    type: 400gbase-x-qsfpdd
