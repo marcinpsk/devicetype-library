@@ -4,6 +4,8 @@ model: A9K-RSP880-TR
 part_number: A9K-RSP880-TR
 comments: '[Cisco ASR 9000 Route Switch Processor 880 Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-733763.html)'
 description: ASR9K Route Switch Processor with 880G/slot Fabric and 16GB
+module_bay_types:
+  - ASR9K-RSP
 console-ports:
   - name: console{module}
     type: rj-45

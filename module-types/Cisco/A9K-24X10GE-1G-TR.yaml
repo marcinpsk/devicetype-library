@@ -4,6 +4,153 @@ model: A9K-24X10GE-1G-TR
 part_number: A9K-24X10GE-1G-TR
 description: 24X10G/1G Packet Transport Optimized LC
 comments: '[Cisco ASR 9000 Series 24-Port and 48-Port Dual-Rate 10GE/1GE Line Card Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-738704.html)'
+module_bay_types:
+  - ASR9K-LC
+module-bays:
+  - name: Transceiver 0/{module}/0/0
+    label: SFP+
+    position: TenGigE0/{module}/0/0
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/1
+    label: SFP+
+    position: TenGigE0/{module}/0/1
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/2
+    label: SFP+
+    position: TenGigE0/{module}/0/2
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/3
+    label: SFP+
+    position: TenGigE0/{module}/0/3
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/4
+    label: SFP+
+    position: TenGigE0/{module}/0/4
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/5
+    label: SFP+
+    position: TenGigE0/{module}/0/5
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/6
+    label: SFP+
+    position: TenGigE0/{module}/0/6
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/7
+    label: SFP+
+    position: TenGigE0/{module}/0/7
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/8
+    label: SFP+
+    position: TenGigE0/{module}/0/8
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/9
+    label: SFP+
+    position: TenGigE0/{module}/0/9
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/10
+    label: SFP+
+    position: TenGigE0/{module}/0/10
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/11
+    label: SFP+
+    position: TenGigE0/{module}/0/11
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/12
+    label: SFP+
+    position: TenGigE0/{module}/0/12
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/13
+    label: SFP+
+    position: TenGigE0/{module}/0/13
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/14
+    label: SFP+
+    position: TenGigE0/{module}/0/14
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/15
+    label: SFP+
+    position: TenGigE0/{module}/0/15
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/16
+    label: SFP+
+    position: TenGigE0/{module}/0/16
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/17
+    label: SFP+
+    position: TenGigE0/{module}/0/17
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/18
+    label: SFP+
+    position: TenGigE0/{module}/0/18
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/19
+    label: SFP+
+    position: TenGigE0/{module}/0/19
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/20
+    label: SFP+
+    position: TenGigE0/{module}/0/20
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/21
+    label: SFP+
+    position: TenGigE0/{module}/0/21
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/22
+    label: SFP+
+    position: TenGigE0/{module}/0/22
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/{module}/0/23
+    label: SFP+
+    position: TenGigE0/{module}/0/23
+    module_bay_types:
+      - SFP+
+      - SFP
 interfaces:
   - name: TenGigE0/{module}/0/0
     type: 10gbase-x-sfpp

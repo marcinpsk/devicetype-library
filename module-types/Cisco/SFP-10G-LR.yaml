@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: SFP-10G-LR
+part_number: SFP-10G-LR
+description: Cisco 10GBASE-LR SFP+ transceiver
+comments: 10GBASE-LR SFP+, 1310nm, SMF, duplex LC, up to 10km.
+module_bay_types:
+  - SFP+
+interfaces:
+  - name: '{module}'
+    type: 10gbase-x-sfpp
