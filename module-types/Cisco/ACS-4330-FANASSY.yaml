@@ -1,0 +1,7 @@
+---
+manufacturer: Cisco
+model: ACS-4330-FANASSY
+part_number: ACS-4330-FANASSY
+description: Cisco ISR 4330 fan assembly
+module_bay_types:
+  - ISR4330-FAN

@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: PWR-4330-AC
+part_number: PWR-4330-AC
+description: Cisco 250W AC power supply for ISR 4330
+module_bay_types:
+  - ISR4330-PSU
+power-ports:
+  - name: '{module}'
+    type: iec-60320-c14
+    maximum_draw: 250

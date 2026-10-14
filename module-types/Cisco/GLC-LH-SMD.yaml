@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: GLC-LH-SMD
+part_number: GLC-LH-SMD
+description: Cisco 1000BASE-LX/LH SFP transceiver, MMF and SMF, with DOM
+comments: 1310nm, duplex LC, up to 10km on SMF and 550m on MMF.
+module_bay_types:
+  - SFP
+interfaces:
+  - name: '{module}'
+    type: 1000base-x-sfp

@@ -22,7 +22,41 @@ console-ports:
     type: rj-45
   - name: usb
     type: usb-mini-b
-power-ports:
-  - name: PSU0
-    type: iec-60320-c14
-    maximum_draw: 250
+  - name: aux 0
+    type: rj-45
+module-bays:
+  - name: Transceiver 0/0/0
+    label: SFP
+    position: GigabitEthernet0/0/0
+    module_bay_types:
+      - SFP
+  - name: Transceiver 0/0/2
+    label: SFP
+    position: GigabitEthernet0/0/2
+    module_bay_types:
+      - SFP
+  - name: subslot 0/1
+    label: NIM 1
+    position: '1'
+  - name: subslot 0/2
+    label: NIM 2
+    position: '2'
+  - name: subslot 0/4
+    label: PVDM
+    position: '4'
+  - name: subslot 0/5
+    label: SSD
+    position: '5'
+  - name: slot 1
+    label: SM-X
+    position: '1'
+  - name: Power Supply Module 0
+    label: PS0
+    position: '0'
+    module_bay_types:
+      - ISR4330-PSU
+  - name: Fan Tray
+    label: Fan Tray
+    position: FAN
+    module_bay_types:
+      - ISR4330-FAN
