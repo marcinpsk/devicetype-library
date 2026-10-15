@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: QSFP-40/100-SRBD
+part_number: QSFP-40/100-SRBD
+description: Cisco 40/100GBASE-SR BiDi QSFP28 transceiver, dual rate
+comments: Two wavelengths in the 850nm band, MMF, duplex LC. Vendor part SFBR-89BDDZ-CS4 (Broadcom, made for Cisco). Junos reports it as UNKNOWN.
+module_bay_types:
+  - QSFP28
+interfaces:
+  - name: '{module}'
+    type: 100gbase-x-qsfp28
