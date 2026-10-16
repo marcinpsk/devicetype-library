@@ -109,32 +109,32 @@ module-bays:
       - JNP10008-FTC
   # Power supplies
   - name: PSM 0
-    position: PSM0
+    position: '0'
     label: Power Supply
     module_bay_types:
       - JNP10K-PSU
   - name: PSM 1
-    position: PSM1
+    position: '1'
     label: Power Supply
     module_bay_types:
       - JNP10K-PSU
   - name: PSM 2
-    position: PSM2
+    position: '2'
     label: Power Supply
     module_bay_types:
       - JNP10K-PSU
   - name: PSM 3
-    position: PSM3
+    position: '3'
     label: Power Supply
     module_bay_types:
       - JNP10K-PSU
   - name: PSM 4
-    position: PSM4
+    position: '4'
     label: Power Supply
     module_bay_types:
       - JNP10K-PSU
   - name: PSM 5
-    position: PSM5
+    position: '5'
     label: Power Supply
     module_bay_types:
       - JNP10K-PSU
