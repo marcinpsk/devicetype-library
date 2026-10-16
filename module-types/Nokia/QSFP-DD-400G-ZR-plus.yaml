@@ -1,0 +1,14 @@
+---
+manufacturer: Nokia
+model: QSFP-DD-400G-ZR+
+part_number: 3HE18360AA
+description: Nokia QSFP56-DD 400G ZR+ coherent DCO transceiver, 0 dBm
+comments: >-
+  Nokia-branded QSFP-DD 400G ZR+ pluggable coherent optic, 0 dBm transmit power.
+  Tunable C-band DCO, SMF, duplex LC.
+  Breakout modes: c1-400g, c4-100g, c3-100g, c2-100g, c1-100g-aui2.
+module_bay_types:
+  - QSFP-DD
+interfaces:
+  - name: '{module}'
+    type: 400gbase-x-qsfpdd
