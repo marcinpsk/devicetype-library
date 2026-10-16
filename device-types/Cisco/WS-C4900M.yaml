@@ -6,6 +6,8 @@ part_number: WS-C4900M
 u_height: 2
 is_full_depth: true
 comments: '[Cisco Catalyst 4900M Switch Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/Data_Sheet_Cat_4900M.html)'
+front_image: true
+rear_image: true
 console-ports:
   - name: con0
     type: rj-45

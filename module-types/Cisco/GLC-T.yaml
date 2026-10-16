@@ -1,9 +1,18 @@
 ---
 manufacturer: Cisco
 model: GLC-T
-part_number: GLC-T
-description: Cisco 1000BASE-T SFP transceiver
-comments: 1000BASE-T copper SFP, RJ-45, up to 100m on Cat5.
+part_number: 30-1410-03
+weight: 75.0
+weight_unit: g
+profile: Transceiver
+attribute_data:
+  phy: 1000BASE-T
+  media: Copper
+  reach: 100.0
+  data_rate: 1G
+  form_factor: SFP
+  connector_type: RJ-45
+comments: '[Cisco SFP Modules for Gigabit Ethernet Applications Data Sheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/gigabit-ethernet-gbic-sfp-modules/datasheet-c78-366584.html)'
 module_bay_types:
   - SFP
 interfaces:

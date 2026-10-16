@@ -1,11 +1,20 @@
 ---
 manufacturer: Cisco
 model: SFP-10G-SR
-part_number: SFP-10G-SR
-description: Cisco 10GBASE-SR SFP+ transceiver
-comments: 10GBASE-SR SFP+, 850nm, MMF, duplex LC.
+part_number: 10-2415-03
+weight: 75.0
+weight_unit: g
+profile: Transceiver
+attribute_data:
+  phy: 10GBASE-SR
+  media: MMF
+  reach: 400.0
+  data_rate: 10G
+  form_factor: SFP+
+  connector_type: LC/UPC
+comments: '[Cisco 10GBASE SFP+ modules data sheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/data_sheet_c78-455693.html)'
 module_bay_types:
   - SFP+
 interfaces:
   - name: '{module}'
-    type: 10gbase-x-sfpp
+    type: 10gbase-sr
