@@ -47,51 +47,94 @@ module-bays:
   - name: RE 0
     position: RE0
     label: Routing Engine
+    module_bay_types:
+      - JNP10K-RE
   - name: RE 1
     position: RE1
     label: Routing Engine
-  # Switch Interface Boards (SIBs / Switch Fabric)
-  - name: CB 0
-    position: CB0
+    module_bay_types:
+      - JNP10K-RE
+  # Switch Interface Boards (SIBs)
+  - name: SIB 0
+    position: SIB0
     label: SIB
-  - name: CB 1
-    position: CB1
+    module_bay_types:
+      - JNP10008-SFB
+  - name: SIB 1
+    position: SIB1
     label: SIB
-  - name: CB 2
-    position: CB2
+    module_bay_types:
+      - JNP10008-SFB
+  - name: SIB 2
+    position: SIB2
     label: SIB
-  - name: CB 3
-    position: CB3
+    module_bay_types:
+      - JNP10008-SFB
+  - name: SIB 3
+    position: SIB3
     label: SIB
-  - name: CB 4
-    position: CB4
+    module_bay_types:
+      - JNP10008-SFB
+  - name: SIB 4
+    position: SIB4
     label: SIB
-  - name: CB 5
-    position: CB5
+    module_bay_types:
+      - JNP10008-SFB
+  - name: SIB 5
+    position: SIB5
     label: SIB
-  # Fan tray controllers
+    module_bay_types:
+      - JNP10008-SFB
+  # Fan trays
   - name: Fan Tray 0
     position: FAN0
-    label: Fan Tray Controller
+    label: Fan Tray
+    module_bay_types:
+      - JNP10008-FAN
   - name: Fan Tray 1
     position: FAN1
+    label: Fan Tray
+    module_bay_types:
+      - JNP10008-FAN
+  # Fan tray controllers
+  - name: Fan Tray Controller 0
+    position: FTC0
     label: Fan Tray Controller
+    module_bay_types:
+      - JNP10008-FTC
+  - name: Fan Tray Controller 1
+    position: FTC1
+    label: Fan Tray Controller
+    module_bay_types:
+      - JNP10008-FTC
   # Power supplies
-  - name: PEM 0
-    position: PEM0
+  - name: PSM 0
+    position: PSM0
     label: Power Supply
-  - name: PEM 1
-    position: PEM1
+    module_bay_types:
+      - JNP10K-PSU
+  - name: PSM 1
+    position: PSM1
     label: Power Supply
-  - name: PEM 2
-    position: PEM2
+    module_bay_types:
+      - JNP10K-PSU
+  - name: PSM 2
+    position: PSM2
     label: Power Supply
-  - name: PEM 3
-    position: PEM3
+    module_bay_types:
+      - JNP10K-PSU
+  - name: PSM 3
+    position: PSM3
     label: Power Supply
-  - name: PEM 4
-    position: PEM4
+    module_bay_types:
+      - JNP10K-PSU
+  - name: PSM 4
+    position: PSM4
     label: Power Supply
-  - name: PEM 5
-    position: PEM5
+    module_bay_types:
+      - JNP10K-PSU
+  - name: PSM 5
+    position: PSM5
     label: Power Supply
+    module_bay_types:
+      - JNP10K-PSU
