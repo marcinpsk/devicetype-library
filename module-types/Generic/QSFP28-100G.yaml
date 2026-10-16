@@ -1,0 +1,11 @@
+---
+manufacturer: Generic
+model: QSFP28-100G
+part_number: QSFP28-100G
+description: Generic 100G QSFP28 transceiver
+comments: Use for a 100G QSFP28 optic that reports no vendor part number.
+module_bay_types:
+  - QSFP28
+interfaces:
+  - name: '{module}'
+    type: 100gbase-x-qsfp28
