@@ -6,9 +6,9 @@ description: Juniper PTX10K Routing Engine Enhanced
 comments: >-
   Routing Engine for PTX10008. Enhanced version.
 console-ports:
-  - name: '{module}-con'
+  - name: '{module}:console'
     type: rj-45
 interfaces:
-  - name: '{module}-em0'
+  - name: '{module}:mgmt-0'
     type: 1000base-t
     mgmt_only: true
