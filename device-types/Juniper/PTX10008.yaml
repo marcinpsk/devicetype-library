@@ -14,9 +14,6 @@ comments: >-
   2 RE slots, 6 SIB (switch fabric) slots,
   2 fan tray controllers, 6 power supplies.
   Also sold as JNP10008.
-console-ports:
-  - name: Console
-    type: rj-45
 module-bays:
   # Line card slots (0-7)
   - name: FPC 0
@@ -45,12 +42,12 @@ module-bays:
     label: Line Card
   # Routing Engines
   - name: RE 0
-    position: RE0
+    position: re0
     label: Routing Engine
     module_bay_types:
       - JNP10K-RE
   - name: RE 1
-    position: RE1
+    position: re1
     label: Routing Engine
     module_bay_types:
       - JNP10K-RE
