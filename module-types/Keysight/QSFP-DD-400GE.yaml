@@ -1,0 +1,8 @@
+---
+manufacturer: Keysight
+model: QSFP-DD-400GE
+description: K400 1-port QSFP-DD 400GE load module
+comments: '[K400 QSFP-DD 400/200/100/50GE Load Modules Data Sheet](https://www.keysight.com/us/en/assets/7019-0475/data-sheets/K400-QSFP-DD-400-200-100-50-GE-Load-Modules.pdf)'
+interfaces:
+  - name: '{module}/1'
+    type: 400gbase-x-qsfpdd
