@@ -1,0 +1,16 @@
+---
+manufacturer: Nokia
+model: PS-7250-IXR-X-AC-F2B
+part_number: 3HE15791AA
+airflow: front-to-rear
+profile: Power supply
+attribute_data:
+  input_current: AC
+  wattage: 1300
+  input_voltage: 230
+  hot_swappable: true
+comments: 7250 IXR-X 1300W AC Power Supply, front-to-back airflow
+power-ports:
+  - name: '{module}'
+    type: iec-60320-c14
+    maximum_draw: 1300
