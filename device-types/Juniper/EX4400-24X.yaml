@@ -81,3 +81,159 @@ module-bays:
     position: '0'
   - name: PSU1
     position: '1'
+  - name: Transceiver 0/0/0
+    label: SFP+
+    position: xe-0/0/0
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/1
+    label: SFP+
+    position: xe-0/0/1
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/2
+    label: SFP+
+    position: xe-0/0/2
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/3
+    label: SFP+
+    position: xe-0/0/3
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/4
+    label: SFP+
+    position: xe-0/0/4
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/5
+    label: SFP+
+    position: xe-0/0/5
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/6
+    label: SFP+
+    position: xe-0/0/6
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/7
+    label: SFP+
+    position: xe-0/0/7
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/8
+    label: SFP+
+    position: xe-0/0/8
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/9
+    label: SFP+
+    position: xe-0/0/9
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/10
+    label: SFP+
+    position: xe-0/0/10
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/11
+    label: SFP+
+    position: xe-0/0/11
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/12
+    label: SFP+
+    position: xe-0/0/12
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/13
+    label: SFP+
+    position: xe-0/0/13
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/14
+    label: SFP+
+    position: xe-0/0/14
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/15
+    label: SFP+
+    position: xe-0/0/15
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/16
+    label: SFP+
+    position: xe-0/0/16
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/17
+    label: SFP+
+    position: xe-0/0/17
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/18
+    label: SFP+
+    position: xe-0/0/18
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/19
+    label: SFP+
+    position: xe-0/0/19
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/20
+    label: SFP+
+    position: xe-0/0/20
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/21
+    label: SFP+
+    position: xe-0/0/21
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/22
+    label: SFP+
+    position: xe-0/0/22
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/23
+    label: SFP+
+    position: xe-0/0/23
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver 0/1/0
+    label: QSFP28
+    position: et-0/1/0
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/1/1
+    label: QSFP28
+    position: et-0/1/1
+    module_bay_types:
+      - QSFP28
+      - QSFP+
