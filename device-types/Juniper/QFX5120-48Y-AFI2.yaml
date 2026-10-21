@@ -15,10 +15,394 @@ console-ports:
   - name: Console
     type: rj-45
 module-bays:
-  - name: PSU 0
+  - name: PSU0
     position: '0'
-  - name: PSU 1
+  - name: PSU1
     position: '1'
+  - name: Transceiver 0/0/0
+    label: SFP28
+    position: et-0/0/0
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/1
+    label: SFP28
+    position: et-0/0/1
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/2
+    label: SFP28
+    position: et-0/0/2
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/3
+    label: SFP28
+    position: et-0/0/3
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/4
+    label: SFP28
+    position: et-0/0/4
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/5
+    label: SFP28
+    position: et-0/0/5
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/6
+    label: SFP28
+    position: et-0/0/6
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/7
+    label: SFP28
+    position: et-0/0/7
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/8
+    label: SFP28
+    position: et-0/0/8
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/9
+    label: SFP28
+    position: et-0/0/9
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/10
+    label: SFP28
+    position: et-0/0/10
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/11
+    label: SFP28
+    position: et-0/0/11
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/12
+    label: SFP28
+    position: et-0/0/12
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/13
+    label: SFP28
+    position: et-0/0/13
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/14
+    label: SFP28
+    position: et-0/0/14
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/15
+    label: SFP28
+    position: et-0/0/15
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/16
+    label: SFP28
+    position: et-0/0/16
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/17
+    label: SFP28
+    position: et-0/0/17
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/18
+    label: SFP28
+    position: et-0/0/18
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/19
+    label: SFP28
+    position: et-0/0/19
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/20
+    label: SFP28
+    position: et-0/0/20
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/21
+    label: SFP28
+    position: et-0/0/21
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/22
+    label: SFP28
+    position: et-0/0/22
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/23
+    label: SFP28
+    position: et-0/0/23
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/24
+    label: SFP28
+    position: et-0/0/24
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/25
+    label: SFP28
+    position: et-0/0/25
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/26
+    label: SFP28
+    position: et-0/0/26
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/27
+    label: SFP28
+    position: et-0/0/27
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/28
+    label: SFP28
+    position: et-0/0/28
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/29
+    label: SFP28
+    position: et-0/0/29
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/30
+    label: SFP28
+    position: et-0/0/30
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/31
+    label: SFP28
+    position: et-0/0/31
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/32
+    label: SFP28
+    position: et-0/0/32
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/33
+    label: SFP28
+    position: et-0/0/33
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/34
+    label: SFP28
+    position: et-0/0/34
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/35
+    label: SFP28
+    position: et-0/0/35
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/36
+    label: SFP28
+    position: et-0/0/36
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/37
+    label: SFP28
+    position: et-0/0/37
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/38
+    label: SFP28
+    position: et-0/0/38
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/39
+    label: SFP28
+    position: et-0/0/39
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/40
+    label: SFP28
+    position: et-0/0/40
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/41
+    label: SFP28
+    position: et-0/0/41
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/42
+    label: SFP28
+    position: et-0/0/42
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/43
+    label: SFP28
+    position: et-0/0/43
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/44
+    label: SFP28
+    position: et-0/0/44
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/45
+    label: SFP28
+    position: et-0/0/45
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/46
+    label: SFP28
+    position: et-0/0/46
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/47
+    label: SFP28
+    position: et-0/0/47
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/48
+    label: QSFP28
+    position: et-0/0/48
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/49
+    label: QSFP28
+    position: et-0/0/49
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/50
+    label: QSFP28
+    position: et-0/0/50
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/51
+    label: QSFP28
+    position: et-0/0/51
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/52
+    label: QSFP28
+    position: et-0/0/52
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/53
+    label: QSFP28
+    position: et-0/0/53
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/54
+    label: QSFP28
+    position: et-0/0/54
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/55
+    label: QSFP28
+    position: et-0/0/55
+    module_bay_types:
+      - QSFP28
+      - QSFP+
 interfaces:
   - name: fxp0
     type: 1000base-t
