@@ -2,18 +2,57 @@
 manufacturer: Ciena
 model: 6500 RLS DLA
 description: Ciena 6500 RLS DLA dual line amplifier card
-comments: Double-width card. It fills IM-1 and IM-2 of a 6500 R2 shelf; install it in Module 1. Line A maps through to Line B, so a trace passes the amplifier. Site
-  Manager shows 11 ports; the monitor and OSC ports are not modelled. The part number and the Ciena port numbers are not known.
+comments: Double-width card. It fills IM-1 and IM-2 of a 6500 R2 shelf; install it in Module 1. Labels hold the Ciena port numbers. Line 1 maps through to Line
+  2, so a trace passes the amplifier. The part number is not known.
+interfaces:
+  - name: '{module}/WSC 1'
+    label: '1'
+    type: 1000base-t
+    description: Wayside channel
+  - name: '{module}/WSC 2'
+    label: '2'
+    type: 1000base-t
+    description: Wayside channel
+  - name: '{module}/OSC Ln1 SFP'
+    label: '50'
+    type: 1000base-x-sfp
+    description: OSC SFP for line 1
+  - name: '{module}/OSC Ln2 SFP'
+    label: '60'
+    type: 1000base-x-sfp
+    description: OSC SFP for line 2
 rear-ports:
-  - name: '{module}/Line B'
+  - name: '{module}/Line 2'
+    label: 63 Out / 64 In
     type: lc
     positions: 1
 front-ports:
-  - name: '{module}/Line A'
+  - name: '{module}/OTDR 1&2'
+    label: 3 / 4
+    type: lc
+    positions: 1
+  - name: '{module}/OTDR 3&4'
+    label: 5 / 6
+    type: lc
+    positions: 1
+  - name: '{module}/Mon'
+    label: 7 Ln1 / 8 Ln2
+    type: lc
+    positions: 1
+  - name: '{module}/OSC Ln1'
+    label: 51 Out / 52 In
+    type: lc
+    positions: 1
+  - name: '{module}/Line 1'
+    label: 53 Out / 54 In
+    type: lc
+    positions: 1
+  - name: '{module}/OSC Ln2'
+    label: 61 Out / 62 In
     type: lc
     positions: 1
 port-mappings:
-  - front_port: '{module}/Line A'
+  - front_port: '{module}/Line 1'
     front_port_position: 1
-    rear_port: '{module}/Line B'
+    rear_port: '{module}/Line 2'
     rear_port_position: 1
