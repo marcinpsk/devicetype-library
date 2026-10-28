@@ -1,0 +1,19 @@
+---
+manufacturer: Ciena
+model: 6500 RLS DLA
+description: Ciena 6500 RLS DLA dual line amplifier card
+comments: Double-width card. It fills IM-1 and IM-2 of a 6500 R2 shelf; install it in Module 1. Line A maps through to Line B, so a trace passes the amplifier. Site
+  Manager shows 11 ports; the monitor and OSC ports are not modelled. The part number and the Ciena port numbers are not known.
+rear-ports:
+  - name: '{module}/Line B'
+    type: lc
+    positions: 1
+front-ports:
+  - name: '{module}/Line A'
+    type: lc
+    positions: 1
+port-mappings:
+  - front_port: '{module}/Line A'
+    front_port_position: 1
+    rear_port: '{module}/Line B'
+    rear_port_position: 1
