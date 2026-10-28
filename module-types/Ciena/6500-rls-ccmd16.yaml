@@ -1,0 +1,124 @@
+---
+manufacturer: Ciena
+model: 6500 RLS CCMD16
+description: Ciena 6500 RLS CCMD16 colorless channel mux/demux card
+comments: Single-width card. 16 colorless add/drop ports and 1 common port, as shown in Site Manager. The part number and the Ciena port numbers are not known.
+rear-ports:
+  - name: '{module}/Common'
+    type: lc
+    positions: 16
+    description: Common port to a WSS switch port
+front-ports:
+  - name: '{module}/Port 1'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 2'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 3'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 4'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 5'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 6'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 7'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 8'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 9'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 10'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 11'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 12'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 13'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 14'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 15'
+    type: lc
+    positions: 1
+  - name: '{module}/Port 16'
+    type: lc
+    positions: 1
+port-mappings:
+  - front_port: '{module}/Port 1'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 1
+  - front_port: '{module}/Port 2'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 2
+  - front_port: '{module}/Port 3'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 3
+  - front_port: '{module}/Port 4'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 4
+  - front_port: '{module}/Port 5'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 5
+  - front_port: '{module}/Port 6'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 6
+  - front_port: '{module}/Port 7'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 7
+  - front_port: '{module}/Port 8'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 8
+  - front_port: '{module}/Port 9'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 9
+  - front_port: '{module}/Port 10'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 10
+  - front_port: '{module}/Port 11'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 11
+  - front_port: '{module}/Port 12'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 12
+  - front_port: '{module}/Port 13'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 13
+  - front_port: '{module}/Port 14'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 14
+  - front_port: '{module}/Port 15'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 15
+  - front_port: '{module}/Port 16'
+    front_port_position: 1
+    rear_port: '{module}/Common'
+    rear_port_position: 16

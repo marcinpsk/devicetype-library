@@ -1,0 +1,24 @@
+---
+manufacturer: Ciena
+model: 6500 R2 Access Panel
+part_number: NTK805NA
+description: Ciena 6500-R2 Access Panel
+comments: Ports read from the front elevation. ESI/ESO, Telemetry and 1PPS/TOD are not modelled.
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB Console
+    type: usb-c
+interfaces:
+  - name: COLAN-A
+    type: 1000base-t
+    mgmt_only: true
+  - name: COLAN-X
+    type: 1000base-t
+    mgmt_only: true
+  - name: ILAN-IN
+    type: 1000base-x-sfp
+    mgmt_only: true
+  - name: ILAN-OUT
+    type: 1000base-x-sfp
+    mgmt_only: true
