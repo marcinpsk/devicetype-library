@@ -9,17 +9,17 @@ comments: MX960 with extended cable management installed
 u_height: 20
 is_full_depth: true
 module-bays:
-  - name: CB0
+  - name: CB 0
     label: SCB 0
     position: '0'
     module_bay_types:
       - MX-SCB
-  - name: CB1
+  - name: CB 1
     label: SCB 1
     position: '1'
     module_bay_types:
       - MX-SCB
-  - name: CB2
+  - name: CB 2
     label: SCB 2
     position: '2'
     module_bay_types:
@@ -72,23 +72,19 @@ module-bays:
     position: '11'
     module_bay_types:
       - MX-FPC
-  - name: PEM0
-    label: PSU 0
+  - name: PEM 0
     position: '0'
     module_bay_types:
       - MX960-PSU
-  - name: PEM1
-    label: PSU 1
+  - name: PEM 1
     position: '1'
     module_bay_types:
       - MX960-PSU
-  - name: PEM2
-    label: PSU 2
+  - name: PEM 2
     position: '2'
     module_bay_types:
       - MX960-PSU
-  - name: PEM3
-    label: PSU 3
+  - name: PEM 3
     position: '3'
     module_bay_types:
       - MX960-PSU

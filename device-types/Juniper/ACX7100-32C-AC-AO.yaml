@@ -95,17 +95,17 @@ module-bays:
   - name: PSM 1
     # Comment: Power Supply Module 1
     position: '1'
-  - name: Fan Module 0
+  - name: Fan Tray 0
     position: '0'
-  - name: Fan Module 1
+  - name: Fan Tray 1
     position: '1'
-  - name: Fan Module 2
+  - name: Fan Tray 2
     position: '2'
-  - name: Fan Module 3
+  - name: Fan Tray 3
     position: '3'
-  - name: Fan Module 4
+  - name: Fan Tray 4
     position: '4'
-  - name: Fan Module 5
+  - name: Fan Tray 5
     position: '5'
   - name: Transceiver 0/0/0
     label: QSFP28

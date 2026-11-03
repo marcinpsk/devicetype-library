@@ -9,8 +9,7 @@ comments: >-
 module_bay_types:
   - MX-SCB
 module-bays:
-  - name: RE{module}
-    label: Routing Engine
+  - name: Routing Engine {module}
     position: re{module}
     module_bay_types:
       - MX-RE

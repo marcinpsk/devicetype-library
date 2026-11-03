@@ -15,11 +15,12 @@ console-ports:
   - name: Front Console
     type: usb-mini-b
 module-bays:
-  - name: PSU 0
+  - name: Power Supply 0
     position: '0'
-  - name: PSU 1
+  - name: Power Supply 1
     position: '1'
-  - name: PIC 2 (Uplink Module)
+  - name: PIC 2
+    label: Uplink Module
     position: '2'
 interfaces:
   - name: me0

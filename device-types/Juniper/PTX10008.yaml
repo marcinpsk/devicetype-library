@@ -41,66 +41,66 @@ module-bays:
     position: '7'
     label: Line Card
   # Routing Engines
-  - name: RE 0
+  - name: CB 0
     position: re0
     label: Routing Engine
     module_bay_types:
       - JNP10K-RE
-  - name: RE 1
+  - name: CB 1
     position: re1
     label: Routing Engine
     module_bay_types:
       - JNP10K-RE
   # Switch Interface Boards (SIBs)
   - name: SIB 0
-    position: SIB0
+    position: '0'
     label: SIB
     module_bay_types:
       - JNP10008-SFB
   - name: SIB 1
-    position: SIB1
+    position: '1'
     label: SIB
     module_bay_types:
       - JNP10008-SFB
   - name: SIB 2
-    position: SIB2
+    position: '2'
     label: SIB
     module_bay_types:
       - JNP10008-SFB
   - name: SIB 3
-    position: SIB3
+    position: '3'
     label: SIB
     module_bay_types:
       - JNP10008-SFB
   - name: SIB 4
-    position: SIB4
+    position: '4'
     label: SIB
     module_bay_types:
       - JNP10008-SFB
   - name: SIB 5
-    position: SIB5
+    position: '5'
     label: SIB
     module_bay_types:
       - JNP10008-SFB
   # Fan trays
   - name: Fan Tray 0
-    position: FAN0
+    position: '0'
     label: Fan Tray
     module_bay_types:
       - JNP10008-FAN
   - name: Fan Tray 1
-    position: FAN1
+    position: '1'
     label: Fan Tray
     module_bay_types:
       - JNP10008-FAN
   # Fan tray controllers
   - name: Fan Tray Controller 0
-    position: FTC0
+    position: '0'
     label: Fan Tray Controller
     module_bay_types:
       - JNP10008-FTC
   - name: Fan Tray Controller 1
-    position: FTC1
+    position: '1'
     label: Fan Tray Controller
     module_bay_types:
       - JNP10008-FTC
