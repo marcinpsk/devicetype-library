@@ -1,0 +1,67 @@
+---
+manufacturer: Juniper
+model: MPC4E-3D-2CGE-8XGE
+part_number: 750-062863
+description: Juniper MPC4E with 2x 100GE CFP and 8x 10GE SFP+
+comments: Modular Port Concentrator in 4 PICs. PICs 0 and 2 have 4x 10GE SFP+ ports, PICs 1 and 3 have 1x 100GE CFP port. For MX240/MX480/MX960 chassis.
+module_bay_types:
+  - MX-FPC
+module-bays:
+  - name: Transceiver {module}/0/0
+    label: SFP+
+    position: xe-{module}/0/0
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver {module}/0/1
+    label: SFP+
+    position: xe-{module}/0/1
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver {module}/0/2
+    label: SFP+
+    position: xe-{module}/0/2
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver {module}/0/3
+    label: SFP+
+    position: xe-{module}/0/3
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver {module}/1/0
+    label: CFP
+    position: et-{module}/1/0
+    module_bay_types:
+      - CFP
+  - name: Transceiver {module}/2/0
+    label: SFP+
+    position: xe-{module}/2/0
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver {module}/2/1
+    label: SFP+
+    position: xe-{module}/2/1
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver {module}/2/2
+    label: SFP+
+    position: xe-{module}/2/2
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver {module}/2/3
+    label: SFP+
+    position: xe-{module}/2/3
+    module_bay_types:
+      - SFP+
+      - SFP
+  - name: Transceiver {module}/3/0
+    label: CFP
+    position: et-{module}/3/0
+    module_bay_types:
+      - CFP

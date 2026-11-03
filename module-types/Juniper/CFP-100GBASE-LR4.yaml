@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: CFP-100GBASE-LR4
+part_number: 740-047682
+description: Juniper 100GBASE-LR4 CFP transceiver
+comments: 100GBASE-LR4 CFP, 4 lanes around 1310nm, SMF, duplex SC, up to 10km. Junos reports this optic as CFP-100G-LR4.
+module_bay_types:
+  - CFP
+interfaces:
+  - name: '{module}'
+    type: 100gbase-x-cfp

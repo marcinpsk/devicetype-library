@@ -58,7 +58,7 @@ module-bays:
     position: '3'
     module_bay_types:
       - MX480-PSU
-  - name: Left Fan Tray
+  - name: Fan Tray
     position: '0'
   - name: FPM
     label: Craft Interface
