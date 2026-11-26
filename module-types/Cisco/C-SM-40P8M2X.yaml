@@ -3,6 +3,8 @@ manufacturer: Cisco
 model: C-SM-40P8M2X
 part_number: C-SM-40P8M2X
 description: C-SM-40P8M2X EtherSwitch Service Module
+module_bay_types:
+  - SM-X
 interfaces:
   - name: GigabitEthernet1/0/0
     type: 1000base-t

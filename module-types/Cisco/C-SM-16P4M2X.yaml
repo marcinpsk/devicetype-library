@@ -3,6 +3,8 @@ manufacturer: Cisco
 model: C-SM-16P4M2X
 part_number: C-SM-16P4M2X
 description: C-SM-16P4M2X EtherSwitch Service Module
+module_bay_types:
+  - SM-X
 comments: 16x 1G RJ-45, 4x 2.5G RJ-45 and 2x 10G SFP+ switch ports. The SFP+ bay positions use SM slot 1 (NetBox limits a position to 30 characters).
 interfaces:
   - name: GigabitEthernet{module}/0/0

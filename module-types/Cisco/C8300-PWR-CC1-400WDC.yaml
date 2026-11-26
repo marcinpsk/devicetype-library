@@ -2,6 +2,8 @@
 manufacturer: Cisco
 model: C8300-PWR-CC1-400WDC
 part_number: PWR-CC1-400WDC
+module_bay_types:
+  - C8300-1RU-PSU
 power-ports:
   - name: PSU{module}
     type: dc-terminal
