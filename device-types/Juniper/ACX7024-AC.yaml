@@ -81,5 +81,5 @@ module-bays:
   - name: PSM 1
     # Comment: Power Supply Module 1
     position: '1'
-  - name: Fan Module 0
+  - name: Fan Tray 0
     position: '0'
