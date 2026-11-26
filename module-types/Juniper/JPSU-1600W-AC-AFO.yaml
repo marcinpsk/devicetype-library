@@ -2,6 +2,8 @@
 manufacturer: Juniper
 model: JPSU-1600W-AC-AFO
 part_number: JPSU-1600W-AC-AFO
+module_bay_types:
+  - QFX10002-PSU
 # airflow: front-to-rear
 weight: 2.33
 weight_unit: lb

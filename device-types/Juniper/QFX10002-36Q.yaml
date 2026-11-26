@@ -15,8 +15,12 @@ console-ports:
 module-bays:
   - name: Power Supply 0
     position: '0'
+    module_bay_types:
+      - QFX10002-PSU
   - name: Power Supply 1
     position: '1'
+    module_bay_types:
+      - QFX10002-PSU
   - name: Fan Tray 0
     position: '0'
   - name: Fan Tray 1
