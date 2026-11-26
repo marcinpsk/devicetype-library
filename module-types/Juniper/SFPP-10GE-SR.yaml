@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: SFPP-10GE-SR
+part_number: 740-031980
+description: Juniper 10GBASE-SR SFP+ transceiver
+comments: 10GBASE-SR SFP+, 850nm, MMF, duplex LC. Junos reports this optic as SFP+-10G-SR.
+module_bay_types:
+  - SFP+
+interfaces:
+  - name: '{module}'
+    type: 10gbase-x-sfpp

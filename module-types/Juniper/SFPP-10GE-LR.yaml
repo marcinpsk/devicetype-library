@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: SFPP-10GE-LR
+part_number: 740-031981
+description: Juniper 10GBASE-LR SFP+ transceiver
+comments: 10GBASE-LR SFP+, 1310nm, SMF, duplex LC, up to 10km. Junos reports this optic as SFP+-10G-LR.
+module_bay_types:
+  - SFP+
+interfaces:
+  - name: '{module}'
+    type: 10gbase-x-sfpp

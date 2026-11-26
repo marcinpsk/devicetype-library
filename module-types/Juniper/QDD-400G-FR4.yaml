@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: QDD-400G-FR4
+part_number: 740-085349
+description: Juniper QSFP56-DD 400GBASE-FR4 transceiver
+comments: Junos reports this optic as QSFP56-DD-400GBASE-FR4. 4 CWDM lanes around 1310nm, SMF, duplex LC, up to 2km.
+module_bay_types:
+  - QSFP-DD
+interfaces:
+  - name: '{module}'
+    type: 400gbase-x-qsfpdd

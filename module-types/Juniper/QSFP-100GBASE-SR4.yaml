@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: QSFP-100GBASE-SR4
+part_number: 740-061405
+description: Juniper QSFP28 100GBASE-SR4 transceiver
+comments: 100GBASE-SR4 QSFP28, 850nm, MMF, MPO-12, up to 100m on OM4.
+module_bay_types:
+  - QSFP28
+interfaces:
+  - name: '{module}'
+    type: 100gbase-x-qsfp28

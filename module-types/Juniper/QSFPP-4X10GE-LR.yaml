@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: QSFPP-4X10GE-LR
+part_number: 740-054050
+description: Juniper QSFP+ 40G transceiver, 4x 10GBASE-LR breakout
+comments: Junos reports this optic as QSFP+-4X10G-LR. SMF, MPO-12 APC.
+module_bay_types:
+  - QSFP+
+interfaces:
+  - name: '{module}'
+    type: 40gbase-x-qsfpp

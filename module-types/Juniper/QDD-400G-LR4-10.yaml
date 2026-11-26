@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: QDD-400G-LR4-10
+part_number: 740-096176
+description: Juniper QSFP56-DD 400GBASE-LR4-10 transceiver
+comments: Junos reports this optic as QSFP56-DD-400GBASE-LR4-10. SMF, duplex LC, up to 10km.
+module_bay_types:
+  - QSFP-DD
+interfaces:
+  - name: '{module}'
+    type: 400gbase-x-qsfpdd

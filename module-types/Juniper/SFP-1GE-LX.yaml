@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: SFP-1GE-LX
+part_number: 740-031850
+description: Juniper 1000BASE-LX SFP transceiver
+comments: 1000BASE-LX SFP, 1310nm, SMF, duplex LC, up to 10km. Junos reports this optic as SFP-LX10. Older part number 740-011614.
+module_bay_types:
+  - SFP
+interfaces:
+  - name: '{module}'
+    type: 1000base-x-sfp

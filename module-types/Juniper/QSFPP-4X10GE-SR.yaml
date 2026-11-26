@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: QSFPP-4X10GE-SR
+part_number: 740-054053
+description: Juniper QSFP+ 40GBASE-SR4 transceiver, 4x10GbE breakout capable
+comments: Junos reports this optic as QSFP+-4X10G-SR. 850nm, MMF, MPO-12, up to 150m on OM4.
+module_bay_types:
+  - QSFP+
+interfaces:
+  - name: '{module}'
+    type: 40gbase-x-qsfpp
