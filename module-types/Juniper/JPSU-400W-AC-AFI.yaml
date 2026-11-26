@@ -2,6 +2,8 @@
 manufacturer: Juniper
 model: JPSU-400W-AC-AFI
 part_number: JPSU-400W-AC-AFI
+module_bay_types:
+  - ACX7024-PSM
 weight: 1
 weight_unit: kg
 power-ports:

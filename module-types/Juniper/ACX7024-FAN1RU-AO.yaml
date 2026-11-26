@@ -1,0 +1,7 @@
+---
+manufacturer: Juniper
+model: ACX7024-FAN1RU-AO
+part_number: ACX7024-FAN1RU-AO
+module_bay_types:
+  - ACX7024-FAN
+comments: AFO fan tray for ACX7024 routers
