@@ -2,6 +2,10 @@
 manufacturer: Cisco
 model: PSU2KW-ACPI
 part_number: PSU2KW-ACPI
+description: Cisco 2000W AC power module, port-side air intake
+airflow: front-to-rear
+module_bay_types:
+  - 8000-PSU
 power-ports:
   - name: '{module}'
     type: iec-60320-c14

@@ -1,0 +1,8 @@
+---
+manufacturer: Cisco
+model: FAN-1RU-PI
+part_number: FAN-1RU-PI
+description: Cisco 8000 Series 1RU fan tray, port-side air intake
+airflow: front-to-rear
+module_bay_types:
+  - 8000-1RU-FAN

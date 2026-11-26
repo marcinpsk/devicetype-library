@@ -1,0 +1,304 @@
+---
+manufacturer: Cisco
+model: 8201-SYS
+slug: cisco-8201-sys
+part_number: 8201-SYS
+description: Cisco 8201 1RU fixed router, 24x 400G QSFP56-DD and 12x 100G QSFP28
+u_height: 1.0
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: con0
+    type: rj-45
+module-bays:
+  - name: PM0
+    label: Power module
+    position: 0/PM0
+    module_bay_types:
+      - 8000-PSU
+  - name: PM1
+    label: Power module
+    position: 0/PM1
+    module_bay_types:
+      - 8000-PSU
+  - name: FT0
+    label: Fan tray
+    position: 0/FT0
+    module_bay_types:
+      - 8000-1RU-FAN
+  - name: FT1
+    label: Fan tray
+    position: 0/FT1
+    module_bay_types:
+      - 8000-1RU-FAN
+  - name: FT2
+    label: Fan tray
+    position: 0/FT2
+    module_bay_types:
+      - 8000-1RU-FAN
+  - name: FT3
+    label: Fan tray
+    position: 0/FT3
+    module_bay_types:
+      - 8000-1RU-FAN
+  - name: FT4
+    label: Fan tray
+    position: 0/FT4
+    module_bay_types:
+      - 8000-1RU-FAN
+  - name: Transceiver 0/0/0/0
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/0
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/1
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/1
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/2
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/2
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/3
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/3
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/4
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/4
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/5
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/5
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/6
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/6
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/7
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/7
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/8
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/8
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/9
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/9
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/10
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/10
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/11
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/11
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/12
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/12
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/13
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/13
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/14
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/14
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/15
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/15
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/16
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/16
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/17
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/17
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/18
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/18
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/19
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/19
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/20
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/20
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/21
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/21
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/22
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/22
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/23
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/23
+    module_bay_types:
+      - QSFP-DD
+  - name: Transceiver 0/0/0/24
+    label: QSFP28
+    position: HundredGigE0/0/0/24
+    module_bay_types:
+      - QSFP28
+  - name: Transceiver 0/0/0/25
+    label: QSFP28
+    position: HundredGigE0/0/0/25
+    module_bay_types:
+      - QSFP28
+  - name: Transceiver 0/0/0/26
+    label: QSFP28
+    position: HundredGigE0/0/0/26
+    module_bay_types:
+      - QSFP28
+  - name: Transceiver 0/0/0/27
+    label: QSFP28
+    position: HundredGigE0/0/0/27
+    module_bay_types:
+      - QSFP28
+  - name: Transceiver 0/0/0/28
+    label: QSFP28
+    position: HundredGigE0/0/0/28
+    module_bay_types:
+      - QSFP28
+  - name: Transceiver 0/0/0/29
+    label: QSFP28
+    position: HundredGigE0/0/0/29
+    module_bay_types:
+      - QSFP28
+  - name: Transceiver 0/0/0/30
+    label: QSFP28
+    position: HundredGigE0/0/0/30
+    module_bay_types:
+      - QSFP28
+  - name: Transceiver 0/0/0/31
+    label: QSFP28
+    position: HundredGigE0/0/0/31
+    module_bay_types:
+      - QSFP28
+  - name: Transceiver 0/0/0/32
+    label: QSFP28
+    position: HundredGigE0/0/0/32
+    module_bay_types:
+      - QSFP28
+  - name: Transceiver 0/0/0/33
+    label: QSFP28
+    position: HundredGigE0/0/0/33
+    module_bay_types:
+      - QSFP28
+  - name: Transceiver 0/0/0/34
+    label: QSFP28
+    position: HundredGigE0/0/0/34
+    module_bay_types:
+      - QSFP28
+  - name: Transceiver 0/0/0/35
+    label: QSFP28
+    position: HundredGigE0/0/0/35
+    module_bay_types:
+      - QSFP28
+interfaces:
+  - name: MgmtEth0/RP0/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
+  - name: FourHundredGigE0/0/0/0
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/1
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/2
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/3
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/4
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/5
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/6
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/7
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/8
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/9
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/10
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/11
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/12
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/13
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/14
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/15
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/16
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/17
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/18
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/19
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/20
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/21
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/22
+    type: 400gbase-x-qsfpdd
+  - name: FourHundredGigE0/0/0/23
+    type: 400gbase-x-qsfpdd
+  - name: HundredGigE0/0/0/24
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/25
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/26
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/27
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/28
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/29
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/30
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/31
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/32
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/33
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/34
+    type: 100gbase-x-qsfp28
+  - name: HundredGigE0/0/0/35
+    type: 100gbase-x-qsfp28
