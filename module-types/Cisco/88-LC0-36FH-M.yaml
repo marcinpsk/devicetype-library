@@ -3,6 +3,8 @@ manufacturer: Cisco
 model: 88-LC0-36FH-M
 part_number: 88-LC0-36FH-M
 description: Cisco 8800 36x 400G QSFP56-DD line card-MACsec
+module_bay_types:
+  - 8800-LC
 weight: 14.2
 weight_unit: kg
 comments: |
