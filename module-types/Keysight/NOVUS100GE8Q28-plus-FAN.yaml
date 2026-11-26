@@ -2,6 +2,8 @@
 manufacturer: Keysight
 model: NOVUS100GE8Q28+FAN
 description: Novus 8-port QSFP28 100/50/40/25/10GE load module with fan-out support
+module_bay_types:
+  - XGS12-LM
 comments: '[Novus QSFP28 High-Density 100/50/40/25/10GE Load Module Family Data Sheet](https://www.keysight.com/us/en/assets/3120-1109/data-sheets/Novus-QSFP28-High-Density-100-50-40-25-10GE-Load-Module-Family.pdf)'
 interfaces:
   - name: '{module}/1'

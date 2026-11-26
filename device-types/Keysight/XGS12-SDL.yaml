@@ -13,36 +13,68 @@ comments: '[XGS12 Chassis Platform Data Sheet](https://www.keysight.com/content/
 module-bays:
   - name: Processor Module
     position: '0'
+    module_bay_types:
+      - XGS12-CTRL
   - name: Slot 1
     position: '1'
+    module_bay_types:
+      - XGS12-LM
   - name: Slot 2
     position: '2'
+    module_bay_types:
+      - XGS12-LM
   - name: Slot 3
     position: '3'
+    module_bay_types:
+      - XGS12-LM
   - name: Slot 4
     position: '4'
+    module_bay_types:
+      - XGS12-LM
   - name: Slot 5
     position: '5'
+    module_bay_types:
+      - XGS12-LM
   - name: Slot 6
     position: '6'
+    module_bay_types:
+      - XGS12-LM
   - name: Slot 7
     position: '7'
+    module_bay_types:
+      - XGS12-LM
   - name: Slot 8
     position: '8'
+    module_bay_types:
+      - XGS12-LM
   - name: Slot 9
     position: '9'
+    module_bay_types:
+      - XGS12-LM
   - name: Slot 10
     position: '10'
+    module_bay_types:
+      - XGS12-LM
   - name: Slot 11
     position: '11'
+    module_bay_types:
+      - XGS12-LM
   - name: Slot 12
     position: '12'
+    module_bay_types:
+      - XGS12-LM
   - name: PSU 1
     position: PSU1
+    module_bay_types:
+      - XGS12-PSU
   - name: PSU 2
     position: PSU2
+    module_bay_types:
+      - XGS12-PSU
   - name: PSU 3
     position: PSU3
+    module_bay_types:
+      - XGS12-PSU
 interfaces:
   - name: SYNC IN
     type: other
