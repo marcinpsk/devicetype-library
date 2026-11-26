@@ -94,8 +94,14 @@ module-bays:
       - MX960-PSU
   - name: Top Fan Tray
     position: '0'
+    module_bay_types:
+      - MX960-FAN
   - name: Bottom Fan Tray
     position: '1'
+    module_bay_types:
+      - MX960-FAN
   - name: FPM
     label: Craft Interface
     position: '0'
+    module_bay_types:
+      - MX960-FPM
