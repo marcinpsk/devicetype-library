@@ -1,0 +1,10 @@
+---
+manufacturer: Juniper
+model: JNP-3000W-AC-AFO
+part_number: JNP-3000W-AC-AFO
+# airflow: front-to-rear
+comments: 3000W AC/HVDC power supply for PTX10002-36QDD
+power-ports:
+  - name: '{module}'
+    type: saf-d-grid
+    maximum_draw: 3000

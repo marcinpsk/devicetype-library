@@ -12,12 +12,16 @@ console-ports:
   - name: Console
     type: rj-45
 module-bays:
-  - name: PEM0
-    label: PSM 0
-    position: PSU0
-  - name: PEM1
-    label: PSM 1
-    position: PSU1
+  - name: PSM 0
+    position: '0'
+  - name: PSM 1
+    position: '1'
+  - name: Fan Tray 0
+    position: '0'
+  - name: Fan Tray 1
+    position: '1'
+  - name: Fan Tray 2
+    position: '2'
 interfaces:
   - name: et-0/0/0
     type: 800gbase-x-qsfpdd
