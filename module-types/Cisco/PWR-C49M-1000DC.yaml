@@ -1,0 +1,12 @@
+---
+manufacturer: Cisco
+model: PWR-C49M-1000DC
+part_number: PWR-C49M-1000DC
+description: Catalyst 4900M 1000W DC-input power supply
+comments: 960W output. 27 A at -48 VDC, 21.6 A at -60 VDC. Positive and negative posts plus a ground post.
+module_bay_types:
+  - C4900M-PSU
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 1000
