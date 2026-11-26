@@ -2,6 +2,8 @@
 manufacturer: Ciena
 model: 6500 RLS CCMD16
 description: Ciena 6500 RLS CCMD16 colorless channel mux/demux card
+module_bay_types:
+  - 6500-RLS-MODULE
 comments: Single-width card. 16 colorless add/drop ports and 1 common port, as shown in Site Manager. The part number and the Ciena port numbers are not known.
 rear-ports:
   - name: '{module}/Common'
