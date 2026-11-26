@@ -2,6 +2,8 @@
 manufacturer: Ciena
 model: 6500 RLS DLA
 description: Ciena 6500 RLS DLA dual line amplifier card
+module_bay_types:
+  - 6500-RLS-MODULE
 comments: Double-width card. It fills IM-1 and IM-2 of a 6500 R2 shelf; install it in Module 1. Labels hold the Ciena port numbers. Line 1 maps through to Line
   2, so a trace passes the amplifier. The part number is not known.
 interfaces:

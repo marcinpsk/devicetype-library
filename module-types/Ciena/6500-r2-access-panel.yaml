@@ -3,6 +3,8 @@ manufacturer: Ciena
 model: 6500 R2 Access Panel
 part_number: NTK805NA
 description: Ciena 6500-R2 Access Panel
+module_bay_types:
+  - 6500-R2-AP
 comments: Ports read from the front elevation. ESI/ESO, Telemetry and 1PPS/TOD are not modelled.
 console-ports:
   - name: Console

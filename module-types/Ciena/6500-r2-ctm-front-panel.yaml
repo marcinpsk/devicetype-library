@@ -3,6 +3,8 @@ manufacturer: Ciena
 model: 6500 R2 CTM Front Panel
 part_number: NTK806DA
 description: Ciena 6500-R2 CTM front panel with CTM 41 and CTM 42
+module_bay_types:
+  - 6500-R2-CTM-FP
 comments: Each CTM has a Craft RJ45 port and a USB port. Ports read from the front elevation.
 interfaces:
   - name: CTM 41 Craft
