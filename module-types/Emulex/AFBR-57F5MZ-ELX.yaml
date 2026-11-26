@@ -1,0 +1,11 @@
+---
+manufacturer: Emulex
+model: AFBR-57F5MZ-ELX
+part_number: AFBR-57F5MZ-ELX
+description: Emulex 16G Fibre Channel SWL SFP+ transceiver
+comments: Avago AFBR-57F5MZ sold by Emulex. 16/8/4GFC shortwave SFP+, 850nm, MMF, duplex LC.
+module_bay_types:
+  - SFP+
+interfaces:
+  - name: '{module}'
+    type: 16gfc-sfpp
