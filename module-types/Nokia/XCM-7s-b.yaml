@@ -8,8 +8,8 @@ comments: >-
   Hosts 1 MDA-s slot and 1 XIOM slot.
 module-bays:
   - name: '{module}/1'
-    position: '1'
+    position: '{module}/1'
     label: MDA 1
   - name: '{module}/x1'
-    position: x1
+    position: '{module}/x1'
     label: XIOM

@@ -10,74 +10,254 @@ comments: >-
   Supports 400GBASE-DR4/FR4/LR4-6 transceivers.
 module-bays:
   - name: '{module}/c1'
-    position: c1
+    position: '{module}/c1'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c2'
-    position: c2
+    position: '{module}/c2'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c3'
-    position: c3
+    position: '{module}/c3'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c4'
-    position: c4
+    position: '{module}/c4'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c5'
-    position: c5
+    position: '{module}/c5'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c6'
-    position: c6
+    position: '{module}/c6'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c7'
-    position: c7
+    position: '{module}/c7'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c8'
-    position: c8
+    position: '{module}/c8'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c9'
-    position: c9
+    position: '{module}/c9'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c10'
-    position: c10
+    position: '{module}/c10'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c11'
-    position: c11
+    position: '{module}/c11'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c12'
-    position: c12
+    position: '{module}/c12'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c13'
-    position: c13
+    position: '{module}/c13'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c14'
-    position: c14
+    position: '{module}/c14'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c15'
-    position: c15
+    position: '{module}/c15'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c16'
-    position: c16
+    position: '{module}/c16'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c17'
-    position: c17
+    position: '{module}/c17'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c18'
-    position: c18
+    position: '{module}/c18'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c19'
-    position: c19
+    position: '{module}/c19'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c20'
-    position: c20
+    position: '{module}/c20'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c21'
-    position: c21
+    position: '{module}/c21'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c22'
-    position: c22
+    position: '{module}/c22'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c23'
-    position: c23
+    position: '{module}/c23'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c24'
-    position: c24
+    position: '{module}/c24'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c25'
-    position: c25
+    position: '{module}/c25'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c26'
-    position: c26
+    position: '{module}/c26'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c27'
-    position: c27
+    position: '{module}/c27'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c28'
-    position: c28
+    position: '{module}/c28'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c29'
-    position: c29
+    position: '{module}/c29'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c30'
-    position: c30
+    position: '{module}/c30'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c31'
-    position: c31
+    position: '{module}/c31'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c32'
-    position: c32
+    position: '{module}/c32'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c33'
-    position: c33
+    position: '{module}/c33'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c34'
-    position: c34
+    position: '{module}/c34'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c35'
-    position: c35
+    position: '{module}/c35'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
   - name: '{module}/c36'
-    position: c36
+    position: '{module}/c36'
+    label: QSFP-DD
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
