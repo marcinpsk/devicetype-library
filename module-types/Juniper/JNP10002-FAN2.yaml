@@ -2,4 +2,6 @@
 manufacturer: Juniper
 model: JNP10002-FAN2
 part_number: JNP10002-FAN2
+module_bay_types:
+  - PTX10002-FAN
 comments: Fan tray for PTX10002-36QDD routers

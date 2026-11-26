@@ -14,14 +14,24 @@ console-ports:
 module-bays:
   - name: PSM 0
     position: '0'
+    module_bay_types:
+      - PTX10002-PSM
   - name: PSM 1
     position: '1'
+    module_bay_types:
+      - PTX10002-PSM
   - name: Fan Tray 0
     position: '0'
+    module_bay_types:
+      - PTX10002-FAN
   - name: Fan Tray 1
     position: '1'
+    module_bay_types:
+      - PTX10002-FAN
   - name: Fan Tray 2
     position: '2'
+    module_bay_types:
+      - PTX10002-FAN
 interfaces:
   - name: et-0/0/0
     type: 800gbase-x-qsfpdd
