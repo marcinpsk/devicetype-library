@@ -1,0 +1,7 @@
+---
+manufacturer: Cisco
+model: ASR-9904-FAN
+part_number: ASR-9904-FAN
+description: Cisco ASR 9904 fan tray
+module_bay_types:
+  - ASR-9904-FAN
