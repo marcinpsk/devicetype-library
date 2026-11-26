@@ -2,12 +2,17 @@
 manufacturer: Juniper
 model: RE-S-1800x4
 part_number: 740-031116
+description: Juniper MX240/MX480/MX960 Routing Engine, 1.8 GHz quad core
+module_bay_types:
+  - MX-RE
 console-ports:
-  - name: console
+  - name: '{module}-con'
     type: rj-45
-  - name: AUX
+  - name: '{module}-aux'
     type: rj-45
+  - name: '{module}-usb'
+    type: usb-a
 interfaces:
-  - name: fxp0
+  - name: '{module}-fxp0'
     type: 1000base-t
     mgmt_only: true

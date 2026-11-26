@@ -1,0 +1,12 @@
+---
+manufacturer: Juniper
+model: MS-DPC
+part_number: 750-024064
+description: Juniper Multiservices DPC
+comments: >-
+  Services card for MX240/MX480/MX960 chassis. Two built-in Multiservices PICs
+  (PIC 0 and PIC 1) run services such as NAT, stateful firewall and IPsec.
+  Junos creates the services interfaces (ms-fpc/pic/0) in software, so the
+  template has no physical interfaces.
+module_bay_types:
+  - MX-FPC

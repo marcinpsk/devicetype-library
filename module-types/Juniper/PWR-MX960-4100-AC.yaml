@@ -1,0 +1,15 @@
+---
+manufacturer: Juniper
+model: PWR-MX960-4100-AC
+part_number: 740-027760
+description: Juniper MX960 4100W AC power supply
+comments: >-
+  High-capacity AC power supply with two AC inlets. A DIP switch sets one-feed
+  mode (1700W) or two-feed mode (4100W).
+module_bay_types:
+  - MX960-PSU
+power-ports:
+  - name: PSU {module} AC1
+    type: iec-60320-c20
+  - name: PSU {module} AC2
+    type: iec-60320-c20
