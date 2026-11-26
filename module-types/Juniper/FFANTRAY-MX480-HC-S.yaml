@@ -1,0 +1,7 @@
+---
+manufacturer: Juniper
+model: FFANTRAY-MX480-HC-S
+description: Juniper MX480 high-capacity fan tray
+module_bay_types:
+  - MX480-FAN
+comments: Hot-swappable fan tray with six fans. Required with SCBE2-MX.

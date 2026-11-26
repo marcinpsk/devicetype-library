@@ -1,0 +1,8 @@
+---
+manufacturer: Juniper
+model: FFANTRAY-MX960-HC
+part_number: 740-031521
+description: Juniper MX960 high-capacity fan tray
+module_bay_types:
+  - MX960-FAN
+comments: Hot-swappable fan tray with 12 fans. The MX960 takes two, top and bottom.
