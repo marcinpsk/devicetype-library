@@ -1,0 +1,15 @@
+---
+manufacturer: Keysight
+model: XGS12 Standard Performance Controller
+part_number: 942-0049
+description: XGS12-SD/SDL standard performance processor module
+weight: 2.9
+weight_unit: kg
+console-ports:
+  - name: Console
+    label: RS232
+    type: rj-45
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true

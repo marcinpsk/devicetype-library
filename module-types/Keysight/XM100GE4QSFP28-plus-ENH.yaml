@@ -1,0 +1,15 @@
+---
+manufacturer: Keysight
+model: XM100GE4QSFP28+ENH
+part_number: 944-1117
+description: Xcellon-Multis 100GE enhanced load module, 4-port QSFP28
+comments: '[Xcellon-Multis QSFP28 Enhanced 100/50/25GE Load Module Data Sheet](https://ixia.keysight.com/resources/xcellon-multis-qsfp28-enhanced-1005025ge-load-module)'
+interfaces:
+  - name: '{module}/1'
+    type: 100gbase-x-qsfp28
+  - name: '{module}/2'
+    type: 100gbase-x-qsfp28
+  - name: '{module}/3'
+    type: 100gbase-x-qsfp28
+  - name: '{module}/4'
+    type: 100gbase-x-qsfp28
