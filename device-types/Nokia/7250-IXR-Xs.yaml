@@ -12,7 +12,7 @@ console-ports:
   - name: Console
     type: rj-45
 interfaces:
-  - name: Management
+  - name: A/1
     type: 1000base-t
     mgmt_only: true
 module-bays:
@@ -20,165 +20,174 @@ module-bays:
     position: PS1
   - name: PS2
     position: PS2
-  - name: c1
-    position: c1
+  - name: FAN 1
+    position: FAN1
+    label: Fan Tray
+  - name: FAN 2
+    position: FAN2
+    label: Fan Tray
+  - name: FAN 3
+    position: FAN3
+    label: Fan Tray
+  - name: 1/1/c1
+    position: 1/1/c1
     label: QSFP-DD
-  - name: c2
-    position: c2
+  - name: 1/1/c2
+    position: 1/1/c2
     label: QSFP-DD
-  - name: c3
-    position: c3
+  - name: 1/1/c3
+    position: 1/1/c3
     label: QSFP-DD
-  - name: c4
-    position: c4
+  - name: 1/1/c4
+    position: 1/1/c4
     label: QSFP-DD
-  - name: c5
-    position: c5
+  - name: 1/1/c5
+    position: 1/1/c5
     label: QSFP-DD
-  - name: c6
-    position: c6
+  - name: 1/1/c6
+    position: 1/1/c6
     label: QSFP-DD
-  - name: c7
-    position: c7
+  - name: 1/1/c7
+    position: 1/1/c7
     label: SFP56
-  - name: c8
-    position: c8
+  - name: 1/1/c8
+    position: 1/1/c8
     label: SFP56
-  - name: c9
-    position: c9
+  - name: 1/1/c9
+    position: 1/1/c9
     label: SFP56
-  - name: c10
-    position: c10
+  - name: 1/1/c10
+    position: 1/1/c10
     label: SFP56
-  - name: c11
-    position: c11
+  - name: 1/1/c11
+    position: 1/1/c11
     label: SFP56
-  - name: c12
-    position: c12
+  - name: 1/1/c12
+    position: 1/1/c12
     label: SFP56
-  - name: c13
-    position: c13
+  - name: 1/1/c13
+    position: 1/1/c13
     label: SFP56
-  - name: c14
-    position: c14
+  - name: 1/1/c14
+    position: 1/1/c14
     label: SFP56
-  - name: c15
-    position: c15
+  - name: 1/1/c15
+    position: 1/1/c15
     label: SFP56
-  - name: c16
-    position: c16
+  - name: 1/1/c16
+    position: 1/1/c16
     label: SFP56
-  - name: c17
-    position: c17
+  - name: 1/1/c17
+    position: 1/1/c17
     label: SFP56
-  - name: c18
-    position: c18
+  - name: 1/1/c18
+    position: 1/1/c18
     label: SFP56
-  - name: c19
-    position: c19
+  - name: 1/1/c19
+    position: 1/1/c19
     label: SFP56
-  - name: c20
-    position: c20
+  - name: 1/1/c20
+    position: 1/1/c20
     label: SFP56
-  - name: c21
-    position: c21
+  - name: 1/1/c21
+    position: 1/1/c21
     label: SFP56
-  - name: c22
-    position: c22
+  - name: 1/1/c22
+    position: 1/1/c22
     label: SFP56
-  - name: c23
-    position: c23
+  - name: 1/1/c23
+    position: 1/1/c23
     label: SFP56
-  - name: c24
-    position: c24
+  - name: 1/1/c24
+    position: 1/1/c24
     label: SFP56
-  - name: c25
-    position: c25
+  - name: 1/1/c25
+    position: 1/1/c25
     label: SFP56
-  - name: c26
-    position: c26
+  - name: 1/1/c26
+    position: 1/1/c26
     label: SFP56
-  - name: c27
-    position: c27
+  - name: 1/1/c27
+    position: 1/1/c27
     label: SFP56
-  - name: c28
-    position: c28
+  - name: 1/1/c28
+    position: 1/1/c28
     label: SFP56
-  - name: c29
-    position: c29
+  - name: 1/1/c29
+    position: 1/1/c29
     label: SFP56
-  - name: c30
-    position: c30
+  - name: 1/1/c30
+    position: 1/1/c30
     label: SFP56
-  - name: c31
-    position: c31
+  - name: 1/1/c31
+    position: 1/1/c31
     label: SFP56
-  - name: c32
-    position: c32
+  - name: 1/1/c32
+    position: 1/1/c32
     label: SFP56
-  - name: c33
-    position: c33
+  - name: 1/1/c33
+    position: 1/1/c33
     label: SFP56
-  - name: c34
-    position: c34
+  - name: 1/1/c34
+    position: 1/1/c34
     label: SFP56
-  - name: c35
-    position: c35
+  - name: 1/1/c35
+    position: 1/1/c35
     label: SFP56
-  - name: c36
-    position: c36
+  - name: 1/1/c36
+    position: 1/1/c36
     label: SFP56
-  - name: c37
-    position: c37
+  - name: 1/1/c37
+    position: 1/1/c37
     label: SFP56
-  - name: c38
-    position: c38
+  - name: 1/1/c38
+    position: 1/1/c38
     label: SFP56
-  - name: c39
-    position: c39
+  - name: 1/1/c39
+    position: 1/1/c39
     label: SFP56
-  - name: c40
-    position: c40
+  - name: 1/1/c40
+    position: 1/1/c40
     label: SFP56
-  - name: c41
-    position: c41
+  - name: 1/1/c41
+    position: 1/1/c41
     label: SFP56
-  - name: c42
-    position: c42
+  - name: 1/1/c42
+    position: 1/1/c42
     label: SFP56
-  - name: c43
-    position: c43
+  - name: 1/1/c43
+    position: 1/1/c43
     label: SFP56
-  - name: c44
-    position: c44
+  - name: 1/1/c44
+    position: 1/1/c44
     label: SFP56
-  - name: c45
-    position: c45
+  - name: 1/1/c45
+    position: 1/1/c45
     label: SFP56
-  - name: c46
-    position: c46
+  - name: 1/1/c46
+    position: 1/1/c46
     label: SFP56
-  - name: c47
-    position: c47
+  - name: 1/1/c47
+    position: 1/1/c47
     label: SFP56
-  - name: c48
-    position: c48
+  - name: 1/1/c48
+    position: 1/1/c48
     label: SFP56
-  - name: c49
-    position: c49
+  - name: 1/1/c49
+    position: 1/1/c49
     label: SFP56
-  - name: c50
-    position: c50
+  - name: 1/1/c50
+    position: 1/1/c50
     label: SFP56
-  - name: c51
-    position: c51
+  - name: 1/1/c51
+    position: 1/1/c51
     label: SFP56
-  - name: c52
-    position: c52
+  - name: 1/1/c52
+    position: 1/1/c52
     label: SFP56
-  - name: c53
-    position: c53
+  - name: 1/1/c53
+    position: 1/1/c53
     label: SFP56
-  - name: c54
-    position: c54
+  - name: 1/1/c54
+    position: 1/1/c54
     label: SFP56
