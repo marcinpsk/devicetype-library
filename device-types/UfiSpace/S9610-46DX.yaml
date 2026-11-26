@@ -358,6 +358,10 @@ module-bays:
   - name: PSU 0
     position: PSU0
     label: Power Supply
+    module_bay_types:
+      - S9610-PSU
   - name: PSU 1
     position: PSU1
     label: Power Supply
+    module_bay_types:
+      - S9610-PSU
