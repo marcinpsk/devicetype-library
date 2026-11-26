@@ -1,0 +1,13 @@
+---
+manufacturer: Nokia
+model: QSFP+-40G-PLR4
+part_number: 3HE11241AA
+description: Nokia QSFP+ 40G PLR4 transceiver, 10 km
+comments: >-
+  Nokia-branded 40G QSFP+ parallel single-mode transceiver. 1310 nm, SMF,
+  MTP/MPO-12 APC connector (8 fibers), up to 10 km. Supports 4x 10G breakout.
+module_bay_types:
+  - QSFP+
+interfaces:
+  - name: '{module}'
+    type: 40gbase-x-qsfpp

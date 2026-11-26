@@ -1,0 +1,14 @@
+---
+manufacturer: Nokia
+model: QSFP28-100G-SR4
+part_number: 3HE10551AA
+description: Nokia QSFP28 100GBASE-SR4 Transceiver
+comments: >-
+  Nokia-branded 100GBASE-SR4 QSFP28 transceiver.
+  850nm, MMF, MPO-12, up to 100m on OM4.
+  4x 25Gbps lanes. DOM supported.
+module_bay_types:
+  - QSFP28
+interfaces:
+  - name: '{module}'
+    type: 100gbase-x-qsfp28
