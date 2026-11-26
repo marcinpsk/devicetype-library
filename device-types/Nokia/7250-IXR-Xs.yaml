@@ -18,17 +18,27 @@ interfaces:
 module-bays:
   - name: PS1
     position: PS1
+    module_bay_types:
+      - 7250-IXR-X-PSU
   - name: PS2
     position: PS2
+    module_bay_types:
+      - 7250-IXR-X-PSU
   - name: FAN 1
     position: FAN1
     label: Fan Tray
+    module_bay_types:
+      - 7250-IXR-X-FAN
   - name: FAN 2
     position: FAN2
     label: Fan Tray
+    module_bay_types:
+      - 7250-IXR-X-FAN
   - name: FAN 3
     position: FAN3
     label: Fan Tray
+    module_bay_types:
+      - 7250-IXR-X-FAN
   - name: 1/1/c1
     position: 1/1/c1
     label: QSFP-DD

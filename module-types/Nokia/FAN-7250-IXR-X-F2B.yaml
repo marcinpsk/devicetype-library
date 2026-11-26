@@ -2,6 +2,8 @@
 manufacturer: Nokia
 model: FAN-7250-IXR-X-F2B
 part_number: 3HE15787AA
+module_bay_types:
+  - 7250-IXR-X-FAN
 airflow: front-to-rear
 profile: Fan
 comments: Fan module for 7250 IXR-X chassis, front-to-back airflow
