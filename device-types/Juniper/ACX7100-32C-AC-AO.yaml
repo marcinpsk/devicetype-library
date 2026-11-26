@@ -16,94 +16,290 @@ interfaces:
   - name: re0:mgmt-0
     type: 1000base-t
     mgmt_only: true
-  - name: et-0/0/0
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/1
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/2
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/3
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/4
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/5
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/6
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/7
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/8
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/9
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/10
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/11
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/12
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/13
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/14
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/15
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/16
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/17
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/18
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/19
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/20
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/21
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/22
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/23
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/24
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/25
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/26
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/27
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/28
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/29
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/30
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/31
-    type: 100gbase-x-qsfp28
-  - name: et-0/0/32
-    type: 400gbase-x-qsfpdd
-  - name: et-0/0/33
-    type: 400gbase-x-qsfpdd
-  - name: et-0/0/34
-    type: 400gbase-x-qsfpdd
-  - name: et-0/0/35
-    type: 400gbase-x-qsfpdd
 module-bays:
   - name: PSM 0
     # Comment: Power Supply Module 0
     position: '0'
+    module_bay_types:
+      - ACX7100-PSM
   - name: PSM 1
     # Comment: Power Supply Module 1
     position: '1'
-  - name: Fan Module 0
+    module_bay_types:
+      - ACX7100-PSM
+  - name: Fan Tray 0
     position: '0'
-  - name: Fan Module 1
+    module_bay_types:
+      - ACX7100-FAN
+  - name: Fan Tray 1
     position: '1'
-  - name: Fan Module 2
+    module_bay_types:
+      - ACX7100-FAN
+  - name: Fan Tray 2
     position: '2'
-  - name: Fan Module 3
+    module_bay_types:
+      - ACX7100-FAN
+  - name: Fan Tray 3
     position: '3'
-  - name: Fan Module 4
+    module_bay_types:
+      - ACX7100-FAN
+  - name: Fan Tray 4
     position: '4'
-  - name: Fan Module 5
+    module_bay_types:
+      - ACX7100-FAN
+  - name: Fan Tray 5
     position: '5'
+    module_bay_types:
+      - ACX7100-FAN
+  - name: Transceiver 0/0/0
+    label: QSFP28
+    position: et-0/0/0
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/1
+    label: QSFP28
+    position: et-0/0/1
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/2
+    label: QSFP28
+    position: et-0/0/2
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/3
+    label: QSFP28
+    position: et-0/0/3
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/4
+    label: QSFP28
+    position: et-0/0/4
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/5
+    label: QSFP28
+    position: et-0/0/5
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/6
+    label: QSFP28
+    position: et-0/0/6
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/7
+    label: QSFP28
+    position: et-0/0/7
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/8
+    label: QSFP28
+    position: et-0/0/8
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/9
+    label: QSFP28
+    position: et-0/0/9
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/10
+    label: QSFP28
+    position: et-0/0/10
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/11
+    label: QSFP28
+    position: et-0/0/11
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/12
+    label: QSFP28
+    position: et-0/0/12
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/13
+    label: QSFP28
+    position: et-0/0/13
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/14
+    label: QSFP28
+    position: et-0/0/14
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/15
+    label: QSFP28
+    position: et-0/0/15
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/16
+    label: QSFP28
+    position: et-0/0/16
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/17
+    label: QSFP28
+    position: et-0/0/17
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/18
+    label: QSFP28
+    position: et-0/0/18
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/19
+    label: QSFP28
+    position: et-0/0/19
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/20
+    label: QSFP28
+    position: et-0/0/20
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/21
+    label: QSFP28
+    position: et-0/0/21
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/22
+    label: QSFP28
+    position: et-0/0/22
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/23
+    label: QSFP28
+    position: et-0/0/23
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/24
+    label: QSFP28
+    position: et-0/0/24
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/25
+    label: QSFP28
+    position: et-0/0/25
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/26
+    label: QSFP28
+    position: et-0/0/26
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/27
+    label: QSFP28
+    position: et-0/0/27
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/28
+    label: QSFP28
+    position: et-0/0/28
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/29
+    label: QSFP28
+    position: et-0/0/29
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/30
+    label: QSFP28
+    position: et-0/0/30
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/31
+    label: QSFP28
+    position: et-0/0/31
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+      - SFP+
+  - name: Transceiver 0/0/32
+    label: QSFP-DD
+    position: et-0/0/32
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/33
+    label: QSFP-DD
+    position: et-0/0/33
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/34
+    label: QSFP-DD
+    position: et-0/0/34
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/35
+    label: QSFP-DD
+    position: et-0/0/35
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
