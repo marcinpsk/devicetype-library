@@ -2,6 +2,8 @@
 manufacturer: Cisco
 model: P-LTEA7-EAL
 part_number: P-LTEA7-EAL
+module_bay_types:
+  - PIM
 comments: '[Cisco Wireless WAN Routers and Modules Data Sheet](https://www.cisco.com/c/en/us/solutions/collateral/enterprise-networks/4g-lte-solutions/datasheet-c78-743503.html)'
 interfaces:
   - name: Cellular{module}/0

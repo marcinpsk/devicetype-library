@@ -17,14 +17,24 @@ console-ports:
 module-bays:
   - name: PSU0
     position: '0'
+    module_bay_types:
+      - C8300-1RU-PSU
   - name: PSU1
     position: '1'
+    module_bay_types:
+      - C8300-1RU-PSU
   - name: SM 1  # SM subslot 1/0 (Service Module)
     position: '1'
+    module_bay_types:
+      - SM-X
   - name: NIM 1 # NIM subslot 0/1 (Network Interface Module)
     position: '1'
+    module_bay_types:
+      - NIM
   - name: PIM 1 # PIM = Pluggable Interface Module (LTE/5G)
     position: '1'
+    module_bay_types:
+      - PIM
   - name: Transceiver 0/0/4
     label: SFP
     position: GigabitEthernet0/0/4
