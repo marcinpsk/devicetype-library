@@ -1,0 +1,11 @@
+---
+manufacturer: Juniper
+model: SFP-1G-T
+part_number: 740-013111
+description: Juniper 1000BASE-T SFP transceiver
+comments: 1000BASE-T copper SFP, RJ-45, up to 100m on Cat5.
+module_bay_types:
+  - SFP
+interfaces:
+  - name: '{module}'
+    type: 1000base-t
