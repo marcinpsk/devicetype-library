@@ -17,8 +17,12 @@ console-ports:
 module-bays:
   - name: Power Supply 0
     position: '0'
+    module_bay_types:
+      - EX4300-PSU
   - name: Power Supply 1
     position: '1'
+    module_bay_types:
+      - EX4300-PSU
   - name: PIC 2
     label: Uplink Module
     position: '2'
