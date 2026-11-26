@@ -1,0 +1,11 @@
+---
+manufacturer: Ciena
+model: 176-3595-910
+part_number: 176-3595-910
+description: Ciena 400G QSFP-DD ZR+ coherent transceiver
+comments: IOS XR reports it as QSFPDD 400G ZRP. Tunable C-band coherent DCO, SMF, duplex LC.
+module_bay_types:
+  - QSFP-DD
+interfaces:
+  - name: '{module}'
+    type: 400gbase-x-qsfpdd
