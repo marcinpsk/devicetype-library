@@ -2,6 +2,8 @@
 manufacturer: Juniper
 model: EX4400-EM-4S
 part_number: EX4400-EM-4S
+module_bay_types:
+  - EX4400-EM
 weight: 0.2
 weight_unit: lb
 comments: 4x10GbE SFP+ extension module
