@@ -78,8 +78,14 @@ module-bays:
   - name: PSM 0
     # Comment: Power Supply Module 0
     position: '0'
+    module_bay_types:
+      - ACX7024-PSM
   - name: PSM 1
     # Comment: Power Supply Module 1
     position: '1'
+    module_bay_types:
+      - ACX7024-PSM
   - name: Fan Tray 0
     position: '0'
+    module_bay_types:
+      - ACX7024-FAN
