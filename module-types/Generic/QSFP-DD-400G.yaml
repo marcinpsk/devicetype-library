@@ -3,7 +3,7 @@ manufacturer: Generic
 model: QSFP-DD-400G
 part_number: QSFP-DD-400G
 description: Generic 400G QSFP-DD transceiver
-comments: Use for a 400G QSFP-DD optic that reports no vendor part number.
+comments: Placeholder for a 400G QSFP-DD optic with no vendor part number.
 module_bay_types:
   - QSFP-DD
 interfaces:
