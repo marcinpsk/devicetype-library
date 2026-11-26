@@ -3,4 +3,4 @@ manufacturer: Juniper
 model: CRAFT-MX480-S
 part_number: 710-017254
 description: Juniper MX480 craft interface (front panel module)
-comments: Alarm LEDs, alarm cutoff button, component LEDs and alarm relay contacts. Junos reports it as FPM.
+comments: Craft interface (FPM). Alarm LEDs, alarm cutoff button, component LEDs and alarm relay contacts.
