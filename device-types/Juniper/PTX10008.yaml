@@ -19,27 +19,43 @@ module-bays:
   - name: FPC 0
     position: '0'
     label: Line Card
+    module_bay_types:
+      - PTX10K-LC
   - name: FPC 1
     position: '1'
     label: Line Card
+    module_bay_types:
+      - PTX10K-LC
   - name: FPC 2
     position: '2'
     label: Line Card
+    module_bay_types:
+      - PTX10K-LC
   - name: FPC 3
     position: '3'
     label: Line Card
+    module_bay_types:
+      - PTX10K-LC
   - name: FPC 4
     position: '4'
     label: Line Card
+    module_bay_types:
+      - PTX10K-LC
   - name: FPC 5
     position: '5'
     label: Line Card
+    module_bay_types:
+      - PTX10K-LC
   - name: FPC 6
     position: '6'
     label: Line Card
+    module_bay_types:
+      - PTX10K-LC
   - name: FPC 7
     position: '7'
     label: Line Card
+    module_bay_types:
+      - PTX10K-LC
   # Routing Engines
   - name: CB 0
     position: re0

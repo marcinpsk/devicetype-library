@@ -3,6 +3,8 @@ manufacturer: Juniper
 model: JNP10K-LC1201
 part_number: JNP10K-LC1201
 description: Juniper PTX10K 36-port QSFP-DD Line Card
+module_bay_types:
+  - PTX10K-LC
 comments: PTX10008 line card with 36x QSFP-DD (400GE) ports.
 module-bays:
   - name: Transceiver {module}/0/0
