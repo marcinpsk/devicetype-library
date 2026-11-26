@@ -6,6 +6,8 @@
 manufacturer: Nokia
 model: XMA2-s
 part_number: 3HE18883AA
+module_bay_types:
+  - 7750-SR-S-XIOM2
 comments: >-
   XMA2-s 36-port 800GE QSFP-DD for 7750 SR-7s/14s XCM2 series. FP5 silicon.
   Installs in XIOM slot of XCM2-7s/14s. SROS xiom-type: x2-s36-800g-qsfpdd-6.0t.

@@ -10,30 +10,50 @@ module-bays:
   - name: Card 1
     position: '1'
     label: XCM
+    module_bay_types:
+      - 7750-SR-2S-XCM
   - name: Card 2
     position: '2'
     label: XCM
+    module_bay_types:
+      - 7750-SR-2S-XCM
   - name: CPM A
     position: A
     label: CPM
+    module_bay_types:
+      - 7750-SR-2S-CPM
   - name: CPM B
     position: B
     label: CPM
+    module_bay_types:
+      - 7750-SR-2S-CPM
   - name: PM 1
     position: PM1
     label: Power Module
+    module_bay_types:
+      - 7750-SR-S-PSU
   - name: PM 2
     position: PM2
     label: Power Module
+    module_bay_types:
+      - 7750-SR-S-PSU
   - name: PM 3
     position: PM3
     label: Power Module
+    module_bay_types:
+      - 7750-SR-S-PSU
   - name: FAN 1
     position: FAN1
     label: Fan Tray
+    module_bay_types:
+      - 7750-SR-2S-FAN
   - name: FAN 2
     position: FAN2
     label: Fan Tray
+    module_bay_types:
+      - 7750-SR-2S-FAN
   - name: FAN 3
     position: FAN3
     label: Fan Tray
+    module_bay_types:
+      - 7750-SR-2S-FAN

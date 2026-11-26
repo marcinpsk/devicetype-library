@@ -13,3 +13,5 @@ module-bays:
   - name: '{module}/x1'
     position: '{module}/x1'
     label: XIOM
+    module_bay_types:
+      - 7750-SR-S-XIOM2

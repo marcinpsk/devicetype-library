@@ -2,6 +2,8 @@
 manufacturer: Nokia
 model: PS-7750-SR-S-DC-F2B
 part_number: 3HE11185AA
+module_bay_types:
+  - 7750-SR-S-PSU
 profile: Power supply
 airflow: front-to-rear
 comments: 6000W DC Power Supply F2B airflow
