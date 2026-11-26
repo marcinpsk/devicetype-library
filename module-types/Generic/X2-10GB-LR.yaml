@@ -1,0 +1,14 @@
+---
+manufacturer: Generic
+model: X2-10GB-LR
+part_number: X2-10GB-LR
+description: 10GBASE-LR X2 transceiver
+comments: >-
+  10 Gigabit Ethernet long-range X2 transceiver. 1310nm, SMF, up to 10km.
+  Fits any X2 bay, including the Catalyst 4900M fixed ports and its
+  WS-X4904-10GE and WS-X4908-10GE half cards.
+module_bay_types:
+  - X2
+interfaces:
+  - name: '{module}'
+    type: 10gbase-x-x2
