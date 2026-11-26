@@ -17,79 +17,119 @@ module-bays:
     label: PT0
     position: '0'
     description: Power Tray Slot
+    module_bay_types:
+      - 8800-PT
   - name: Power Tray Slot 1
     label: PT1
     position: '1'
     description: Power Tray Slot
+    module_bay_types:
+      - 8800-PT
   - name: Route Processor Slot 0
     label: RP0
     position: '0'
     description: Route Processor Slot
+    module_bay_types:
+      - 8800-RP
   - name: Route Processor Slot 1
     label: RP1
     position: '1'
     description: Route Processor Slot
+    module_bay_types:
+      - 8800-RP
   - name: Line Card Slot 0
     label: LC0
     position: '0'
     description: Line Card Slot
+    module_bay_types:
+      - 8800-LC
   - name: Line Card Slot 1
     label: LC1
     position: '1'
     description: Line Card Slot
+    module_bay_types:
+      - 8800-LC
   - name: Line Card Slot 2
     label: LC2
     position: '2'
     description: Line Card Slot
+    module_bay_types:
+      - 8800-LC
   - name: Line Card Slot 3
     label: LC3
     position: '3'
     description: Line Card Slot
+    module_bay_types:
+      - 8800-LC
   - name: Fabric Card Slot 0
     label: FC0
     position: '0'
     description: Fabric Card Slot
+    module_bay_types:
+      - 8804-FC
   - name: Fabric Card Slot 1
     label: FC1
     position: '1'
     description: Fabric Card Slot
+    module_bay_types:
+      - 8804-FC
   - name: Fabric Card Slot 2
     label: FC2
     position: '2'
     description: Fabric Card Slot
+    module_bay_types:
+      - 8804-FC
   - name: Fabric Card Slot 3
     label: FC3
     position: '3'
     description: Fabric Card Slot
+    module_bay_types:
+      - 8804-FC
   - name: Fabric Card Slot 4
     label: FC4
     position: '4'
     description: Fabric Card Slot
+    module_bay_types:
+      - 8804-FC
   - name: Fabric Card Slot 5
     label: FC5
     position: '5'
     description: Fabric Card Slot
+    module_bay_types:
+      - 8804-FC
   - name: Fabric Card Slot 6
     label: FC6
     position: '6'
     description: Fabric Card Slot
+    module_bay_types:
+      - 8804-FC
   - name: Fabric Card Slot 7
     label: FC7
     position: '7'
     description: Fabric Card Slot
+    module_bay_types:
+      - 8804-FC
   - name: Fan Tray Slot 0
     label: FT0
     position: '0'
     description: Fan Tray Slot
+    module_bay_types:
+      - 8804-FAN
   - name: Fan Tray Slot 1
     label: FT1
     position: '1'
     description: Fan Tray Slot
+    module_bay_types:
+      - 8804-FAN
   - name: Fan Tray Slot 2
     label: FT2
     position: '2'
     description: Fan Tray Slot
+    module_bay_types:
+      - 8804-FAN
   - name: Fan Tray Slot 3
     label: FT3
     position: '3'
     description: Fan Tray Slot
+    module_bay_types:
+      - 8804-FAN

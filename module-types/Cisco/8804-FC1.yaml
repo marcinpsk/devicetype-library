@@ -3,6 +3,8 @@ manufacturer: Cisco
 model: 8804-FC1
 part_number: 8804-FC1
 description: Cisco 8804 Fabric Card for 28.8T Line Cards (F100)
+module_bay_types:
+  - 8804-FC
 weight: 5.9
 weight_unit: kg
 comments: |

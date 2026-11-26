@@ -3,6 +3,8 @@ manufacturer: Cisco
 model: 88-LC0-36FH
 part_number: 88-LC0-36FH
 description: Cisco 8800 36x400GE QSFP56-DD Line Card
+module_bay_types:
+  - 8800-LC
 weight: 12.3
 weight_unit: kg
 comments: |
