@@ -5,13 +5,17 @@
 manufacturer: Nokia
 model: XCM-2s
 part_number: 3HE12379AA
+module_bay_types:
+  - 7750-SR-2S-XCM
 comments: >-
   XCM-2s (Cross-Connect Module) for 7750 SR-2s.
   FP4 silicon. Hosts 1 MDA-s slot and 1 XMA/XIOM slot.
 module-bays:
   - name: '{module}/1'
-    position: '1'
+    position: '{module}/1'
     label: MDA 1
+    module_bay_types:
+      - 7750-SR-S-MDA
   - name: '{module}/x1'
-    position: x1
+    position: '{module}/x1'
     label: XMA/XIOM
