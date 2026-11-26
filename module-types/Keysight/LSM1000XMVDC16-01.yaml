@@ -3,6 +3,8 @@ manufacturer: Keysight
 model: LSM1000XMVDC16-01
 part_number: 944-0098
 description: Gigabit Ethernet load module, 16-port Dual-PHY (RJ45 and SFP) 10/100/1000 Mbps
+module_bay_types:
+  - XGS12-LM
 comments: Each port has an RJ45 and an SFP connector; one of them is active at a time.
 interfaces:
   - name: '{module}/1'
