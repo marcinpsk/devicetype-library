@@ -2,6 +2,8 @@
 manufacturer: Juniper
 model: JPSU-1100-AC-AFO
 part_number: 740-046871
+module_bay_types:
+  - EX4300-PSU
 comments: |
   EX Series 1100 W AC power supply (front-to-back airflow)
   Compatible with:
