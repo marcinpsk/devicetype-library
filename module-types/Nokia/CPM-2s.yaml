@@ -3,6 +3,8 @@
 manufacturer: Nokia
 model: CPM-2s
 part_number: 3HE14034AA
+module_bay_types:
+  - 7750-SR-2S-CPM
 comments: >-
   CPM-2s (Control Processor Module) for 7750 SR-2s.
   Redundant pair in slots A and B.

@@ -3,6 +3,8 @@
 manufacturer: Nokia
 model: FAN-7750-SR-2s
 part_number: 3HE12375AB
+module_bay_types:
+  - 7750-SR-2S-FAN
 airflow: front-to-rear
 profile: Fan
 comments: Fan Tray for 7750 SR-2s chassis

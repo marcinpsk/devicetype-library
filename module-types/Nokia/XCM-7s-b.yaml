@@ -10,6 +10,8 @@ module-bays:
   - name: '{module}/1'
     position: '{module}/1'
     label: MDA 1
+    module_bay_types:
+      - 7750-SR-S-MDA
   - name: '{module}/x1'
     position: '{module}/x1'
     label: XIOM
