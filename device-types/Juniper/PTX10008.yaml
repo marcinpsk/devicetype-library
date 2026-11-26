@@ -14,9 +14,6 @@ comments: >-
   2 RE slots, 6 SIB (switch fabric) slots,
   2 fan tray controllers, 6 power supplies.
   Also sold as JNP10008.
-console-ports:
-  - name: Console
-    type: rj-45
 module-bays:
   # Line card slots (0-7)
   - name: FPC 0
@@ -44,54 +41,97 @@ module-bays:
     position: '7'
     label: Line Card
   # Routing Engines
-  - name: RE 0
-    position: RE0
-    label: Routing Engine
-  - name: RE 1
-    position: RE1
-    label: Routing Engine
-  # Switch Interface Boards (SIBs / Switch Fabric)
   - name: CB 0
-    position: CB0
-    label: SIB
+    position: re0
+    label: Routing Engine
+    module_bay_types:
+      - JNP10K-RE
   - name: CB 1
-    position: CB1
+    position: re1
+    label: Routing Engine
+    module_bay_types:
+      - JNP10K-RE
+  # Switch Interface Boards (SIBs)
+  - name: SIB 0
+    position: '0'
     label: SIB
-  - name: CB 2
-    position: CB2
+    module_bay_types:
+      - JNP10008-SFB
+  - name: SIB 1
+    position: '1'
     label: SIB
-  - name: CB 3
-    position: CB3
+    module_bay_types:
+      - JNP10008-SFB
+  - name: SIB 2
+    position: '2'
     label: SIB
-  - name: CB 4
-    position: CB4
+    module_bay_types:
+      - JNP10008-SFB
+  - name: SIB 3
+    position: '3'
     label: SIB
-  - name: CB 5
-    position: CB5
+    module_bay_types:
+      - JNP10008-SFB
+  - name: SIB 4
+    position: '4'
     label: SIB
-  # Fan tray controllers
+    module_bay_types:
+      - JNP10008-SFB
+  - name: SIB 5
+    position: '5'
+    label: SIB
+    module_bay_types:
+      - JNP10008-SFB
+  # Fan trays
   - name: Fan Tray 0
-    position: FAN0
-    label: Fan Tray Controller
+    position: '0'
+    label: Fan Tray
+    module_bay_types:
+      - JNP10008-FAN
   - name: Fan Tray 1
-    position: FAN1
+    position: '1'
+    label: Fan Tray
+    module_bay_types:
+      - JNP10008-FAN
+  # Fan tray controllers
+  - name: Fan Tray Controller 0
+    position: '0'
     label: Fan Tray Controller
+    module_bay_types:
+      - JNP10008-FTC
+  - name: Fan Tray Controller 1
+    position: '1'
+    label: Fan Tray Controller
+    module_bay_types:
+      - JNP10008-FTC
   # Power supplies
-  - name: PEM 0
-    position: PEM0
+  - name: PSM 0
+    position: '0'
     label: Power Supply
-  - name: PEM 1
-    position: PEM1
+    module_bay_types:
+      - JNP10K-PSU
+  - name: PSM 1
+    position: '1'
     label: Power Supply
-  - name: PEM 2
-    position: PEM2
+    module_bay_types:
+      - JNP10K-PSU
+  - name: PSM 2
+    position: '2'
     label: Power Supply
-  - name: PEM 3
-    position: PEM3
+    module_bay_types:
+      - JNP10K-PSU
+  - name: PSM 3
+    position: '3'
     label: Power Supply
-  - name: PEM 4
-    position: PEM4
+    module_bay_types:
+      - JNP10K-PSU
+  - name: PSM 4
+    position: '4'
     label: Power Supply
-  - name: PEM 5
-    position: PEM5
+    module_bay_types:
+      - JNP10K-PSU
+  - name: PSM 5
+    position: '5'
     label: Power Supply
+    module_bay_types:
+      - JNP10K-PSU
