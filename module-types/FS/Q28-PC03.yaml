@@ -1,0 +1,11 @@
+---
+manufacturer: FS
+model: Q28-PC03
+part_number: Q28-PC03
+description: FS 100G QSFP28 passive direct attach copper cable, 3m
+comments: Junos reports this cable as QSFP28-100G-CU3M. Twinax, one QSFP28 connector on each end. Each end is a separate module.
+module_bay_types:
+  - QSFP28
+interfaces:
+  - name: '{module}'
+    type: 100gbase-x-qsfp28
