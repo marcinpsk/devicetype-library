@@ -1,0 +1,81 @@
+---
+manufacturer: Cisco
+model: 88-LC1-36EH
+part_number: 88-LC1-36EH
+description: Cisco 8800 36x800GE QSFP-DD800 Line Card
+comments: |
+  - [Cisco 8800 Series Modular Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/8000-series-routers/8800-series-modular-routers-ds.html)
+  - [Interface and Hardware Component Command Reference for Cisco 8000 Series Routers](https://www.cisco.com/c/en/us/td/docs/iosxr/cisco8000/Interfaces/b-interfaces-hardware-component-cr-8000/m-ethernet-interface-commands.html)
+interfaces:
+  - name: EightHundredGigE0/{module}/0/0
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/1
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/2
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/3
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/4
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/5
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/6
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/7
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/8
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/9
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/10
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/11
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/12
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/13
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/14
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/15
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/16
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/17
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/18
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/19
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/20
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/21
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/22
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/23
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/24
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/25
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/26
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/27
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/28
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/29
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/30
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/31
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/32
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/33
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/34
+    type: 800gbase-x-qsfpdd
+  - name: EightHundredGigE0/{module}/0/35
+    type: 800gbase-x-qsfpdd
