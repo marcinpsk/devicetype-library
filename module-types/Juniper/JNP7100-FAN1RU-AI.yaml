@@ -2,5 +2,7 @@
 manufacturer: Juniper
 model: JNP7100-FAN1RU-AI
 part_number: JNP7100-FAN1RU-AI
+module_bay_types:
+  - ACX7100-FAN
 # airflow: rear-to-front
 comments: AFI Fan module for ACX7100 routers

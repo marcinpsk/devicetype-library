@@ -2,6 +2,8 @@
 manufacturer: Juniper
 model: JPSU-1600W-1UACAFI
 part_number: JPSU-1600W-1UACAFI
+module_bay_types:
+  - ACX7100-PSM
 # airflow: front-to-rear
 weight: 2.33
 weight_unit: lb

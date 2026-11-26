@@ -20,21 +20,37 @@ module-bays:
   - name: PSM 0
     # Comment: Power Supply Module 0
     position: '0'
+    module_bay_types:
+      - ACX7100-PSM
   - name: PSM 1
     # Comment: Power Supply Module 1
     position: '1'
+    module_bay_types:
+      - ACX7100-PSM
   - name: Fan Tray 0
     position: '0'
+    module_bay_types:
+      - ACX7100-FAN
   - name: Fan Tray 1
     position: '1'
+    module_bay_types:
+      - ACX7100-FAN
   - name: Fan Tray 2
     position: '2'
+    module_bay_types:
+      - ACX7100-FAN
   - name: Fan Tray 3
     position: '3'
+    module_bay_types:
+      - ACX7100-FAN
   - name: Fan Tray 4
     position: '4'
+    module_bay_types:
+      - ACX7100-FAN
   - name: Fan Tray 5
     position: '5'
+    module_bay_types:
+      - ACX7100-FAN
   - name: Transceiver 0/0/0
     label: QSFP28
     position: et-0/0/0
