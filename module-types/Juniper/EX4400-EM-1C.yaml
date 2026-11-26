@@ -2,6 +2,8 @@
 manufacturer: Juniper
 model: EX4400-EM-1C
 part_number: EX4400-EM-1C
+module_bay_types:
+  - EX4400-EM
 weight: 0.26
 weight_unit: lb
 comments: 1x100GbE QSFP28 extension module
