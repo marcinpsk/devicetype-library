@@ -26,10 +26,16 @@ module-bays:
   - name: PIC 2
     label: Extension Module
     position: '2'
+    module_bay_types:
+      - EX4400-EM
   - name: Power Supply 0
     position: '0'
+    module_bay_types:
+      - EX4400-PSU
   - name: Power Supply 1
     position: '1'
+    module_bay_types:
+      - EX4400-PSU
   - name: Transceiver 0/0/0
     label: SFP+
     position: xe-0/0/0

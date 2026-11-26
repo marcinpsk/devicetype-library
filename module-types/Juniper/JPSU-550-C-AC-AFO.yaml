@@ -2,6 +2,8 @@
 manufacturer: Juniper
 model: JPSU-550-C-AC-AFO
 part_number: JPSU-550-C-AC-AFO
+module_bay_types:
+  - EX4400-PSU
 # airflow: front-to-rear
 weight: 1.76
 weight_unit: lb
