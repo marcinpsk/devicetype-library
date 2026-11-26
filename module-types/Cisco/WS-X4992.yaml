@@ -1,0 +1,8 @@
+---
+manufacturer: Cisco
+model: WS-X4992
+part_number: WS-X4992
+description: Catalyst 4900M fan tray
+comments: Variable-speed fan tray. The Catalyst 4900M has one, and it is field replaceable.
+module_bay_types:
+  - C4900M-FAN

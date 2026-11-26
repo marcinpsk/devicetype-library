@@ -1,0 +1,21 @@
+---
+manufacturer: Cisco
+model: CVR-X2-SFP
+part_number: CVR-X2-SFP
+description: Cisco TwinGig Converter Module, X2 to 2x SFP
+comments: >-
+  Converts one 10 Gigabit Ethernet X2 port into two Gigabit Ethernet SFP slots.
+  Supported only in the X2 ports of the WS-X4908-10GE half card.
+module_bay_types:
+  - C4900M-TWINGIG
+module-bays:
+  - name: SFP 1
+    label: SFP
+    position: '{module}/1'
+    module_bay_types:
+      - SFP
+  - name: SFP 2
+    label: SFP
+    position: '{module}/2'
+    module_bay_types:
+      - SFP
