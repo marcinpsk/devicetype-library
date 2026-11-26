@@ -1,0 +1,14 @@
+---
+manufacturer: Methode
+model: SP7041
+part_number: SP7041-TE
+description: Methode 1000BASE-T SFP transceiver
+comments: >-
+  1000BASE-T copper SFP, RJ-45, up to 100m on Cat5. Methode builds the OEM
+  variants sold as the Cisco GLC-TE and the Juniper SFP-1GE-T (SP7041-M1-JN),
+  so LibreNMS may report it under the reseller's vendor string.
+module_bay_types:
+  - SFP
+interfaces:
+  - name: '{module}'
+    type: 1000base-t
