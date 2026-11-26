@@ -1,0 +1,9 @@
+---
+manufacturer: Ciena
+model: 6500 R2 AC Power Input Module
+part_number: NTK805SA
+description: Ciena 6500-R2 AC power input module
+comments: The input connector type and the rating are not confirmed.
+power-ports:
+  - name: PIM {module}
+    type: iec-60320-c14

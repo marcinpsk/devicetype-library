@@ -1,0 +1,96 @@
+---
+manufacturer: Ciena
+model: 6500 RLS RLA 12x1
+description: Ciena 6500 RLS RLA 12x1 card
+comments: Double-width card. It fills IM-1 and IM-2 of a 6500 R2 shelf; install it in Module 1. 1 line port and 12 WSS switch ports, as shown in Site Manager. The part number and the Ciena port numbers are not known.
+rear-ports:
+  - name: '{module}/Line'
+    type: lc
+    positions: 12
+    description: Line (fiber pair to the far site)
+front-ports:
+  - name: '{module}/Switch 1'
+    type: lc
+    positions: 1
+  - name: '{module}/Switch 2'
+    type: lc
+    positions: 1
+  - name: '{module}/Switch 3'
+    type: lc
+    positions: 1
+  - name: '{module}/Switch 4'
+    type: lc
+    positions: 1
+  - name: '{module}/Switch 5'
+    type: lc
+    positions: 1
+  - name: '{module}/Switch 6'
+    type: lc
+    positions: 1
+  - name: '{module}/Switch 7'
+    type: lc
+    positions: 1
+  - name: '{module}/Switch 8'
+    type: lc
+    positions: 1
+  - name: '{module}/Switch 9'
+    type: lc
+    positions: 1
+  - name: '{module}/Switch 10'
+    type: lc
+    positions: 1
+  - name: '{module}/Switch 11'
+    type: lc
+    positions: 1
+  - name: '{module}/Switch 12'
+    type: lc
+    positions: 1
+port-mappings:
+  - front_port: '{module}/Switch 1'
+    front_port_position: 1
+    rear_port: '{module}/Line'
+    rear_port_position: 1
+  - front_port: '{module}/Switch 2'
+    front_port_position: 1
+    rear_port: '{module}/Line'
+    rear_port_position: 2
+  - front_port: '{module}/Switch 3'
+    front_port_position: 1
+    rear_port: '{module}/Line'
+    rear_port_position: 3
+  - front_port: '{module}/Switch 4'
+    front_port_position: 1
+    rear_port: '{module}/Line'
+    rear_port_position: 4
+  - front_port: '{module}/Switch 5'
+    front_port_position: 1
+    rear_port: '{module}/Line'
+    rear_port_position: 5
+  - front_port: '{module}/Switch 6'
+    front_port_position: 1
+    rear_port: '{module}/Line'
+    rear_port_position: 6
+  - front_port: '{module}/Switch 7'
+    front_port_position: 1
+    rear_port: '{module}/Line'
+    rear_port_position: 7
+  - front_port: '{module}/Switch 8'
+    front_port_position: 1
+    rear_port: '{module}/Line'
+    rear_port_position: 8
+  - front_port: '{module}/Switch 9'
+    front_port_position: 1
+    rear_port: '{module}/Line'
+    rear_port_position: 9
+  - front_port: '{module}/Switch 10'
+    front_port_position: 1
+    rear_port: '{module}/Line'
+    rear_port_position: 10
+  - front_port: '{module}/Switch 11'
+    front_port_position: 1
+    rear_port: '{module}/Line'
+    rear_port_position: 11
+  - front_port: '{module}/Switch 12'
+    front_port_position: 1
+    rear_port: '{module}/Line'
+    rear_port_position: 12
