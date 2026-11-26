@@ -3,6 +3,8 @@ manufacturer: UfiSpace
 model: PSU-162-DESR
 part_number: PSU-162-DESR
 description: 1600W DC Power Supply
+module_bay_types:
+  - S9610-PSU
 power-ports:
   - name: DC{module}
     type: dc-terminal
