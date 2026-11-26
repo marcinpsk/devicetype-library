@@ -1,0 +1,28 @@
+---
+manufacturer: Cisco
+model: A9K-AC-PEM-V2
+part_number: A9K-AC-PEM-V2
+description: Cisco ASR 9000 version 2 AC power tray, 4 power module slots
+module_bay_types:
+  - ASR9K-PEM
+module-bays:
+  - name: Power Module Slot 0
+    label: PM0
+    position: '0'
+    module_bay_types:
+      - ASR9K-PM-V2
+  - name: Power Module Slot 1
+    label: PM1
+    position: '1'
+    module_bay_types:
+      - ASR9K-PM-V2
+  - name: Power Module Slot 2
+    label: PM2
+    position: '2'
+    module_bay_types:
+      - ASR9K-PM-V2
+  - name: Power Module Slot 3
+    label: PM3
+    position: '3'
+    module_bay_types:
+      - ASR9K-PM-V2
