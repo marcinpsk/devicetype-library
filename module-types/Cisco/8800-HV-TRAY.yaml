@@ -5,3 +5,13 @@ part_number: 8800-HV-TRAY
 description: Cisco 8800 Power Tray for AC/HVAC/HVDC Power Supply
 comments: |
   - [Hardware Installation Guide for Cisco 8800 Series Routers, Chapter: Powering on the Router](https://www.cisco.com/c/en/us/td/docs/iosxr/cisco8000/hardware/hig-modular/b-8800-hardware-installation-guide-modular/powering_on_the_router.html#task_txx_wpt_zhb)
+module-bays:
+  - name: Power Module Slot 0
+    label: PM0
+    position: '0'
+  - name: Power Module Slot 1
+    label: PM1
+    position: '1'
+  - name: Power Module Slot 2
+    label: PM2
+    position: '2'
