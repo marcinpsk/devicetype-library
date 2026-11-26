@@ -1,0 +1,8 @@
+---
+manufacturer: Cisco
+model: C8500L-FAN-1R
+part_number: C8500L-FAN-1R
+description: Catalyst 8500L fan tray
+comments: Fan tray for the Catalyst 8500L. Cisco sells it as spare C8500L-FAN-1R=.
+module_bay_types:
+  - C8500L-FAN
