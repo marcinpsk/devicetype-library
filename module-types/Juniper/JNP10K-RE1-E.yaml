@@ -3,6 +3,8 @@ manufacturer: Juniper
 model: JNP10K-RE1-E
 part_number: JNP10K-RE1-E
 description: Juniper PTX10K Routing Engine Enhanced
+module_bay_types:
+  - JNP10K-RE
 comments: >-
   Routing Engine for PTX10008. Enhanced version.
 console-ports:
