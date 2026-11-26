@@ -17,8 +17,12 @@ console-ports:
 module-bays:
   - name: Power Supply 0
     position: '0'
+    module_bay_types:
+      - QFX5120-PSU
   - name: Power Supply 1
     position: '1'
+    module_bay_types:
+      - QFX5120-PSU
   - name: Transceiver 0/0/0
     label: SFP28
     position: et-0/0/0
