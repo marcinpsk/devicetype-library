@@ -1,5 +1,5 @@
 ---
 name: SFP
-slug: sfp
+slug: generic-sfp
 manufacturer: Generic
 description: SFP pluggable transceiver form factor
