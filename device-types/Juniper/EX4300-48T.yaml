@@ -26,6 +26,8 @@ module-bays:
   - name: PIC 2
     label: Uplink Module
     position: '2'
+    module_bay_types:
+      - EX4300-UM
 interfaces:
   - name: me0
     type: 1000base-t

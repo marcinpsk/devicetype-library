@@ -1,6 +1,8 @@
 ---
 manufacturer: Juniper
 model: JPSU-350-AC-AFI
+module_bay_types:
+  - EX4300-PSU
 comments: |
   EX Series 350 W AC power supply (back-to-front airflow) for EX4300-32F
 power-ports:
