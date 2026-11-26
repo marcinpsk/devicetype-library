@@ -14,115 +14,353 @@ console-ports:
     type: rj-45
 module-bays:
   - name: PM0
+    label: Power module
     position: 0/PM0
-    description: Power module
+    module_bay_types:
+      - 8000-PSU
   - name: PM1
+    label: Power module
     position: 0/PM1
-    description: Power module
+    module_bay_types:
+      - 8000-PSU
   - name: FT0
+    label: Fan tray
     position: 0/FT0
-    description: Fan module
+    module_bay_types:
+      - 8000-1RU-FAN
   - name: FT1
+    label: Fan tray
     position: 0/FT1
-    description: Fan module
+    module_bay_types:
+      - 8000-1RU-FAN
   - name: FT2
+    label: Fan tray
     position: 0/FT2
-    description: Fan module
+    module_bay_types:
+      - 8000-1RU-FAN
   - name: FT3
+    label: Fan tray
     position: 0/FT3
-    description: Fan module
+    module_bay_types:
+      - 8000-1RU-FAN
   - name: SYNC0
     position: 0/SYNC0
     description: Timing Interfaces Card (8000-TIC or 8000-TIC-GNSS)
+  - name: Transceiver 0/0/0/0
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/0
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/0/1
+    label: QSFP28
+    position: HundredGigE0/0/0/1
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/0/2
+    label: QSFP28
+    position: HundredGigE0/0/0/2
+    module_bay_types:
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/0/3
+    label: QSFP-DD
+    position: FourHundredGigE0/0/0/3
+    module_bay_types:
+      - QSFP-DD
+      - QSFP28
+      - QSFP+
+  - name: Transceiver 0/0/0/4
+    label: SFP56
+    position: FiftyGigE0/0/0/4
+    module_bay_types:
+      - SFP56
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/5
+    label: SFP56
+    position: FiftyGigE0/0/0/5
+    module_bay_types:
+      - SFP56
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/6
+    label: SFP56
+    position: FiftyGigE0/0/0/6
+    module_bay_types:
+      - SFP56
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/7
+    label: SFP56
+    position: FiftyGigE0/0/0/7
+    module_bay_types:
+      - SFP56
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/8
+    label: SFP56
+    position: FiftyGigE0/0/0/8
+    module_bay_types:
+      - SFP56
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/9
+    label: SFP56
+    position: FiftyGigE0/0/0/9
+    module_bay_types:
+      - SFP56
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/10
+    label: SFP56
+    position: FiftyGigE0/0/0/10
+    module_bay_types:
+      - SFP56
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/11
+    label: SFP56
+    position: FiftyGigE0/0/0/11
+    module_bay_types:
+      - SFP56
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/12
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/12
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/13
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/13
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/14
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/14
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/15
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/15
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/16
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/16
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/17
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/17
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/18
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/18
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/19
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/19
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/20
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/20
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/21
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/21
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/22
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/22
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/23
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/23
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/24
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/24
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/25
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/25
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/26
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/26
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/27
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/27
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/28
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/28
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/29
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/29
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/30
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/30
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/31
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/31
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/32
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/32
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/33
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/33
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/34
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/34
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/35
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/35
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/36
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/36
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/37
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/37
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/38
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/38
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/39
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/39
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/40
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/40
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/41
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/41
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/42
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/42
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
+  - name: Transceiver 0/0/0/43
+    label: SFP28
+    position: TwentyFiveGigE0/0/0/43
+    module_bay_types:
+      - SFP28
+      - SFP+
+      - SFP
 interfaces:
-  - name: FourHundredGigE0/0/0/0
-    type: 400gbase-x-qsfpdd
-  - name: HundredGigE0/0/0/1
-    type: 100gbase-x-qsfp28
-  - name: HundredGigE0/0/0/2
-    type: 100gbase-x-qsfp28
-  - name: FourHundredGigE0/0/0/3
-    type: 400gbase-x-qsfpdd
-  - name: FiftyGigE0/0/0/4
-    type: 50gbase-x-sfp56
-  - name: FiftyGigE0/0/0/5
-    type: 50gbase-x-sfp56
-  - name: FiftyGigE0/0/0/6
-    type: 50gbase-x-sfp56
-  - name: FiftyGigE0/0/0/7
-    type: 50gbase-x-sfp56
-  - name: FiftyGigE0/0/0/8
-    type: 50gbase-x-sfp56
-  - name: FiftyGigE0/0/0/9
-    type: 50gbase-x-sfp56
-  - name: FiftyGigE0/0/0/10
-    type: 50gbase-x-sfp56
-  - name: FiftyGigE0/0/0/11
-    type: 50gbase-x-sfp56
-  - name: TwentyFiveGigE0/0/0/12
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/13
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/14
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/15
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/16
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/17
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/18
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/19
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/20
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/21
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/22
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/23
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/24
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/25
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/26
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/27
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/28
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/29
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/30
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/31
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/32
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/33
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/34
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/35
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/36
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/37
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/38
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/39
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/40
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/41
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/42
-    type: 25gbase-x-sfp28
-  - name: TwentyFiveGigE0/0/0/43
-    type: 25gbase-x-sfp28
   - name: MgmtEth0/RP0/CPU0/0
     type: 1000base-t
     mgmt_only: true
