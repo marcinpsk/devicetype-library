@@ -3,6 +3,8 @@ manufacturer: UfiSpace
 model: PSU-162-AESR
 part_number: PSU-162-AESR
 description: 1600W AC Power supply
+module_bay_types:
+  - S9610-PSU
 power-ports:
   - name: AC{module}
     type: iec-60320-c20
