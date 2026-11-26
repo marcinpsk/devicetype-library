@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: DP04QSDD-HE0
+part_number: DP04QSDD-HE0
+description: Cisco 400G QSFP-DD high Tx power (Bright) ZR+ coherent transceiver, Ethernet variant
+comments: Up to +1 dBm Tx power with a built-in amplifier. Tunable C-band coherent DCO, SMF, duplex LC. IOS XR reports it as QDD 400G BRT ZRP.
+module_bay_types:
+  - QSFP-DD
+interfaces:
+  - name: '{module}'
+    type: 400gbase-x-qsfpdd

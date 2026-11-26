@@ -1,0 +1,11 @@
+---
+manufacturer: Cisco
+model: SFP-10G-SR-S
+part_number: SFP-10G-SR-S
+description: Cisco 10GBASE-SR SFP+ transceiver, S-class
+comments: 10GBASE-SR SFP+, 850nm, MMF, duplex LC. S-class is the Ethernet-only variant of SFP-10G-SR.
+module_bay_types:
+  - SFP+
+interfaces:
+  - name: '{module}'
+    type: 10gbase-x-sfpp

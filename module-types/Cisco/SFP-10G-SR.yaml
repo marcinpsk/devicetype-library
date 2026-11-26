@@ -13,6 +13,8 @@ attribute_data:
   form_factor: SFP+
   connector_type: LC/UPC
 comments: '[Cisco 10GBASE SFP+ modules data sheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/data_sheet_c78-455693.html)'
+module_bay_types:
+  - SFP+
 interfaces:
   - name: '{module}'
     type: 10gbase-sr
