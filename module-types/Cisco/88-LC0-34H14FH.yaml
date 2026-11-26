@@ -3,6 +3,8 @@ manufacturer: Cisco
 model: 88-LC0-34H14FH
 part_number: 88-LC0-34H14FH
 description: Cisco 8800 48x 100G or 34x 100G + 14x 400G QSFP28-DD line card
+module_bay_types:
+  - 8800-LC
 weight: 11.1
 weight_unit: kg
 comments: |

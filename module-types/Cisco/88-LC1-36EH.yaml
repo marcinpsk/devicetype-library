@@ -3,6 +3,8 @@ manufacturer: Cisco
 model: 88-LC1-36EH
 part_number: 88-LC1-36EH
 description: Cisco 8800 36x800GE QSFP-DD800 Line Card
+module_bay_types:
+  - 8800-LC
 comments: |
   - [Cisco 8800 Series Modular Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/8000-series-routers/8800-series-modular-routers-ds.html)
   - [Interface and Hardware Component Command Reference for Cisco 8000 Series Routers](https://www.cisco.com/c/en/us/td/docs/iosxr/cisco8000/Interfaces/b-interfaces-hardware-component-cr-8000/m-ethernet-interface-commands.html)
