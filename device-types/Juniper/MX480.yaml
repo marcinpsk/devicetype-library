@@ -60,6 +60,10 @@ module-bays:
       - MX480-PSU
   - name: Fan Tray
     position: '0'
+    module_bay_types:
+      - MX480-FAN
   - name: FPM
     label: Craft Interface
     position: '0'
+    module_bay_types:
+      - MX480-FPM
