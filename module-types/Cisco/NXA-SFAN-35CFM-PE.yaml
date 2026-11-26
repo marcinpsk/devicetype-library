@@ -1,0 +1,8 @@
+---
+manufacturer: Cisco
+model: NXA-SFAN-35CFM-PE
+part_number: NXA-SFAN-35CFM-PE
+description: Cisco Nexus Fan, 35CFM, port-side exhaust airflow
+comments: Cisco Nexus Fan, 35CFM, port-side exhaust airflow / [Cisco Nexus 9300-GX2 Series Fixed Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-743854.html)
+module_bay_types:
+  - N9K-C93240YC-FX2-FAN
