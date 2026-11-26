@@ -2,6 +2,8 @@
 manufacturer: Juniper
 model: JPSU-650W-AC-AO
 part_number: JPSU-650W-AC-AO
+module_bay_types:
+  - QFX5120-PSU
 # airflow: front-to-rear
 weight: 2.2
 weight_unit: lb

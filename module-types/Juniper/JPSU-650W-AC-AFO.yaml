@@ -2,6 +2,8 @@
 manufacturer: Juniper
 model: JPSU-650W-AC-AFO
 part_number: JPSU-650W-AC-AFO
+module_bay_types:
+  - QFX5120-PSU
 power-ports:
   - name: '{module}'
     type: iec-60320-c14

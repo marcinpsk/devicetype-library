@@ -2,6 +2,8 @@
 manufacturer: Juniper
 model: JPSU-650W-AC-AFI
 part_number: JPSU-650W-AC-AFI
+module_bay_types:
+  - QFX5120-PSU
 weight: 2.2
 weight_unit: lb
 power-ports:
